@@ -40,6 +40,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Nextcloud Integration](https://github.com/frappe/nextcloud-integration) - Nextcloud + Frappe = ❤️
 - [Razorpay Integration](https://github.com/frappe/razorpay_integration) - Razorpay Integration for Frappe.
 - [Mandrill Integration](https://github.com/frappe/mandrill_integration) - Mandrill Integration for Frappe.
+- [Mautic Integration](https://github.com/dokos-io/mautic) - Mautic Integration for ERPNext.
 
 
 ### Developer Tooling
