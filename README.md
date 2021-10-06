@@ -15,8 +15,10 @@ Inspired by [awesome-django](https://github.com/wsvincent/awesome-django).
   - [Utility Apps](#utility-apps)
   - [Integrations](#integrations)
 - [Developer Tooling](#developer-tooling)
+- [Deployment Tools](#deployment-tools)
 - [Resources](#resources)
 - [Hosting](#hosting)
+
 
 ### Apps
 
@@ -27,11 +29,13 @@ _Apps that showcase the power of the Frappe Framework_
 - [ERPNext](https://erpnext.com) - Open source full-featured business management system.
 - [Healthcare](https://github.com/frappe/healthcare) - An open source management system crafted for the medical industry.
 
+
 #### Utility Apps
 
 - [Chat](https://github.com/frappe/chat) - Modern chat for your Frappe deployments.
 - [Wiki](https://github.com/frappe/wiki) - Wiki for serving dynamic data along with a built-in review system.
 - [Release](https://github.com/frappe/release) - Manage releases for Frappe and Frappe Applications.
+
 
 #### Integrations
 
@@ -51,11 +55,23 @@ _Apps that showcase the power of the Frappe Framework_
 - [Doppio](https://github.com/NagariaHussain/doppio) - Magically setup single page applications on your Frappe Apps.
 - [frappe_test.vim](https://github.com/ankush/frappe_test.vim) - Running Frappe unit tests at speed of thought.
 
+
+### Deployment Tools
+
+_Resources allowing you to deploy Frappe apps with your favourite toolset_
+
+- [Bench](https://frappe.io/bench) - CLI to Manage Frappe Deployments
+- [Frappe Docker](https://github.com/frappe/frappe_docker) - Official docker images for Frappe.
+- [Docker Hub](https://hub.docker.com/u/frappe) - Container images for Frappe & ERPNext releases.
+- [Helm Chart](https://helm.erpnext.com/) - Kubernetes Helm Chart for ERPNext.
+
+
 ### Other Clients
 
 _Clients built for the Frappe Framework, other than the standard browser view Desk_
 
 - [Mobile](https://github.com/frappe/mobile) - Mobile App for Frappe built on Dart. _[Version 13+]_
+
 
 ### Resources
 
@@ -64,17 +80,13 @@ _Resources that can help you harness the power of the Frappe Framework_
 - [frappeframework.com](https://frappeframework.com) - Official documentation of the Frappe Framework.
 - [frappe.school](https://frappe.school) - Pick from the various courses by the maintainers or from the community.
 
+_Community Channels_
+
+- [discuss.erpnext.com](https://discuss.erpnext.com) - Forum for Frappe and ERPNext community.
+- [Telegram](https://t.me/frappeframework) - Public Telegram group for the Frappe Framework.
 
 ### Hosting
 
 _Providers that are catered to hosting of Frappe and Frappe Apps_
 
 - [Frappe Cloud](https://frappecloud.com) - Managed hosting platform for Frappe Apps.
-
-### Deployment Tools
-
-_Resources allowing you to deploy Frappe apps with your favourite toolset_
-
-- [Frappe Docker](https://github.com/frappe/frappe_docker) - Official docker images for Frappe.
-- [Docker Hub](https://hub.docker.com/u/frappe) - Alternative repository.
-- [Helm Chart](https://helm.erpnext.com/) - Kubernetes Helm Chart for ERPNext.
