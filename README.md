@@ -71,3 +71,10 @@ _Providers that are catered to hosting of Frappe and Frappe Apps_
 
 - [Frappe Cloud](https://frappecloud.com) - Managed hosting platform for Frappe Apps.
 
+### Deployment Tools
+
+_Resources allowing you to deploy Frappe apps with your favourite toolset_
+
+- [Frappe Docker](https://github.com/frappe/frappe_docker) - Official docker images for Frappe.
+- [Docker Hub](https://hub.docker.com/u/frappe) - Alternative repository.
+- [Helm Chart](https://helm.erpnext.com/) - Kubernetes Helm Chart for ERPNext.
