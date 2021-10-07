@@ -28,6 +28,7 @@ _Apps that showcase the power of the Frappe Framework_
 
 - [ERPNext](https://erpnext.com) - Open source full-featured business management system.
 - [Healthcare](https://github.com/frappe/healthcare) - An open source management system crafted for the medical industry.
+- [POS Awesome](https://github.com/yrestom/POS-Awesome) - An open-source Point of Sale for Erpnext using Vue.js and Vuetify.
 
 
 #### Utility Apps
@@ -84,6 +85,7 @@ _Community Channels_
 
 - [discuss.erpnext.com](https://discuss.erpnext.com) - Forum for Frappe and ERPNext community.
 - [Telegram](https://t.me/frappeframework) - Public Telegram group for the Frappe Framework.
+- [Stackoverflow](https://stackoverflow.com/questions/tagged/frappe) - official dev forum for all things Frappe.
 
 ### Hosting
 
