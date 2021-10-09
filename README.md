@@ -85,7 +85,7 @@ _Community Channels_
 
 - [discuss.erpnext.com](https://discuss.erpnext.com) - Forum for Frappe and ERPNext community.
 - [Telegram](https://t.me/frappeframework) - Public Telegram group for the Frappe Framework.
-- [Stackoverflow](https://stackoverflow.com/questions/tagged/frappe) - official dev forum for all things Frappe.
+- [Stackoverflow](https://stackoverflow.com/questions/tagged/frappe) - Post questions with the `frappe` tag.
 
 ### Hosting
 
