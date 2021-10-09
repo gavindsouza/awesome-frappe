@@ -35,6 +35,10 @@ _Apps that showcase the power of the Frappe Framework_
 - [Chat](https://github.com/frappe/chat) - Modern chat for your Frappe deployments.
 - [Wiki](https://github.com/frappe/wiki) - Wiki for serving dynamic data along with a built-in review system.
 - [Release](https://github.com/frappe/release) - Manage releases for Frappe and Frappe Applications.
+- [Language translator](https://github.com/mymi14s/language_translator) - Automatic language translator on Frappe Desk and website
+- [Language translator](https://github.com/mymi14s/database_console) - Execute SQL queries directly from Frappe/ERPNExt desk just like 'bench mariadb'
+
+
 
 
 #### Integrations
@@ -47,6 +51,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Razorpay Integration](https://github.com/frappe/razorpay_integration) - Razorpay Integration for Frappe.
 - [Mandrill Integration](https://github.com/frappe/mandrill_integration) - Mandrill Integration for Frappe.
 - [Mautic Integration](https://github.com/dokos-io/mautic) - Mautic Integration for ERPNext.
+- [Paystack Integration](https://github.com/mymi14s/frappe_paystack) - Paystack Payment Gateway Integration for ERPNext/Frappe.
 
 
 ### Developer Tooling
