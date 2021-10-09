@@ -36,7 +36,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Wiki](https://github.com/frappe/wiki) - Wiki for serving dynamic data along with a built-in review system.
 - [Release](https://github.com/frappe/release) - Manage releases for Frappe and Frappe Applications.
 - [Language translator](https://github.com/mymi14s/language_translator) - Automatic language translator on Frappe Desk and website
-- [Language translator](https://github.com/mymi14s/database_console) - Execute SQL queries directly from Frappe/ERPNExt desk just like 'bench mariadb'
+- [Database Console](https://github.com/mymi14s/database_console) - Execute SQL queries directly from Frappe/ERPNExt desk just like 'bench mariadb'
 
 
 
