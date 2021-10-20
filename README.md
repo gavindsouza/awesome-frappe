@@ -28,7 +28,7 @@ _Apps that showcase the power of the Frappe Framework_
 
 - [ERPNext](https://erpnext.com) - Open source full-featured business management system.
 - [Healthcare](https://github.com/frappe/healthcare) - An open source management system crafted for the medical industry.
-- [POS Awesome](https://github.com/yrestom/POS-Awesome) - An open-source Point of Sale for Erpnext using Vue.js and Vuetify.
+- [POS Awesome](https://github.com/yrestom/POS-Awesome) - An open-source Point of Sale for ERPNext using Vue.js and Vuetify.
 - [School](https://github.com/frappe/school) - The Learning Management System (LMS) that powers [mon.school](https://mon.school) & [frappe.school](https://frappe.school).
 
 #### Utility Apps
@@ -37,7 +37,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Wiki](https://github.com/frappe/wiki) - Wiki for serving dynamic data along with a built-in review system.
 - [Release](https://github.com/frappe/release) - Manage releases for Frappe and Frappe Applications.
 - [Language Translator](https://github.com/mymi14s/language_translator) - Automatic language translator on Frappe Desk and website.
-- [Database Console](https://github.com/mymi14s/database_console) - Execute SQL queries directly from Frappe/ERPNExt desk just like 'bench mariadb'.
+- [Database Console](https://github.com/mymi14s/database_console) - Execute SQL queries directly from Frappe/ERPNext desk just like 'bench mariadb'.
 - [S3 Attachments](https://github.com/zerodha/frappe-attachments-s3) - Plug an S3 bucket for storing and fetching files in Frappe.
 
 
