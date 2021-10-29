@@ -46,6 +46,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Twilio Integration](https://github.com/frappe/twilio-integration) - Twilio Integration for Frappe.
 - [ERPNext Shipping](https://github.com/frappe/erpnext-shipping) - Shipping Integration for ERPNext with Packlink, LetMeShip & SendCloud.
 - [Shopify Integration](https://github.com/frappe/ecommerce_integrations) - Shopify Integration for ERPNext
+- [Unicommerce Integration](https://github.com/frappe/ecommerce_integrations) - Unicommerce Integration for ERPNext
 - [Zenoti Integration](https://github.com/frappe/ecommerce_integrations) - Zenoti Integration for ERPNext
 - [Nextcloud Integration](https://github.com/frappe/nextcloud-integration) - Nextcloud + Frappe = ❤️
 - [Razorpay Integration](https://github.com/frappe/razorpay_integration) - Razorpay Integration for Frappe.
