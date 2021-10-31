@@ -60,6 +60,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Intellisense](https://github.com/frappe/intellisense) - VSCode Extension and Language Server for Frappe Framework.
 - [Doppio](https://github.com/NagariaHussain/doppio) - Magically setup single page applications on your Frappe Apps.
 - [frappe_test.vim](https://github.com/ankush/frappe_test.vim) - Running Frappe unit tests at speed of thought.
+- [Frappeviz](https://github.com/yemikudaisi/frappeviz) - Visualize class diagrams of a Frappe App's doctypes using PlantUML.
 
 
 ### Deployment Tools
@@ -78,6 +79,7 @@ _Clients built for the Frappe Framework, other than the standard browser view De
 
 - [Mobile](https://github.com/frappe/mobile) - Mobile App for Frappe built on Dart. _[Version 13+]_
 - [Frappe Client](https://github.com/zerodha/py-frappe-client) - @zerodha's Python client for making requests to your Frappe Server.
+- [FrappeRestClient.Net](https://github.com/yemikudaisi/FrappeRestClient.Net) - Frappe Framework REST client for .Net
 
 ### Resources
 
