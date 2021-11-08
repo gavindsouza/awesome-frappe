@@ -39,6 +39,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Language Translator](https://github.com/mymi14s/language_translator) - Automatic language translator on Frappe Desk and website.
 - [Database Console](https://github.com/mymi14s/database_console) - Execute SQL queries directly from Frappe/ERPNext desk just like 'bench mariadb'.
 - [S3 Attachments](https://github.com/zerodha/frappe-attachments-s3) - Plug an S3 bucket for storing and fetching files in Frappe.
+- [ERPNext Quota](https://github.com/ahmadpak/erpnext_quota) - App to manage ERPNext Site, User, Company and Space limitations.
 
 
 #### Integrations
