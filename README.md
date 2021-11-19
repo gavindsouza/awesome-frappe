@@ -54,6 +54,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Mandrill Integration](https://github.com/frappe/mandrill_integration) - Mandrill Integration for Frappe.
 - [Mautic Integration](https://github.com/dokos-io/mautic) - Mautic Integration for ERPNext.
 - [Paystack Integration](https://github.com/mymi14s/frappe_paystack) - Paystack Payment Gateway Integration for Frappe.
+- [RClone Integration](https://github.com/Muzzy73/rclone_integration) - Frappe integration with Rclone.
 
 
 ### Developer Tooling
