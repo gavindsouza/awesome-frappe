@@ -55,6 +55,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Mautic Integration](https://github.com/dokos-io/mautic) - Mautic Integration for ERPNext.
 - [Paystack Integration](https://github.com/mymi14s/frappe_paystack) - Paystack Payment Gateway Integration for Frappe.
 - [RClone Integration](https://github.com/Muzzy73/rclone_integration) - Frappe integration with Rclone.
+- [WooCommerceConnector](https://github.com/libracore/WooCommerceConnector) - Integration App for ERPNext to connect to WooCommerce.
 
 
 ### Developer Tooling
