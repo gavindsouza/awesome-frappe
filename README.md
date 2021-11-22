@@ -41,7 +41,6 @@ _Apps that showcase the power of the Frappe Framework_
 - [S3 Attachments](https://github.com/zerodha/frappe-attachments-s3) - Plug an S3 bucket for storing and fetching files in Frappe.
 - [ERPNext Quota](https://github.com/ahmadpak/erpnext_quota) - App to manage ERPNext Site, User, Company and Space limitations.
 
-
 #### Integrations
 
 - [Twilio Integration](https://github.com/frappe/twilio-integration) - Twilio Integration for Frappe.
@@ -56,7 +55,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Paystack Integration](https://github.com/mymi14s/frappe_paystack) - Paystack Payment Gateway Integration for Frappe.
 - [RClone Integration](https://github.com/Muzzy73/rclone_integration) - Frappe integration with Rclone.
 - [WooCommerceConnector](https://github.com/libracore/WooCommerceConnector) - Integration App for ERPNext to connect to WooCommerce.
-
+- [ERPNextFinTS](https://github.com/jHetzer/erpnextfints) - FinTS Connector for ERPNext.
 
 ### Developer Tooling
 
