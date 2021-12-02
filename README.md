@@ -29,7 +29,12 @@ _Apps that showcase the power of the Frappe Framework_
 - [ERPNext](https://erpnext.com) - Open source full-featured business management system.
 - [Healthcare](https://github.com/frappe/healthcare) - An open source management system crafted for the medical industry.
 - [POS Awesome](https://github.com/yrestom/POS-Awesome) - An open-source Point of Sale for ERPNext using Vue.js and Vuetify.
+- [TailPOS](https://github.com/bailabs/tailpos) - Offline First Open Source POS for ERPNext.
 - [School](https://github.com/frappe/school) - The Learning Management System (LMS) that powers [mon.school](https://mon.school) & [frappe.school](https://frappe.school).
+- [Apparelo](https://github.com/aerele/apparelo) - Manufacturing Workflow Management for the garment industry.
+- [Cargo Management](https://github.com/AgileShift/cargo_management) - Package Management App for ERPNext.
+- [FiMax](https://github.com/YefriTavarez/fimax) - Loan Management and Repayment Scheduling for ERPNext.
+
 
 #### Utility Apps
 
@@ -40,6 +45,8 @@ _Apps that showcase the power of the Frappe Framework_
 - [Database Console](https://github.com/mymi14s/database_console) - Execute SQL queries directly from Frappe/ERPNext desk just like 'bench mariadb'.
 - [S3 Attachments](https://github.com/zerodha/frappe-attachments-s3) - Plug an S3 bucket for storing and fetching files in Frappe.
 - [ERPNext Quota](https://github.com/ahmadpak/erpnext_quota) - App to manage ERPNext Site, User, Company and Space limitations.
+- [ERPNext OCR](https://github.com/Monogramm/erpnext_ocr) - Optical Character Recognition using Tesseract within Frappe.
+
 
 #### Integrations
 
@@ -56,6 +63,15 @@ _Apps that showcase the power of the Frappe Framework_
 - [RClone Integration](https://github.com/Muzzy73/rclone_integration) - Frappe integration with Rclone.
 - [WooCommerceConnector](https://github.com/libracore/WooCommerceConnector) - Integration App for ERPNext to connect to WooCommerce.
 - [ERPNextFinTS](https://github.com/jHetzer/erpnextfints) - FinTS Connector for ERPNext.
+- [EWB API Integration](https://github.com/aerele/ewb_api_integration) - Implementing E-WayBill API integration for India.
+- [Discourse SSO Integration](https://github.com/shridarpatil/frappe_discourse) - Simple frappe app to setup Single sign-on for Discourse.
+
+
+### Other Apps
+
+- [Recod ERPNext Design](https://github.com/Monogramm/recod_erpnext_design) - Provides new sample print formats and design for ERPNext.
+- [Telegram Bot Manager](https://github.com/leam-tech/frappe_telegram) - Telegram Bot support for Frappe.
+
 
 ### Developer Tooling
 
@@ -64,6 +80,8 @@ _Apps that showcase the power of the Frappe Framework_
 - [frappe_test.vim](https://github.com/ankush/frappe_test.vim) - Running Frappe unit tests at speed of thought.
 - [Frappeviz](https://github.com/yemikudaisi/frappeviz) - Visualize class diagrams of a Frappe App's doctypes using PlantUML.
 - [Frappe GraphQL](https://github.com/leam-tech/frappe_graphql) - GraphQL API Layer for Frappe Framework.
+- [renovation_core.dart](https://github.com/leam-tech/renovation_core.dart) - The Frappe Dart/Flutter Front End SDK.
+- [DocType Model Generator](https://github.com/assemmarwan/model_generator) - Generate models to different languages based on Doctype.
 
 
 ### Deployment Tools
@@ -81,8 +99,11 @@ _Resources allowing you to deploy Frappe apps with your favourite toolset_
 _Clients built for the Frappe Framework, other than the standard browser view Desk_
 
 - [Mobile](https://github.com/frappe/mobile) - Mobile App for Frappe built on Dart. _[Version 13+]_
-- [Frappe Client](https://github.com/zerodha/py-frappe-client) - @zerodha's Python client for making requests to your Frappe Server.
+- [FrappeClient.py](https://github.com/zerodha/py-frappe-client) - @zerodha's Python client for making requests to your Frappe Server.
 - [FrappeRestClient.Net](https://github.com/yemikudaisi/FrappeRestClient.Net) - Frappe Framework REST client for .Net
+- [Frappe-Request.js](https://github.com/bailabs/frappe-request) - A Frappe-Client made with JavaScript and Needle.
+- [FrappeClient.php](https://github.com/hizbul25/frappe-client) - a PHP client for making requests to your Frappe Server.
+
 
 ### Resources
 
@@ -96,6 +117,7 @@ _Community Channels_
 - [discuss.erpnext.com](https://discuss.erpnext.com) - Forum for Frappe and ERPNext community.
 - [Telegram](https://t.me/frappeframework) - Public Telegram group for the Frappe Framework.
 - [Stackoverflow](https://stackoverflow.com/questions/tagged/frappe) - Post questions with the `frappe` tag.
+
 
 ### Hosting
 
