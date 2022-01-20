@@ -34,6 +34,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Apparelo](https://github.com/aerele/apparelo) - Manufacturing Workflow Management for the garment industry.
 - [Cargo Management](https://github.com/AgileShift/cargo_management) - Package Management App for ERPNext.
 - [FiMax](https://github.com/YefriTavarez/fimax) - Loan Management and Repayment Scheduling for ERPNext.
+- [Restaurant](https://github.com/quantumbitcore/erpnext-restaurant) - Restaurant App for ERPNext.
 
 
 #### Utility Apps
