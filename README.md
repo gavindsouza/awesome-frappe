@@ -47,6 +47,11 @@ _Apps that showcase the power of the Frappe Framework_
 - [S3 Attachments](https://github.com/zerodha/frappe-attachments-s3) - Plug an S3 bucket for storing and fetching files in Frappe.
 - [ERPNext Quota](https://github.com/ahmadpak/erpnext_quota) - App to manage ERPNext Site, User, Company and Space limitations.
 - [ERPNext OCR](https://github.com/Monogramm/erpnext_ocr) - Optical Character Recognition using Tesseract within Frappe.
+- [Temporal](https://github.com/Datahenge/temporal) - An ERPNext App that integrates with Redis to rapidly provide calendar information.
+- [Background Tasks Unleashed](https://github.com/Datahenge/btu) - A Frappe Task Scheduling and Automation.
+- [Frappe tinyMCE](https://github.com/shridarpatil/frappe_tinymce) - Replace frappe's Quill Text Editor with tinyMCE Text Editor.
+- [FCM Notification for ERPNext](https://github.com/tridz-dev/erpnext_fcm) - Send notifications created in Frappe or ERPNext as push notication via Firebase Cloud Message.
+- [Frappe ReST API Wrapper](https://github.com/pifabs/restipie) - Build custom ReST api's on top of Frappe.
 
 
 #### Integrations
@@ -67,6 +72,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [EWB API Integration](https://github.com/aerele/ewb_api_integration) - Implementing E-WayBill API integration for India.
 - [Discourse SSO Integration](https://github.com/shridarpatil/frappe_discourse) - Simple frappe app to setup Single sign-on for Discourse.
 - [Telegram Integration](https://github.com/yrestom/erpnext_telegram) - Telegram Integration app for more productivity.
+- [Pibiapp](https://github.com/doloresjuliana/pibiapp) - Connect with Nextcloud to store the attachments on your Nextcloud server, integrate with external data from Excel, CSV, JSON or XML files, and view Redash dashboards in Frappe.
 
 
 #### Other Apps
@@ -74,6 +80,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Recod ERPNext Design](https://github.com/Monogramm/recod_erpnext_design) - Provides new sample print formats and design for ERPNext.
 - [Telegram Bot Manager](https://github.com/leam-tech/frappe_telegram) - Telegram Bot support for Frappe.
 - [Expense Entry](https://github.com/the-bantoo/expense_request) - Expense Entry for easy capture of non-item expenses without using the Journal Entry.
+- [Robinhood](https://github.com/shridarpatil/robinhood) - System that powers [robinhoodarmy.com](https://checkin.robinhoodarmy.com/)
 
 
 ### Developer Tooling
