@@ -52,6 +52,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Frappe tinyMCE](https://github.com/shridarpatil/frappe_tinymce) - Replace frappe's Quill Text Editor with tinyMCE Text Editor.
 - [FCM Notification for ERPNext](https://github.com/tridz-dev/erpnext_fcm) - Send notifications created in Frappe or ERPNext as push notication via Firebase Cloud Message.
 - [Frappe ReST API Wrapper](https://github.com/pifabs/restipie) - Build custom ReST api's on top of Frappe.
+- [Console](https://github.com/yrestom/Console) - Powerful Console for Frappe Backend
 
 
 #### Integrations
