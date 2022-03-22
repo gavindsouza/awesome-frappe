@@ -93,6 +93,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Frappe GraphQL](https://github.com/leam-tech/frappe_graphql) - GraphQL API Layer for Frappe Framework.
 - [renovation_core.dart](https://github.com/leam-tech/renovation_core.dart) - The Frappe Dart/Flutter Front End SDK.
 - [DocType Model Generator](https://github.com/assemmarwan/model_generator) - Generate models to different languages based on Doctype.
+- [Console](https://github.com/yrestom/Console) - Powerful Console for Frappe Backend
 
 
 ### Deployment Tools
