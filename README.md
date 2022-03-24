@@ -104,6 +104,7 @@ _Resources allowing you to deploy Frappe apps with your favourite toolset_
 - [Frappe Docker](https://github.com/frappe/frappe_docker) - Official docker images for Frappe.
 - [Docker Hub](https://hub.docker.com/u/frappe) - Container images for Frappe & ERPNext releases.
 - [Helm Chart](https://helm.erpnext.com/) - Kubernetes Helm Chart for ERPNext.
+- [Benchless](https://github.com/castlecraft/benchless) - CLI tool to manage Frappe deployments without bench.
 
 
 ### Other Clients
