@@ -10,14 +10,19 @@ Inspired by [awesome-django](https://github.com/wsvincent/awesome-django).
 
 ## Contents
 
-- [Apps](#apps)
-  - [Business Apps](#business-apps)
-  - [Utility Apps](#utility-apps)
-  - [Integrations](#integrations)
-- [Developer Tooling](#developer-tooling)
-- [Deployment Tools](#deployment-tools)
-- [Resources](#resources)
-- [Hosting](#hosting)
+- [Awesome Frappe ![Awesome](https://github.com/sindresorhus/awesome)](#awesome-frappe-)
+  - [Contents](#contents)
+    - [Apps](#apps)
+      - [Business Apps](#business-apps)
+      - [Utility Apps](#utility-apps)
+      - [Integrations](#integrations)
+      - [Themes](#themes)
+      - [Other Apps](#other-apps)
+    - [Developer Tooling](#developer-tooling)
+    - [Deployment Tools](#deployment-tools)
+    - [Other Clients](#other-clients)
+    - [Resources](#resources)
+    - [Hosting](#hosting)
 
 
 ### Apps
@@ -35,6 +40,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Cargo Management](https://github.com/AgileShift/cargo_management) - Package Management App for ERPNext.
 - [FiMax](https://github.com/YefriTavarez/fimax) - Loan Management and Repayment Scheduling for ERPNext.
 - [Restaurant](https://github.com/quantumbitcore/erpnext-restaurant) - Restaurant App for ERPNext.
+- [Stone Warehouse](https://github.com/finbyz/stonewarehouse) - Manage batch wise balance, especially setup for a ceramic tiles vendor.
 
 
 #### Utility Apps
@@ -85,6 +91,8 @@ _Apps that showcase the power of the Frappe Framework_
 - [Classic White](https://github.com/hashirluv/whitetheme-v13) - Classic White theme for your Frappe v13 Apps.
 - [Red](https://github.com/hashirluv/redtheme_v13b) - @hashirluv's Red theme for your Frappe v13 Apps.
 - [Material Blue](https://github.com/hashirluv/bluetheme) - Material Blue Theme for your Frappe v12 Apps.
+- [DATEV Integration](https://github.com/alyf-de/erpnext_datev) - Integration between ERPNext and DATEV.
+- [Banking API Integration](https://github.com/aerele/bank_api_integration) - Bank API Integration for ERPNext.
 
 
 #### Other Apps
@@ -95,6 +103,16 @@ _Apps that showcase the power of the Frappe Framework_
 - [Robinhood](https://github.com/shridarpatil/robinhood) - System that powers [robinhoodarmy.com](https://checkin.robinhoodarmy.com/)
 - [Workspace Permissions](https://github.com/pstuhlmueller/workspaceperms) - Manage the availability of workspaces within Frappe/ ERPNext (sidebar) based on user-roles.
 - [Digistore](https://github.com/NagariaHussain/digistore) - Digital Asset Distribution Platform built on Frappe.
+- [PDF on Submit](https://github.com/alyf-de/erpnext_pdf-on-submit) - Automatically generate and attach a PDF when a sales document gets submitted.
+- [Contract Payment](https://github.com/morghim/contract-payment) - Link between contract with sales invoice and purchase invoice and make dues.
+- [Special Item Accountancy Code](https://github.com/scopen-coop/special_item_accountancy_code) - ERPNExt Spécial Item accountancy code according customer settings.
+- [Swiss Accounting Integration](https://github.com/phamos-eu/Swiss-Accounting-Integration) - Extend ERPNext with Swiss QR Integration and Abacus Export.
+- [ERPNext Whitelabel](https://github.com/bhavesh95863/whitelabel) - White label ERPNext for your own brand from a single setting.
+- [IT Management](https://github.com/phamos-eu/it_management) - Manage your IT landscape from ERPNext.
+- [ERPNext Germany](https://github.com/alyf-de/erpnext_germany) - Regional code for Germany, built on top of ERPNext.
+- [Swiss Factur X E Invoicing](https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext) - For E-Invoice Hybrid PDF based on Factur-X and ZugFerd (EN 16931 Standards).
+- [Grynn Swiss QR Bill](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext) - Swiss QR Bill Generator app for ERPNext.
+- [GSTR 2B Reconciler](https://github.com/aerele/reconciler) - Reconciliation tool for GSTR 2B and Purchase Register.
 
 
 ### Developer Tooling
