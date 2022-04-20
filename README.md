@@ -10,19 +10,15 @@ Inspired by [awesome-django](https://github.com/wsvincent/awesome-django).
 
 ## Contents
 
-- [Awesome Frappe ![Awesome](https://github.com/sindresorhus/awesome)](#awesome-frappe-)
-  - [Contents](#contents)
-    - [Apps](#apps)
-      - [Business Apps](#business-apps)
-      - [Utility Apps](#utility-apps)
-      - [Integrations](#integrations)
-      - [Themes](#themes)
-      - [Other Apps](#other-apps)
-    - [Developer Tooling](#developer-tooling)
-    - [Deployment Tools](#deployment-tools)
-    - [Other Clients](#other-clients)
-    - [Resources](#resources)
-    - [Hosting](#hosting)
+- [Apps](#apps)
+  - [Business Apps](#business-apps)
+  - [Utility Apps](#utility-apps)
+  - [Integrations](#integrations)
+  - [Themes](#themes)
+- [Developer Tooling](#developer-tooling)
+- [Deployment Tools](#deployment-tools)
+- [Resources](#resources)
+- [Hosting](#hosting)
 
 
 ### Apps
@@ -84,15 +80,15 @@ _Apps that showcase the power of the Frappe Framework_
 - [Firebase Cloud Message Integration](https://github.com/tridz-dev/erpnext_fcm) - Send push notifications to users using FCM integration.
 - [Metabase Integration](https://github.com/pipech/frappe-metabase) - Access your Metabase instance from Desk.
 - [Dash Integration](https://github.com/pipech/frappe-plotly-dash) - Build analytical web apps through the Desk with @plotly's [Dash](https://github.com/plotly/dash).
+- [DATEV Integration](https://github.com/alyf-de/erpnext_datev) - Integration between ERPNext and DATEV.
+- [Banking API Integration](https://github.com/aerele/bank_api_integration) - Bank API Integration for ERPNext.
 
 
 #### Themes
 
 - [Classic White](https://github.com/hashirluv/whitetheme-v13) - Classic White theme for your Frappe v13 Apps.
-- [Red](https://github.com/hashirluv/redtheme_v13b) - @hashirluv's Red theme for your Frappe v13 Apps.
 - [Material Blue](https://github.com/hashirluv/bluetheme) - Material Blue Theme for your Frappe v12 Apps.
-- [DATEV Integration](https://github.com/alyf-de/erpnext_datev) - Integration between ERPNext and DATEV.
-- [Banking API Integration](https://github.com/aerele/bank_api_integration) - Bank API Integration for ERPNext.
+- [Red](https://github.com/hashirluv/redtheme_v13b) - @hashirluv's Red theme for your Frappe v13 Apps.
 
 
 #### Other Apps
