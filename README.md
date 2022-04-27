@@ -15,6 +15,7 @@ Inspired by [awesome-django](https://github.com/wsvincent/awesome-django).
   - [Utility Apps](#utility-apps)
   - [Integrations](#integrations)
   - [Themes](#themes)
+  - [Other Apps](#other-apps)
 - [Developer Tooling](#developer-tooling)
 - [Deployment Tools](#deployment-tools)
 - [Resources](#resources)
