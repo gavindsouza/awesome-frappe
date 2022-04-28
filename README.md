@@ -8,6 +8,8 @@
 
 Inspired by [awesome-django](https://github.com/wsvincent/awesome-django).
 
+> **Disclaimer:** Projects listed may be third-party community packages. They may not vetted nor endorsed by the contributors. Check each project's compatibility information before using. Use them at your own volition.
+
 ## Contents
 
 - [Apps](#apps)
