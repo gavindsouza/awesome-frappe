@@ -113,7 +113,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Digistore](https://github.com/NagariaHussain/digistore) - Digital Asset Distribution Platform built on Frappe.
 - [PDF on Submit](https://github.com/alyf-de/erpnext_pdf-on-submit) - Automatically generate and attach a PDF when a sales document gets submitted.
 - [Contract Payment](https://github.com/morghim/contract-payment) - Link between contract with sales invoice and purchase invoice and make dues.
-- [Special Item Accountancy Code](https://github.com/scopen-coop/special_item_accountancy_code) - ERPNExt Spécial Item accountancy code according customer settings.
+- [Special Item Accountancy Code](https://github.com/scopen-coop/special_item_accountancy_code) - ERPNext Special Item accountancy code according customer settings.
 - [Swiss Accounting Integration](https://github.com/phamos-eu/Swiss-Accounting-Integration) - Extend ERPNext with Swiss QR Integration and Abacus Export.
 - [ERPNext Whitelabel](https://github.com/bhavesh95863/whitelabel) - White label ERPNext for your own brand from a single setting.
 - [IT Management](https://github.com/phamos-eu/it_management) - Manage your IT landscape from ERPNext.
