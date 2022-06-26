@@ -102,6 +102,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Classic White](https://github.com/hashirluv/whitetheme-v13) - Classic White theme for your Frappe v13 Apps.
 - [Material Blue](https://github.com/hashirluv/bluetheme) - Material Blue Theme for your Frappe v12 Apps.
 - [Red](https://github.com/hashirluv/redtheme_v13b) - @hashirluv's Red theme for your Frappe v13-beta Apps.
+- [Business Theme](https://github.com/Midocean-Technologies/business_theme_v14.git) - Business Theme for your Frappe v14 Apps.
 
 
 #### Other Apps
