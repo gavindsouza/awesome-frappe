@@ -143,6 +143,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [App Template](https://github.com/Monogramm/erpnext_template) - @Monogramm's supercharged GitHub template for building ERPNext/Frappe Apps.
 - [Fsocket](https://github.com/pifabs/fsocket) - Extend frappe's websocket server using socket.io and redis.
 - [Barista](https://github.com/ElasticRun/barista) - Automate functional testing of your Frappe Apps.
+- [Frappe Schema JSON Diff](https://github.com/Robproject/fsjd) - CI tool for showing any schema changes between commits.
 
 
 ### Deployment Tools
