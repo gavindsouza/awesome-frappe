@@ -124,6 +124,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Swiss Factur X E Invoicing](https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext) - For E-Invoice Hybrid PDF based on Factur-X and ZugFerd (EN 16931 Standards).
 - [Grynn Swiss QR Bill](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext) - Swiss QR Bill Generator app for ERPNext.
 - [GSTR 2B Reconciler](https://github.com/aerele/reconciler) - Reconciliation tool for GSTR 2B and Purchase Register.
+- [Active User Lister](https://github.com/kid1194/frappe-active-users) - App that displays a list of current active users.
 
 
 ### Developer Tooling
