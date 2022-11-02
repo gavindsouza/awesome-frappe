@@ -131,7 +131,8 @@ _Apps that showcase the power of the Frappe Framework_
 
 - [Intellisense](https://github.com/frappe/intellisense) - VSCode Extension and Language Server for Frappe Framework.
 - [Semgrep Rules](https://github.com/frappe/semgrep-rules) - Semgrep Rules for following the best practices while building your Frappe Apps.
-- [frappe_test.vim](https://github.com/ankush/frappe_test.vim) - Running Frappe unit tests at speed of thought.
+- [frappe_test.vim](https://github.com/ankush/frappe_test.vim) - Running Frappe unit tests at speed of thought for vim.
+- [Frappe Test Runner](https://github.com/ankush/frappe-test-runner) - VSCode extension to run Frappe Tests.
 - [Frappe UI](https://github.com/frappe/frappe-ui) - A set of components and utilities for rapid UI development.
 - [Frappe UI Starter](https://github.com/netchampfaris/frappe-ui-starter) - Boilerplate sets up Vue 3, Vue Router, TailwindCSS, and Frappe UI out of the box.
 - [Frappeviz](https://github.com/yemikudaisi/frappeviz) - Visualize class diagrams of a Frappe App's doctypes using PlantUML.
@@ -145,6 +146,10 @@ _Apps that showcase the power of the Frappe Framework_
 - [Fsocket](https://github.com/pifabs/fsocket) - Extend frappe's websocket server using socket.io and redis.
 - [Barista](https://github.com/ElasticRun/barista) - Automate functional testing of your Frappe Apps.
 - [Frappe Schema JSON Diff](https://github.com/Robproject/fsjd) - CI tool for showing any schema changes between commits.
+- [frappe_sql.nvim](https://github.com/ankush/frappe_sql.nvim) - Highlight SQL in frappe codebase using Tree-sitter magick for neovim.
+- [Frappe Typescript Type Generator](https://github.com/nikkothari22/frappe-types) - Typescript type definition generator for Frappe DocTypes.
+- [frappe-js-sdk](https://github.com/nikkothari22/frappe-js-sdk) - TypeScript/JavaScript library for Frappe REST API.
+- [frappe-react-sdk](https://github.com/nikkothari22/frappe-react-sdk) - React hooks library for a Frappe Framework backend.
 
 
 ### Deployment Tools
