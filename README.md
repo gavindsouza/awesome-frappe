@@ -21,6 +21,7 @@ https://user-images.githubusercontent.com/36654812/166205861-0fc9ac53-c14b-4268-
 - [Apps](#apps)
   - [Business Apps](#business-apps)
   - [Utility Apps](#utility-apps)
+  - [Plugins](#plugins)
   - [Integrations](#integrations)
   - [Themes](#themes)
   - [Other Apps](#other-apps)
@@ -52,6 +53,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Stone Warehouse](https://github.com/finbyz/stonewarehouse) - Manage batch wise balance, especially setup for a ceramic tiles vendor.
 - [ServiceMS](https://github.com/aakvatech/servicems) - Service Management System for ERPNext by Aakvatech.
 - [PropMS](https://github.com/aakvatech/PropMS) - Property Management Solution Powered on ERPNext by Aakvatech.
+- [Expenses](https://github.com/kid1194/erpnext_expenses) - An expenses management module for ERPNext.
 
 
 #### Utility Apps
@@ -60,20 +62,34 @@ _Apps that showcase the power of the Frappe Framework_
 - [Wiki](https://github.com/frappe/wiki) - Wiki for serving dynamic data along with a built-in review system.
 - [Pibicut](https://github.com/pibico/pibicut) - URL Shortener with QR Code Generator.
 - [Release](https://github.com/frappe/release) - Manage releases for Frappe and Frappe Applications.
-- [Language Translator](https://github.com/mymi14s/language_translator) - Automatic language translator on Frappe Desk and website.
-- [Database Console](https://github.com/mymi14s/database_console) - Execute SQL queries directly from Frappe/ERPNext desk just like 'bench mariadb'.
-- [S3 Attachments](https://github.com/zerodha/frappe-attachments-s3) - Plug an S3 bucket for storing and fetching files in Frappe.
 - [ERPNext Quota](https://github.com/ahmadpak/erpnext_quota) - App to manage ERPNext Site, User, Company and Space limitations.
 - [ERPNext OCR](https://github.com/Monogramm/erpnext_ocr) - Optical Character Recognition using Tesseract within Frappe.
 - [Temporal](https://github.com/Datahenge/temporal) - An ERPNext App that integrates with Redis to rapidly provide calendar information.
 - [Background Tasks Unleashed](https://github.com/Datahenge/btu) - A Frappe Task Scheduling and Automation.
-- [Frappe tinyMCE](https://github.com/shridarpatil/frappe_tinymce) - Replace frappe's Quill Text Editor with tinyMCE Text Editor.
-- [Jodit HTML Editor](https://github.com/ashish-greycube/jodit_html_editor) - Replace Quill Text Editor With [Jodit](https://github.com/xdan/jodit) HTML Editor on WebPage and WebForm for Frappe/ERPNext Version 11 & 12.
 - [Frappe ReST API Wrapper](https://github.com/pifabs/restipie) - Build custom ReST api's on top of Frappe.
 - [Sentry](https://github.com/ParsimonyGit/frappe-sentry) - Send error logs to [Sentry](https://sentry.io/) for debugging.
 - [Frappe System Monitor](https://github.com/mymi14s/frappe_system_monitor) - Web interface for webserver running processes and system utilization (RAM, CPU, Disk)
-- [Silent Print](https://github.com/roquegv/Silent-Print-ERPNext) - Utility App for printing documents silently, that is, without having to interact with browser's print dialog and send the printing order directly to the printer(s).
 - [Bulk Webhook](https://github.com/aakvatech/Bulk-Webhook) - Bulk Webhook allows creating webhook that sends multiple records and also reports from ERPNext, and has support for Apache Kafka.
+- [Alerts](https://github.com/kid1194/frappe_alerts) - Displays custom alerts to specific recipients after login.
+
+
+#### Plugins
+
+- [Language Translator](https://github.com/mymi14s/language_translator) - Automatic language translator on Frappe Desk and website.
+- [Database Console](https://github.com/mymi14s/database_console) - Execute SQL queries directly from Frappe/ERPNext desk just like 'bench mariadb'.
+- [S3 Attachments](https://github.com/zerodha/frappe-attachments-s3) - Plug an S3 bucket for storing and fetching files in Frappe.
+- [Silent Print](https://github.com/roquegv/Silent-Print-ERPNext) - Utility App for printing documents silently, that is, without having to interact with browser's print dialog and send the printing order directly to the printer(s).
+- [Frappe tinyMCE](https://github.com/shridarpatil/frappe_tinymce) - Replace frappe's Quill Text Editor with tinyMCE Text Editor.
+- [Jodit HTML Editor](https://github.com/ashish-greycube/jodit_html_editor) - Replace Quill Text Editor With [Jodit](https://github.com/xdan/jodit) HTML Editor on WebPage and WebForm for Frappe/ERPNext Version 11 & 12.
+- [List View: Unassign From](https://github.com/kid1194/frappe-list-unassign-from) - A Frappe plugin that adds the support of unassign from for multiple selection in Desk's List View.
+- [ERPNext: Fiscal Year](https://github.com/kid1194/ERPNext-Fiscal-Year-Based-Date-Related-Fields) - Desk plugin that makes date related fields respect the start and end dates of default fiscal year.
+- [ERPNext: POS Restrictions](https://github.com/kid1194/erpnext_pos_controller) - ERPNext plugin that helps in adding some restrictions over default POS.
+- [Active User Lister](https://github.com/kid1194/frappe-active-users) - App that displays a list of current active users.
+- [List View extended](https://github.com/kid1194/frappe-better-list-view) - List view plugin with more customization sugar.
+- [Numeric Control extended](https://github.com/kid1194/frappe-better-numerical-controls) - Allows for more control over numeric fields on Website & Desk.
+- [Attachment Control extended](https://github.com/kid1194/frappe-better-attach-control) - Plugin that gives you more control over the attachments at field level.
+- [Select Control extended](https://github.com/kid1194/frappe-better-select-control) - Plugin that adds the support of options group to the select control.
+- [Strict Session Defaults](https://github.com/kid1194/frappe-strict-session-defaults) - Enforces and manages the session defaults popup.
 
 
 #### Integrations
@@ -101,7 +117,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Unicommerce Integration](https://github.com/frappe/ecommerce_integrations) - Unicommerce Integration for ERPNext.
 - [WooCommerceConnector](https://github.com/libracore/WooCommerceConnector) - Integration App for ERPNext to connect to WooCommerce.
 - [Zenoti Integration](https://github.com/frappe/ecommerce_integrations) - Zenoti Integration for ERPNext.
-- [DocuSign Integration](https://frappecloud.com/marketplace/apps/dsc_erpnext) - DocuSign integration for Frappe apps. 
+- [DocuSign Integration](https://frappecloud.com/marketplace/apps/dsc_erpnext) - DocuSign integration for Frappe apps.
 
 
 #### Themes
@@ -131,7 +147,6 @@ _Apps that showcase the power of the Frappe Framework_
 - [Swiss Factur X E Invoicing](https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext) - For E-Invoice Hybrid PDF based on Factur-X and ZugFerd (EN 16931 Standards).
 - [Grynn Swiss QR Bill](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext) - Swiss QR Bill Generator app for ERPNext.
 - [GSTR 2B Reconciler](https://github.com/aerele/reconciler) - Reconciliation tool for GSTR 2B and Purchase Register.
-- [Active User Lister](https://github.com/kid1194/frappe-active-users) - App that displays a list of current active users.
 - [India Compliance](https://github.com/resilient-tech/india-compliance) - Simple, yet powerful compliance solutions for Indian businesses.
 - [Pakistan Workspace](https://github.com/ParaLogicTech/erpnext_pk) - Regional App for Pakistan with NIC, NTN, and STRN numbers, and reports for FBR tax compliance.
 - [CSF_TZ](https://github.com/aakvatech/CSF_TZ) - Regional App for Tanzania.
@@ -144,12 +159,12 @@ _Apps that showcase the power of the Frappe Framework_
 - [Semgrep Rules](https://github.com/frappe/semgrep-rules) - Semgrep Rules for following the best practices while building your Frappe Apps.
 - [Frappe UI](https://github.com/frappe/frappe-ui) - A set of components and utilities for rapid UI development.
 - [Frappe UI Starter](https://github.com/netchampfaris/frappe-ui-starter) - Boilerplate sets up Vue 3, Vue Router, TailwindCSS, and Frappe UI out of the box.
-- [Frappe JS SDK](https://github.com/nikkothari22/frappe-js-sdk) - TypeScript/JavaScript library for Frappe REST API 
-- [Frappe React SDK SDK](https://github.com/nikkothari22/frappe-react-sdk) -  React hooks for Frappe 
-- [TypeScript Type generator](https://github.com/nikkothari22/frappe-types) -  Typescript type definition generator for Frappe DocTypes  
+- [Frappe JS SDK](https://github.com/nikkothari22/frappe-js-sdk) - TypeScript/JavaScript library for Frappe REST API
+- [Frappe React SDK SDK](https://github.com/nikkothari22/frappe-react-sdk) -  React hooks for Frappe
+- [TypeScript Type generator](https://github.com/nikkothari22/frappe-types) -  Typescript type definition generator for Frappe DocTypes
 - [Frappeviz](https://github.com/yemikudaisi/frappeviz) - Visualize class diagrams of a Frappe App's doctypes using PlantUML.
 - [Frappe GraphQL](https://github.com/leam-tech/frappe_graphql) - GraphQL API Layer for Frappe Framework.
-- [Frappe Test Runner](https://marketplace.visualstudio.com/items?itemName=AnkushMenat.frappe-test-runner) - VS Code extension to run Frappe tests with single keybind. 
+- [Frappe Test Runner](https://marketplace.visualstudio.com/items?itemName=AnkushMenat.frappe-test-runner) - VS Code extension to run Frappe tests with single keybind.
 - [frappe_test.vim](https://github.com/ankush/frappe_test.vim) - Running Frappe unit tests at speed of thought.
 - [Renovation](https://github.com/leam-tech/renovation_core) - Renovation is a Frappe Front End TS/JS SDK.
 - [renovation_core.dart](https://github.com/leam-tech/renovation_core.dart) - The Frappe Dart/Flutter Front End SDK.
