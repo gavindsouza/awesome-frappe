@@ -214,6 +214,10 @@ _Community Channels_
 - [Telegram](https://t.me/frappeframework) - Public Telegram group for the Frappe Framework.
 - [Stackoverflow](https://stackoverflow.com/questions/tagged/frappe) - Post questions with the `frappe` tag.
 
+_YouTube Channels_
+
+- [ERPNext](https://www.youtube.com/@erpnextofficial) - Frappe Technologies' official Youtube channel.
+
 
 ### Hosting
 
