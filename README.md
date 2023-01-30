@@ -119,7 +119,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [WooCommerceConnector](https://github.com/libracore/WooCommerceConnector) - Integration App for ERPNext to connect to WooCommerce.
 - [Zenoti Integration](https://github.com/frappe/ecommerce_integrations) - Zenoti Integration for ERPNext.
 - [DocuSign Integration](https://frappecloud.com/marketplace/apps/dsc_erpnext) - DocuSign integration for Frappe apps.
-
+- [Meta Integration](https://github.com/efeone/frappe_meta_integration) - Meta Cloud API Integration for frappe framework
 
 #### Themes
 
