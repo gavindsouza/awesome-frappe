@@ -79,6 +79,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Language Translator](https://github.com/mymi14s/language_translator) - Automatic language translator on Frappe Desk and website.
 - [Database Console](https://github.com/mymi14s/database_console) - Execute SQL queries directly from Frappe/ERPNext desk just like 'bench mariadb'.
 - [S3 Attachments](https://github.com/zerodha/frappe-attachments-s3) - Plug an S3 bucket for storing and fetching files in Frappe.
+- [DFP External Storage](https://github.com/developmentforpeople/dfp_external_storage) - S3 compatible external storages per folder management app for Frappe and ERPNext.
 - [Silent Print](https://github.com/roquegv/Silent-Print-ERPNext) - Utility App for printing documents silently, that is, without having to interact with browser's print dialog and send the printing order directly to the printer(s).
 - [Frappe tinyMCE](https://github.com/shridarpatil/frappe_tinymce) - Replace frappe's Quill Text Editor with tinyMCE Text Editor.
 - [Jodit HTML Editor](https://github.com/ashish-greycube/jodit_html_editor) - Replace Quill Text Editor With [Jodit](https://github.com/xdan/jodit) HTML Editor on WebPage and WebForm for Frappe/ERPNext Version 11 & 12.
