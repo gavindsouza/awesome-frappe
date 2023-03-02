@@ -1,0 +1,19 @@
+default_stages: [commit]
+fail_fast: false
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+      - id: trailing-whitespace
+      - id: check-yaml
+      - id: check-merge-conflict
+      - id: check-ast
+
+  - repo: local
+    hooks:
+      - id: records-sorter
+        name: Sort README
+        entry: python .github/record_sorter.py
+        language: system
+        types: [markdown]
