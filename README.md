@@ -116,6 +116,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Contract Payment](https://github.com/morghim/contract-payment) - Link between contract with sales invoice and purchase invoice and make dues.
 - [Special Item Accountancy Code](https://github.com/scopen-coop/special_item_accountancy_code) - ERPNext Special Item accountancy code according customer settings.
 - [Calendar Job Card Planner](https://github.com/scopen-coop/jobcard_planning) - ERPNext calendar view to plan Job Card.
+- [Stock Reconciliation Per Item Group](https://github.com/scopen-coop/stock_reconcialiation_per_item_group) - ERPNext Stock reconciliation per item group
 - [Swiss Accounting Integration](https://github.com/phamos-eu/Swiss-Accounting-Integration) - Extend ERPNext with Swiss QR Integration and Abacus Export.
 - [ERPNext Whitelabel](https://github.com/bhavesh95863/whitelabel) - White label ERPNext for your own brand from a single setting.
 - [IT Management](https://github.com/phamos-eu/it_management) - Manage your IT landscape from ERPNext.
