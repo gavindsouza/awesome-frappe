@@ -3,7 +3,7 @@
 > A curated list of awesome things related to the Frappe Framework
 
 <div align="center">
-  <img width="400" src="https://github.com/gavindsouza/awesome-frappe/raw/main/.github/frappe-framework-logo.svg" alt="Frappe logo">
+  <img width="400" src="https://github.com/gavindsouza/awesome-frappe/raw/main/.github/frappe-framework-logo.svg" alt="Frappe logo" style="padding-right: 20px; padding-left: 20px;">
 </div>
 
 Inspired by [awesome-django](https://github.com/wsvincent/awesome-django).
