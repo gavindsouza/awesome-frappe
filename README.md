@@ -133,7 +133,6 @@ _Apps that showcase the power of the Frappe Framework_
 #### Other Apps
 
 - [Calendar Job Card Planner](https://github.com/scopen-coop/jobcard_planning) - ERPNext calendar view to plan Job Card.
-- [Calendar Job Card Planner](https://github.com/scopen-coop/jobcard_planning) - ERPNext calendar view to plan Job Card.
 - [Contract Payment](https://github.com/morghim/contract-payment) - Link between contract with sales invoice and purchase invoice and make dues.
 - [CSF_TZ](https://github.com/aakvatech/CSF_TZ) - Regional App for Tanzania.
 - [Digistore](https://github.com/NagariaHussain/digistore) - Digital Asset Distribution Platform built on Frappe.
