@@ -15,7 +15,7 @@ Inspired by [awesome-django](https://github.com/wsvincent/awesome-django).
 Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework written in Python and Javascript with MariaDB (and Postgres too) as the database. It is the framework which powers ERPNext, is pretty generic and can be used to build database driven apps.
 
 
-<video src="https://user-images.githubusercontent.com/36654812/166205861-0fc9ac53-c14b-4268-bfff-99d8aeb1a4eb.mp4" data-canonical-src="https://user-images.githubusercontent.com/36654812/166205861-0fc9ac53-c14b-4268-bfff-99d8aeb1a4eb.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
+<video src="https://user-images.githubusercontent.com/36654812/166205861-0fc9ac53-c14b-4268-bfff-99d8aeb1a4eb.mp4" data-canonical-src="https://user-images.githubusercontent.com/36654812/166205861-0fc9ac53-c14b-4268-bfff-99d8aeb1a4eb.mp4" style="max-height:480px; min-height: 200px; width: -webkit-fill-available;" controls muted>
 </video>
 
 ## Contents
