@@ -46,7 +46,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Expenses](https://github.com/kid1194/erpnext_expenses) - An expenses management module for ERPNext.
 - [FiMax](https://github.com/YefriTavarez/fimax) - Loan Management and Repayment Scheduling for ERPNext.
 - [Frappe Desk](https://frappedesk.com/) -  Well designed, open-source ticketing system.
-- [Frappe HR](http://frappehr.frappe.cloud/) - An Open Source HRMS for Frappe Ecosystem.
+- [Frappe HR](http://frappehr.com/) - An Open Source HRMS for Frappe Ecosystem.
 - [Frappe Insights](https://github.com/frappe/insights) -  Free and Open Source Data Analytics Tool for your Frappe Apps
 - [Gameplan](https://github.com/frappe/gameplan/) - Delightful, open-source, work communication tool for remote teams.
 - [Healthcare](https://github.com/frappe/healthcare) - An open source management system crafted for the medical industry.
@@ -70,6 +70,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Frappe System Monitor](https://github.com/mymi14s/frappe_system_monitor) - Web interface for webserver running processes and system utilization (RAM, CPU, Disk)
 - [Pibicut](https://github.com/pibico/pibicut) - URL Shortener with QR Code Generator.
 - [PibiDAV](https://github.com/pibico/pibiDAV) - Integrate webDAV, calDAV and cardDAV (Future) with a NextCloud Server, used as (DMS), for a copy of Frappe Files uploaded and tagged to NextCloud while uploading files to Frappe.
+- [Raven](https://github.com/The-Commit-Company/Raven) - Simple, open source team messaging platform built for Frappe.
 - [Release](https://github.com/frappe/release) - Manage releases for Frappe and Frappe Applications.
 - [Sentry](https://github.com/ParsimonyGit/frappe-sentry) - Send error logs to [Sentry](https://sentry.io/) for debugging.
 - [Temporal](https://github.com/Datahenge/temporal) - An ERPNext App that integrates with Redis to rapidly provide calendar information.
