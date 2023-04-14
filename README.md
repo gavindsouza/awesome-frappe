@@ -1,6 +1,6 @@
 # Awesome Frappe [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
 
-> A curated list of awesome things related to the Frappe Framework
+> A curated list of awesome things related to the Frappe Framework. Maintained by [Gavin D'souza](https://github.com/gavindsouza).
 
 <div align="center">
   <img width="400" src="https://github.com/gavindsouza/awesome-frappe/raw/main/.github/frappe-framework-logo.svg" alt="Frappe logo" style="padding-right: 20px; padding-left: 20px;">

@@ -1,3 +1,12 @@
+title: Awesome Frappe
+description: A curated list of awesome things related to the Frappe Framework. Maintained by Gavin D'souza
+email: me@gavv.in
+url: https://awesome-frappe.gavv.in
+author:
+  name: Gavin D'souza
+  url: https://gavv.in/
+
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+  - jekyll-seo-tag
