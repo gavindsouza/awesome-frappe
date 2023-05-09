@@ -147,6 +147,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [GSTR 2B Reconciler](https://github.com/aerele/reconciler) - Reconciliation tool for GSTR 2B and Purchase Register.
 - [India Compliance](https://github.com/resilient-tech/india-compliance) - Simple, yet powerful compliance solutions for Indian businesses.
 - [IT Management](https://github.com/phamos-eu/it_management) - Manage your IT landscape from ERPNext.
+- [KSA](https://github.com/8848digital/KSA) - Regional Compliance for the Kingdom of Saudi Arabia
 - [Pakistan Workspace](https://github.com/ParaLogicTech/erpnext_pk) - Regional App for Pakistan with NIC, NTN, and STRN numbers, and reports for FBR tax compliance.
 - [Payware](https://github.com/aakvatech/Payware) - ERPNext Payroll enhancements specific for functionality required in Tanzania.
 - [PDF on Submit](https://github.com/alyf-de/erpnext_pdf-on-submit) - Automatically generate and attach a PDF when a sales document gets submitted.
