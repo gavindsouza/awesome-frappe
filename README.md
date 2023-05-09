@@ -162,7 +162,6 @@ _Apps that showcase the power of the Frappe Framework_
 
 ### Developer Tooling
 
-- [App Template](https://github.com/Monogramm/erpnext_template) - @Monogramm's supercharged GitHub template for building ERPNext/Frappe Apps.
 - [Barista](https://github.com/ElasticRun/barista) - Automate functional testing of your Frappe Apps.
 - [Console](https://github.com/yrestom/Console) - Powerful Console for Frappe Backend
 - [DocType Model Generator](https://github.com/assemmarwan/model_generator) - Generate models to different languages based on Doctype.
@@ -180,12 +179,13 @@ _Apps that showcase the power of the Frappe Framework_
 - [Renovation](https://github.com/leam-tech/renovation_core) - Renovation is a Frappe Front End TS/JS SDK.
 - [renovation_core.dart](https://github.com/leam-tech/renovation_core.dart) - The Frappe Dart/Flutter Front End SDK.
 - [Semgrep Rules](https://github.com/frappe/semgrep-rules) - Semgrep Rules for following the best practices while building your Frappe Apps.
-- [TypeScript Type generator](https://github.com/nikkothari22/frappe-types) -  Typescript type definition generator for Frappe DocTypes
+- [TypeScript Type generator](https://github.com/nikkothari22/frappe-types) -  Typescript type definition generator for Frappe DocTypes.
 
 #### Templates
 
-- [Doppio Bot](https://github.com/NagariaHussain/doppio_bot): AI ChatBot Template, built into Frappe's admin/desk Interface
-- [Doppio FrappeUI Starter](https://github.com/NagariaHussain/doppio_frappeui_starter): A Vite + Vue 3 + TailwindCSS + Frappe UI starter template for building frontends for Frappe Apps
+- [App Template](https://github.com/Monogramm/erpnext_template) - @Monogramm's supercharged GitHub template for building ERPNext/Frappe Apps.
+- [Doppio Bot](https://github.com/NagariaHussain/doppio_bot) - AI ChatBot Template, built into Frappe's Desk Interface.
+- [Doppio FrappeUI Starter](https://github.com/NagariaHussain/doppio_frappeui_starter) - A Vite + Vue 3 + TailwindCSS + Frappe UI starter template for building frontends for Frappe Apps.
 
 ### Deployment Tools
 
