@@ -28,6 +28,7 @@ Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework w
   - [Themes](#themes)
   - [Other Apps](#other-apps)
 - [Developer Tooling](#developer-tooling)
+  - [Templates](#templates)
 - [Deployment Tools](#deployment-tools)
 - [Resources](#resources)
 - [Hosting](#hosting)
@@ -163,7 +164,6 @@ _Apps that showcase the power of the Frappe Framework_
 
 ### Developer Tooling
 
-- [App Template](https://github.com/Monogramm/erpnext_template) - @Monogramm's supercharged GitHub template for building ERPNext/Frappe Apps.
 - [Barista](https://github.com/ElasticRun/barista) - Automate functional testing of your Frappe Apps.
 - [Console](https://github.com/yrestom/Console) - Powerful Console for Frappe Backend
 - [DocType Model Generator](https://github.com/assemmarwan/model_generator) - Generate models to different languages based on Doctype.
@@ -173,7 +173,6 @@ _Apps that showcase the power of the Frappe Framework_
 - [Frappe React SDK SDK](https://github.com/nikkothari22/frappe-react-sdk) -  React hooks for Frappe
 - [Frappe Schema JSON Diff](https://github.com/Robproject/fsjd) - CI tool for showing any schema changes between commits.
 - [Frappe Test Runner](https://marketplace.visualstudio.com/items?itemName=AnkushMenat.frappe-test-runner) - VS Code extension to run Frappe tests with single keybind.
-- [Frappe UI Starter](https://github.com/netchampfaris/frappe-ui-starter) - Boilerplate sets up Vue 3, Vue Router, TailwindCSS, and Frappe UI out of the box.
 - [Frappe UI](https://github.com/frappe/frappe-ui) - A set of components and utilities for rapid UI development.
 - [frappe_test.vim](https://github.com/ankush/frappe_test.vim) - Running Frappe unit tests at speed of thought.
 - [Frappeviz](https://github.com/yemikudaisi/frappeviz) - Visualize class diagrams of a Frappe App's doctypes using PlantUML.
@@ -182,7 +181,13 @@ _Apps that showcase the power of the Frappe Framework_
 - [Renovation](https://github.com/leam-tech/renovation_core) - Renovation is a Frappe Front End TS/JS SDK.
 - [renovation_core.dart](https://github.com/leam-tech/renovation_core.dart) - The Frappe Dart/Flutter Front End SDK.
 - [Semgrep Rules](https://github.com/frappe/semgrep-rules) - Semgrep Rules for following the best practices while building your Frappe Apps.
-- [TypeScript Type generator](https://github.com/nikkothari22/frappe-types) -  Typescript type definition generator for Frappe DocTypes
+- [TypeScript Type generator](https://github.com/nikkothari22/frappe-types) -  Typescript type definition generator for Frappe DocTypes.
+
+#### Templates
+
+- [App Template](https://github.com/Monogramm/erpnext_template) - @Monogramm's supercharged GitHub template for building ERPNext/Frappe Apps.
+- [Doppio Bot](https://github.com/NagariaHussain/doppio_bot) - AI ChatBot Template, built into Frappe's Desk Interface.
+- [Doppio FrappeUI Starter](https://github.com/NagariaHussain/doppio_frappeui_starter) - A Vite + Vue 3 + TailwindCSS + Frappe UI starter template for building frontends for Frappe Apps.
 
 ### Deployment Tools
 
