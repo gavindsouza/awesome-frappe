@@ -204,6 +204,7 @@ _Resources allowing you to deploy Frappe apps with your favourite toolset_
 - [Bench](https://frappe.io/bench) - CLI to Manage Frappe Deployments
 - [Benchless](https://github.com/castlecraft/benchless) - CLI tool to manage Frappe deployments without bench.
 - [Docker Hub](https://hub.docker.com/u/frappe) - Container images for Frappe & ERPNext releases.
+- [ERPNextFailOver](https://github.com/martinhbramwell/ERPNextFailOver) - Tool to automate setting up Database Replication for ERPNext.
 - [Frappe Docker](https://github.com/frappe/frappe_docker) - Official docker images for Frappe.
 - [Helm Chart](https://helm.erpnext.com/) - Kubernetes Helm Chart for ERPNext.
 
