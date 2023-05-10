@@ -26,6 +26,7 @@ Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework w
   - [Plugins](#plugins)
   - [Integrations](#integrations)
   - [Themes](#themes)
+  - [Regional Apps](#regional-apps)
   - [Other Apps](#other-apps)
 - [Developer Tooling](#developer-tooling)
   - [SDKs & Libraries](#sdks--libraries)
@@ -137,29 +138,32 @@ _Apps that showcase the power of the Frappe Framework_
 - [Material Blue](https://github.com/hashirluv/bluetheme) - Material Blue Theme for your Frappe v12 Apps.
 - [Red](https://github.com/hashirluv/redtheme_v13b) - @hashirluv's Red theme for your Frappe v13-beta Apps.
 
+#### Regional Apps
+
+- [CSF_TZ](https://github.com/aakvatech/CSF_TZ) - Regional App for Tanzania.
+- [ERPNext Germany](https://github.com/alyf-de/erpnext_germany) - Regional code for Germany, built on top of ERPNext.
+- [Grynn Swiss QR Bill](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext) - Swiss QR Bill Generator app for ERPNext.
+- [GSTR 2B Reconciler](https://github.com/aerele/reconciler) - Reconciliation tool for GSTR 2B and Purchase Register.
+- [India Compliance](https://github.com/resilient-tech/india-compliance) - Simple, yet powerful compliance solutions for Indian businesses.
+- [KSA](https://github.com/8848digital/KSA) - Regional Compliance for the Kingdom of Saudi Arabia
+- [Pakistan Workspace](https://github.com/ParaLogicTech/erpnext_pk) - Regional App for Pakistan with NIC, NTN, and STRN numbers, and reports for FBR tax compliance.
+- [Payware](https://github.com/aakvatech/Payware) - ERPNext Payroll enhancements specific for functionality required in Tanzania.
+- [Swiss Accounting Integration](https://github.com/phamos-eu/Swiss-Accounting-Integration) - Extend ERPNext with Swiss QR Integration and Abacus Export.
+- [Swiss Factur X E Invoicing](https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext) - For E-Invoice Hybrid PDF based on Factur-X and ZugFerd (EN 16931 Standards).
+
 #### Other Apps
 
 - [Calendar Job Card Planner](https://github.com/scopen-coop/jobcard_planning) - ERPNext calendar view to plan Job Card.
 - [Contract Payment](https://github.com/morghim/contract-payment) - Link between contract with sales invoice and purchase invoice and make dues.
-- [CSF_TZ](https://github.com/aakvatech/CSF_TZ) - Regional App for Tanzania.
 - [Digistore](https://github.com/NagariaHussain/digistore) - Digital Asset Distribution Platform built on Frappe.
-- [ERPNext Germany](https://github.com/alyf-de/erpnext_germany) - Regional code for Germany, built on top of ERPNext.
 - [ERPNext Whitelabel](https://github.com/bhavesh95863/whitelabel) - White label ERPNext for your own brand from a single setting.
 - [Expense Entry](https://github.com/the-bantoo/expense_request) - Expense Entry for easy capture of non-item expenses without using the Journal Entry.
-- [Grynn Swiss QR Bill](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext) - Swiss QR Bill Generator app for ERPNext.
-- [GSTR 2B Reconciler](https://github.com/aerele/reconciler) - Reconciliation tool for GSTR 2B and Purchase Register.
-- [India Compliance](https://github.com/resilient-tech/india-compliance) - Simple, yet powerful compliance solutions for Indian businesses.
 - [IT Management](https://github.com/phamos-eu/it_management) - Manage your IT landscape from ERPNext.
-- [KSA](https://github.com/8848digital/KSA) - Regional Compliance for the Kingdom of Saudi Arabia
-- [Pakistan Workspace](https://github.com/ParaLogicTech/erpnext_pk) - Regional App for Pakistan with NIC, NTN, and STRN numbers, and reports for FBR tax compliance.
-- [Payware](https://github.com/aakvatech/Payware) - ERPNext Payroll enhancements specific for functionality required in Tanzania.
 - [PDF on Submit](https://github.com/alyf-de/erpnext_pdf-on-submit) - Automatically generate and attach a PDF when a sales document gets submitted.
 - [Recod ERPNext Design](https://github.com/Monogramm/recod_erpnext_design) - Provides new sample print formats and design for ERPNext.
 - [Robinhood](https://github.com/shridarpatil/robinhood) - System that powers [robinhoodarmy.com](https://checkin.robinhoodarmy.com/)
 - [Special Item Accountancy Code](https://github.com/scopen-coop/special_item_accountancy_code) - ERPNext Special Item accountancy code according customer settings.
 - [Stock Reconciliation Per Item Group](https://github.com/scopen-coop/stock_reconcialiation_per_item_group) - ERPNext Stock reconciliation per item group
-- [Swiss Accounting Integration](https://github.com/phamos-eu/Swiss-Accounting-Integration) - Extend ERPNext with Swiss QR Integration and Abacus Export.
-- [Swiss Factur X E Invoicing](https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext) - For E-Invoice Hybrid PDF based on Factur-X and ZugFerd (EN 16931 Standards).
 - [Telegram Bot Manager](https://github.com/leam-tech/frappe_telegram) - Telegram Bot support for Frappe.
 - [Workspace Permissions](https://github.com/pstuhlmueller/workspaceperms) - Manage the availability of workspaces within Frappe/ ERPNext (sidebar) based on user-roles.
 
