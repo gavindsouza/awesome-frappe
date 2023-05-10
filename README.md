@@ -150,6 +150,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Payware](https://github.com/aakvatech/Payware) - ERPNext Payroll enhancements specific for functionality required in Tanzania.
 - [Swiss Accounting Integration](https://github.com/phamos-eu/Swiss-Accounting-Integration) - Extend ERPNext with Swiss QR Integration and Abacus Export.
 - [Swiss Factur X E Invoicing](https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext) - For E-Invoice Hybrid PDF based on Factur-X and ZugFerd (EN 16931 Standards).
+- [Thai Tax](https://github.com/kittiu/thai_tax) - Thailand Taxation (VAT, WHT) for ERPNext.
 
 #### Other Apps
 
