@@ -136,6 +136,8 @@ _Apps that showcase the power of the Frappe Framework_
 - [Business Theme](https://github.com/Midocean-Technologies/business_theme_v14.git) - Business Theme for your Frappe v14 Apps.
 - [Classic White](https://github.com/hashirluv/whitetheme-v13) - Classic White theme for your Frappe v13 Apps.
 - [Material Blue](https://github.com/hashirluv/bluetheme) - Material Blue Theme for your Frappe v12 Apps.
+- [Material UI](https://github.com/michaelkaraz/kimstheme) - kims Theme Material UI for ERPNext.
+- [Pink](https://github.com/Muhammad-shaalan/pink-theme) - @Muhammad-shaalan's Pink theme.
 - [Red](https://github.com/hashirluv/redtheme_v13b) - @hashirluv's Red theme for your Frappe v13-beta Apps.
 
 #### Regional Apps
