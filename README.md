@@ -78,7 +78,9 @@ _Apps that showcase the power of the Frappe Framework_
 - [Raven](https://github.com/The-Commit-Company/Raven) - Simple, open source team messaging platform built for Frappe.
 - [Release](https://github.com/frappe/release) - Manage releases for Frappe and Frappe Applications.
 - [Sentry](https://github.com/ParsimonyGit/frappe-sentry) - Send error logs to [Sentry](https://sentry.io/) for debugging.
+- [Sheets](https://sheets.gavv.in/) - Effortless synchronization between your online SpreadSheet Apps & ERPNext.
 - [Temporal](https://github.com/Datahenge/temporal) - An ERPNext App that integrates with Redis to rapidly provide calendar information.
+- [ToolBox](https://toolbox.gavv.in/) - Automate your Site Maintenance with ToolBox.
 - [Wiki](https://github.com/frappe/wiki) - Wiki for serving dynamic data along with a built-in review system.
 
 #### Plugins
