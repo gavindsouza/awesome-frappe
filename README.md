@@ -95,6 +95,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Frappe tinyMCE](https://github.com/shridarpatil/frappe_tinymce) - Replace frappe's Quill Text Editor with tinyMCE Text Editor.
 - [Jodit HTML Editor](https://github.com/ashish-greycube/jodit_html_editor) - Replace Quill Text Editor With [Jodit](https://github.com/xdan/jodit) HTML Editor on WebPage and WebForm for Frappe/ERPNext Version 11 & 12.
 - [Language Translator](https://github.com/mymi14s/language_translator) - Automatic language translator on Frappe Desk and website.
+- [Language Toggle](https://github.com/zaid2229/language-toggle) - Button on navbar to toggle language in ERPNext.
 - [List View extended](https://github.com/kid1194/frappe-better-list-view) - List view plugin with more customization sugar.
 - [List View: Unassign From](https://github.com/kid1194/frappe-list-unassign-from) - A Frappe plugin that adds the support of unassign from for multiple selection in Desk's List View.
 - [Numeric Control extended](https://github.com/kid1194/frappe-better-numerical-controls) - Allows for more control over numeric fields on Website & Desk.
