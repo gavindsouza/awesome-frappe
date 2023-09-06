@@ -82,6 +82,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Temporal](https://github.com/Datahenge/temporal) - An ERPNext App that integrates with Redis to rapidly provide calendar information.
 - [ToolBox](https://toolbox.gavv.in/) - Automate your Site Maintenance with ToolBox.
 - [Wiki](https://github.com/frappe/wiki) - Wiki for serving dynamic data along with a built-in review system.
+- [ERPNext POS Hardware Integrations](https://github.com/aisenyi/pasigono) - Weigh scale integration, Stripe Terminal integration, and Raw printing via QZ Tray
 
 #### Plugins
 
