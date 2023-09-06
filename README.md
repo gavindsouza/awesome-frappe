@@ -150,6 +150,7 @@ _Apps that showcase the power of the Frappe Framework_
 #### Regional Apps
 
 - [CSF_TZ](https://github.com/aakvatech/CSF_TZ) - Regional App for Tanzania.
+- [ERPNext France](https://github.com/scopen-coop/erpnext_france.git) - Regional code for France, built on top of ERPNext.
 - [ERPNext Germany](https://github.com/alyf-de/erpnext_germany) - Regional code for Germany, built on top of ERPNext.
 - [Grynn Swiss QR Bill](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext) - Swiss QR Bill Generator app for ERPNext.
 - [GSTR 2B Reconciler](https://github.com/aerele/reconciler) - Reconciliation tool for GSTR 2B and Purchase Register.
