@@ -68,6 +68,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Bulk Webhook](https://github.com/aakvatech/Bulk-Webhook) - Bulk Webhook allows creating webhook that sends multiple records and also reports from ERPNext, and has support for Apache Kafka.
 - [Chat](https://github.com/frappe/chat) - Modern chat for your Frappe deployments.
 - [ERPNext OCR](https://github.com/Monogramm/erpnext_ocr) - Optical Character Recognition using Tesseract within Frappe.
+- [ERPNext POS Hardware Integrations](https://github.com/aisenyi/pasigono) - Weigh scale integration, Stripe Terminal integration, and Raw printing via QZ Tray
 - [ERPNext Quota](https://github.com/ahmadpak/erpnext_quota) - App to manage ERPNext Site, User, Company and Space limitations.
 - [Frappe ReST API Wrapper](https://github.com/pifabs/restipie) - Build custom ReST api's on top of Frappe.
 - [Frappe System Monitor](https://github.com/mymi14s/frappe_system_monitor) - Web interface for webserver running processes and system utilization (RAM, CPU, Disk)
@@ -79,11 +80,10 @@ _Apps that showcase the power of the Frappe Framework_
 - [Release](https://github.com/frappe/release) - Manage releases for Frappe and Frappe Applications.
 - [Sentry](https://github.com/ParsimonyGit/frappe-sentry) - Send error logs to [Sentry](https://sentry.io/) for debugging.
 - [Sheets](https://sheets.gavv.in/) - Effortless synchronization between your online SpreadSheet Apps & ERPNext.
+- [SmartConnect Mobile Application](https://github.com/Midocean-Technologies/mtpl_api) - Interactive Mobile Application (Pre-release Alpha Version)
 - [Temporal](https://github.com/Datahenge/temporal) - An ERPNext App that integrates with Redis to rapidly provide calendar information.
 - [ToolBox](https://toolbox.gavv.in/) - Automate your Site Maintenance with ToolBox.
 - [Wiki](https://github.com/frappe/wiki) - Wiki for serving dynamic data along with a built-in review system.
-- [ERPNext POS Hardware Integrations](https://github.com/aisenyi/pasigono) - Weigh scale integration, Stripe Terminal integration, and Raw printing via QZ Tray
-- [SmartConnect Mobile Application](https://github.com/Midocean-Technologies/mtpl_api) - Interactive Mobile Application (Pre-release Alpha Version)
 
 #### Plugins
 
@@ -97,8 +97,8 @@ _Apps that showcase the power of the Frappe Framework_
 - [Export Setting](https://github.com/zaid2229/Export-Settings.git) - This app allows you to predefine the fields you want to export from any given doctype in Frappe.
 - [Frappe tinyMCE](https://github.com/shridarpatil/frappe_tinymce) - Replace frappe's Quill Text Editor with tinyMCE Text Editor.
 - [Jodit HTML Editor](https://github.com/ashish-greycube/jodit_html_editor) - Replace Quill Text Editor With [Jodit](https://github.com/xdan/jodit) HTML Editor on WebPage and WebForm for Frappe/ERPNext Version 11 & 12.
-- [Language Translator](https://github.com/mymi14s/language_translator) - Automatic language translator on Frappe Desk and website.
 - [Language Toggle](https://github.com/zaid2229/language-toggle) - Button on navbar to toggle language in ERPNext.
+- [Language Translator](https://github.com/mymi14s/language_translator) - Automatic language translator on Frappe Desk and website.
 - [List View extended](https://github.com/kid1194/frappe-better-list-view) - List view plugin with more customization sugar.
 - [List View: Unassign From](https://github.com/kid1194/frappe-list-unassign-from) - A Frappe plugin that adds the support of unassign from for multiple selection in Desk's List View.
 - [Numeric Control extended](https://github.com/kid1194/frappe-better-numerical-controls) - Allows for more control over numeric fields on Website & Desk.
@@ -248,6 +248,7 @@ _Community Channels_
 _YouTube Channels_
 
 - [@frappetech](https://www.youtube.com/@frappetech) - Frappe Technologies' official Youtube channel.
+- [@buildwithhussain](https://www.youtube.com/@buildwithhussain) - Watch Frappe Framework used live to build world-class web apps.
 
 
 ### Hosting
