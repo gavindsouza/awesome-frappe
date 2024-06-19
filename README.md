@@ -129,6 +129,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Nextcloud Integration](https://github.com/frappe/nextcloud-integration) - Nextcloud + Frappe = ❤️
 - [Paystack Integration](https://github.com/mymi14s/frappe_paystack) - Paystack Payment Gateway Integration for Frappe.
 - [Pibiapp](https://github.com/doloresjuliana/pibiapp) - Connect with Nextcloud to store the attachments on your Nextcloud server, integrate with external data from Excel, CSV, JSON or XML files, and view Redash dashboards in Frappe.
+- [PostGrid Integration](https://github.com/Avunu/postgrid_integration) - Direct Mail Documents within Frappe via PostGrid Print & Mail API
 - [Razorpay Integration](https://github.com/frappe/razorpay_integration) - Razorpay Integration for Frappe.
 - [RClone Integration](https://github.com/Muzzy73/rclone_integration) - Frappe integration with Rclone.
 - [Shipstation Integration](https://github.com/ParsimonyGit/shipstation_integration) - Shipstation Integration for ERPNext.
