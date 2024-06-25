@@ -107,6 +107,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Select Control extended](https://github.com/kid1194/frappe-better-select-control) - Plugin that adds the support of options group to the select control.
 - [Silent Print](https://github.com/roquegv/Silent-Print-ERPNext) - Utility App for printing documents silently, that is, without having to interact with browser's print dialog and send the printing order directly to the printer(s).
 - [Strict Session Defaults](https://github.com/kid1194/frappe-strict-session-defaults) - Enforces and manages the session defaults popup.
+- [Sidebar Collapsed Default](https://github.com/kid1194/frappe-strict-session-defaults) - Collapses Sidebar by default on all desk pages. Helps use screen real-estate better on small screens.
 
 #### Integrations
 
