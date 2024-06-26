@@ -31,6 +31,7 @@ Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework w
 - [Developer Tooling](#developer-tooling)
   - [SDKs & Libraries](#sdks--libraries)
   - [Templates](#templates)
+- [Other Tooling](#other-tooling)
 - [Deployment Tools](#deployment-tools)
 - [Resources](#resources)
 - [Hosting](#hosting)
@@ -215,6 +216,11 @@ _Apps that showcase the power of the Frappe Framework_
 - [App Template](https://github.com/Monogramm/erpnext_template) - @Monogramm's supercharged GitHub template for building ERPNext/Frappe Apps.
 - [Doppio Bot](https://github.com/NagariaHussain/doppio_bot) - AI ChatBot Template, built into Frappe's Desk Interface.
 - [Doppio FrappeUI Starter](https://github.com/NagariaHussain/doppio_frappeui_starter) - A Vite + Vue 3 + TailwindCSS + Frappe UI starter template for building frontends for Frappe Apps.
+
+### Other Tooling
+
+- [Smart Weighing Scale & Inventory](https://github.com/msf4-0/SWSI) - A wireless & portable smart weighing scale embedded system that interfaces with Node-Red for IoT connectivity and ERPNext for inventory & stock tracking.
+- [Biometric Attendance Sync Tool](https://github.com/frappe/biometric-attendance-sync-tool) - Python Scripts to poll your biometric attendance system (BAS) for logs and sync with your ERPNext instance.
 
 ### Deployment Tools
 
