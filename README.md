@@ -221,6 +221,7 @@ _Apps that showcase the power of the Frappe Framework_
 
 - [Smart Weighing Scale & Inventory](https://github.com/msf4-0/SWSI) - A wireless & portable smart weighing scale embedded system that interfaces with Node-Red for IoT connectivity and ERPNext for inventory & stock tracking.
 - [Biometric Attendance Sync Tool](https://github.com/frappe/biometric-attendance-sync-tool) - Python Scripts to poll your biometric attendance system (BAS) for logs and sync with your ERPNext instance.
+- [Frappe Chrome Dev Utils](https://github.com/ascorbic-acid/frappe_chrome_dev_utils) - A simple Browser Extension that help you work & develop in Frappe/ERPNext Framework.
 
 ### Deployment Tools
 
