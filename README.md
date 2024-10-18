@@ -199,6 +199,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Intellisense](https://github.com/frappe/intellisense) - VSCode Extension and Language Server for Frappe Framework.
 - [Semgrep Rules](https://github.com/frappe/semgrep-rules) - Semgrep Rules for following the best practices while building your Frappe Apps.
 - [TypeScript Type generator](https://github.com/nikkothari22/frappe-types) -  Typescript type definition generator for Frappe DocTypes.
+- [Frappe Diff Custom](https://github.com/scopen-coop/scopen-frappe-diff) - Easy way to compare Custom Fields and Property Setters beween git version of an App
 
 #### SDKs & Libraries
 
