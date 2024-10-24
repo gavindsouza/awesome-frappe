@@ -1,0 +1,60 @@
+name: Submission Form
+description: Submit a new Frappe App or Resource to the Awesome Frappe list
+title: "[Submission] - "
+labels: ["new-submission"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      multiple: false
+      options:
+        - Apps
+        - Developer Tooling
+        - Other Tooling
+        - Deployment Tools
+        - Resources
+        - Hosting
+    validations:
+      required: true
+
+  - type: input
+    id: sub_category
+    attributes:
+      label: Sub Category
+      options:
+        # Apps
+        - Business Apps
+        - Utility Apps
+        - Plugins
+        - Integrations
+        - Themes
+        - Regional Apps
+        - Other Apps
+        # Developer Tooling
+        - SDKs & Libraries
+        - Templates
+
+  - type: input
+    id: app_link
+    attributes:
+      label: App or Resource URL
+      placeholder: https://github.com/username/repo
+    validations:
+      required: true
+
+  - type: input
+    id: app_label
+    attributes:
+      label: Name
+      placeholder: App or Resource Name
+    validations:
+      required: true
+
+  - type: input
+    id: app_description
+    attributes:
+      label: Description
+      placeholder: App or Resource Description
+    validations:
+      required: true

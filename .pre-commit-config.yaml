@@ -14,6 +14,6 @@ repos:
     hooks:
       - id: records-sorter
         name: Sort README
-        entry: python .github/record_sorter.py
+        entry: python .github/helper/record_sorter.py
         language: system
         types: [markdown]
