@@ -10,6 +10,8 @@ Inspired by [awesome-django](https://github.com/wsvincent/awesome-django).
 
 > **Disclaimer:** Projects listed may be third-party community packages. They may not vetted nor endorsed by the contributors. Check each project's compatibility information before using. Use them at your own volition.
 
+Know of a project that should be here? Make a submission using [this form](https://github.com/gavindsouza/awesome-frappe/issues/new?assignees=&labels=new-submission&projects=&template=new_submission.yml&title=Add%20this%20cool%20App+-+)! 😄
+
 ## Introduction
 
 Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework written in Python and Javascript with MariaDB (and Postgres too) as the database. It is the framework which powers ERPNext, is pretty generic and can be used to build database driven apps.
