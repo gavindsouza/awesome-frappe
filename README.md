@@ -80,6 +80,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Photos](https://github.com/gavindsouza/photos) - AI powered Image classification & labelling similar to Google Photos in Desk.
 - [Pibicut](https://github.com/pibico/pibicut) - URL Shortener with QR Code Generator.
 - [PibiDAV](https://github.com/pibico/pibiDAV) - Integrate webDAV, calDAV and cardDAV (Future) with a NextCloud Server, used as (DMS), for a copy of Frappe Files uploaded and tagged to NextCloud while uploading files to Frappe.
+- [Private Comment](https://github.com/rtCamp/frappe-private-comment.git) - App that allows controlling comment visibility for tagged user and user-groups with three modes: Private, Public & Mentioned
 - [Raven](https://github.com/The-Commit-Company/Raven) - Simple, open source team messaging platform built for Frappe.
 - [Release](https://github.com/frappe/release) - Manage releases for Frappe and Frappe Applications.
 - [Sentry](https://github.com/ParsimonyGit/frappe-sentry) - Send error logs to [Sentry](https://sentry.io/) for debugging.
