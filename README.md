@@ -186,6 +186,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Stock Reconciliation Per Item Group](https://github.com/scopen-coop/stock_reconcialiation_per_item_group) - ERPNext Stock reconciliation per item group
 - [Telegram Bot Manager](https://github.com/leam-tech/frappe_telegram) - Telegram Bot support for Frappe.
 - [Workspace Permissions](https://github.com/pstuhlmueller/workspaceperms) - Manage the availability of workspaces within Frappe/ ERPNext (sidebar) based on user-roles.
+- [Digital Signage](https://github.com/one-highflyer/frappe-signage-display-app) - A lightweight digital signage solution made with Frappe. (Desinged for Single Board Computers (SBC) eg: Raspberry Pi. 
 
 ### Developer Tooling
 
