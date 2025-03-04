@@ -63,6 +63,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [ServiceMS](https://github.com/aakvatech/servicems) - Service Management System for ERPNext by Aakvatech.
 - [Stone Warehouse](https://github.com/finbyz/stonewarehouse) - Manage batch wise balance, especially setup for a ceramic tiles vendor.
 - [TailPOS](https://github.com/bailabs/tailpos) - Offline First Open Source POS for ERPNext.
+- [URY - Open Source Restaurant Management System](https://github.com/ury-erp/ury) - URY is an open-source ERP designed to simplify and streamline restaurant operations, built over ERPNext.
 - [Webshop](https://github.com/frappe/webshop) - eCommerce Platform for ERPNext
 
 #### Utility Apps
