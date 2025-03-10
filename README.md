@@ -158,6 +158,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Material UI](https://github.com/michaelkaraz/kimstheme) - kims Theme Material UI for ERPNext.
 - [Pink](https://github.com/Muhammad-shaalan/pink-theme) - @Muhammad-shaalan's Pink theme.
 - [Red](https://github.com/hashirluv/redtheme_v13b) - @hashirluv's Red theme for your Frappe v13-beta Apps.
+- [Owl](https://github.com/zaqouttahir/owl_theme) - @zaqouttahir's Owl theme for your Frappe v15 Apps.
 
 #### Regional Apps
 
