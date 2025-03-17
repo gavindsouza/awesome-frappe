@@ -78,10 +78,10 @@ _Apps that showcase the power of the Frappe Framework_
 - [Frappe ReST API Wrapper](https://github.com/pifabs/restipie) - Build custom ReST api's on top of Frappe.
 - [Frappe System Monitor](https://github.com/mymi14s/frappe_system_monitor) - Web interface for webserver running processes and system utilization (RAM, CPU, Disk)
 - [Go1 CMS](https://github.com/TridotsTech/go1cms) - Advanced Content Management System built on Frappe.
-- [Print Designer](https://github.com/frappe/print_designer) - Frappe app to design print formats using interactive UI.
 - [Photos](https://github.com/gavindsouza/photos) - AI powered Image classification & labelling similar to Google Photos in Desk.
 - [Pibicut](https://github.com/pibico/pibicut) - URL Shortener with QR Code Generator.
 - [PibiDAV](https://github.com/pibico/pibiDAV) - Integrate webDAV, calDAV and cardDAV (Future) with a NextCloud Server, used as (DMS), for a copy of Frappe Files uploaded and tagged to NextCloud while uploading files to Frappe.
+- [Print Designer](https://github.com/frappe/print_designer) - Frappe app to design print formats using interactive UI.
 - [Private Comment](https://github.com/rtCamp/frappe-private-comment.git) - App that allows controlling comment visibility for tagged user and user-groups with three modes: Private, Public & Mentioned
 - [Raven](https://github.com/The-Commit-Company/Raven) - Simple, open source team messaging platform built for Frappe.
 - [Release](https://github.com/frappe/release) - Manage releases for Frappe and Frappe Applications.
@@ -156,9 +156,9 @@ _Apps that showcase the power of the Frappe Framework_
 - [Classic White](https://github.com/hashirluv/whitetheme-v13) - Classic White theme for your Frappe v13 Apps.
 - [Material Blue](https://github.com/hashirluv/bluetheme) - Material Blue Theme for your Frappe v12 Apps.
 - [Material UI](https://github.com/michaelkaraz/kimstheme) - kims Theme Material UI for ERPNext.
+- [Owl](https://github.com/zaqouttahir/owl_theme) - @zaqouttahir's Owl theme for your Frappe v15 Apps.
 - [Pink](https://github.com/Muhammad-shaalan/pink-theme) - @Muhammad-shaalan's Pink theme.
 - [Red](https://github.com/hashirluv/redtheme_v13b) - @hashirluv's Red theme for your Frappe v13-beta Apps.
-- [Owl](https://github.com/zaqouttahir/owl_theme) - @zaqouttahir's Owl theme for your Frappe v15 Apps.
 
 #### Regional Apps
 
@@ -180,7 +180,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Calendar Job Card Planner](https://github.com/scopen-coop/jobcard_planning) - ERPNext calendar view to plan Job Card.
 - [Contract Payment](https://github.com/morghim/contract-payment) - Link between contract with sales invoice and purchase invoice and make dues.
 - [Digistore](https://github.com/NagariaHussain/digistore) - Digital Asset Distribution Platform built on Frappe.
-- [Digital Signage](https://github.com/one-highflyer/frappe-signage-display-app) - A lightweight digital signage solution made with Frappe. (Desinged for Single Board Computers (SBC) eg: Raspberry Pi. 
+- [Digital Signage](https://github.com/one-highflyer/frappe-signage-display-app) - A lightweight digital signage solution made with Frappe. (Desinged for Single Board Computers (SBC) eg: Raspberry Pi.
 - [ERPNext Whitelabel](https://github.com/bhavesh95863/whitelabel) - White label ERPNext for your own brand from a single setting.
 - [Expense Entry](https://github.com/the-bantoo/expense_request) - Expense Entry for easy capture of non-item expenses without using the Journal Entry.
 - [IT Management](https://github.com/phamos-eu/it_management) - Manage your IT landscape from ERPNext.
