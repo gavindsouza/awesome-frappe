@@ -276,3 +276,6 @@ _YouTube Channels_
 _Providers that are catered to hosting of Frappe and Frappe Apps_
 
 - [Frappe Cloud](https://frappecloud.com) - Managed hosting platform for Frappe Apps.
+
+
+{% include goatcounter.html %}
