@@ -277,5 +277,6 @@ _Providers that are catered to hosting of Frappe and Frappe Apps_
 
 - [Frappe Cloud](https://frappecloud.com) - Managed hosting platform for Frappe Apps.
 
-
+{% if jekyll.environment == "production" %}
 {% include goatcounter.html %}
+{% endif %}
