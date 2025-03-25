@@ -1,9 +1,9 @@
-default_stages: [commit]
+default_stages: [pre-commit]
 fail_fast: false
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.0.1
+    rev: v5.0.0
     hooks:
       - id: trailing-whitespace
       - id: check-yaml
@@ -14,6 +14,6 @@ repos:
     hooks:
       - id: records-sorter
         name: Sort README
-        entry: python .github/record_sorter.py
+        entry: python .github/helper/record_sorter.py
         language: system
         types: [markdown]
