@@ -212,6 +212,7 @@ _Apps that showcase the power of the Frappe Framework_
 
 #### SDKs & Libraries
 
+- [Frappe Straw](https://github.com/ssiyad/frappe-straw) - Developer focused React/TypeScript hooks and utilities for Frappe.
 - [Frappe JS SDK](https://github.com/nikkothari22/frappe-js-sdk) - TypeScript/JavaScript library for Frappe REST API
 - [Frappe React SDK SDK](https://github.com/nikkothari22/frappe-react-sdk) -  React hooks for Frappe
 - [Frappe-Request.js](https://github.com/bailabs/frappe-request) - A Frappe-Client made with JavaScript and Needle.
