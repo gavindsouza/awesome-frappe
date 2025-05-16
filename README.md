@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/gavindsouza-awesome-frappe-badge.png)](https://mseep.ai/app/gavindsouza-awesome-frappe)
+
 # Awesome Frappe [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
 
 > A curated list of awesome things related to the Frappe Framework. Maintained by [Gavin D'souza](https://github.com/gavindsouza).
