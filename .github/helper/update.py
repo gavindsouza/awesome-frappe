@@ -13,7 +13,7 @@ if __name__ == "__main__":
     category_index = FILE_ENTRIES_BY_LINE.index(f"### {USER_SUBMISSION['category']}\n")
     insert_at_index = category_index + 1
 
-    if sub_category := USER_SUBMISSION['sub_category']:
+    if sub_category := USER_SUBMISSION.get('sub_category'):
         sub_category_index = FILE_ENTRIES_BY_LINE.index(f"#### {USER_SUBMISSION['sub_category']}\n", category_index)
         insert_at_index = sub_category_index + 1
 
