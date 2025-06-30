@@ -71,6 +71,7 @@ _Apps that showcase the power of the Frappe Framework_
 
 - [Alerts](https://github.com/kid1194/frappe_alerts) - Displays custom alerts to specific recipients after login.
 - [Background Tasks Unleashed](https://github.com/Datahenge/btu) - A Frappe Task Scheduling and Automation.
+- [Block Administrator](https://frappecloud.com/marketplace/apps/block_administrator) - Enhances security by disabling password-based logins for the Administrator user, thereby reducing the vulnerability surface for brute-force attacks.
 - [Bulk Webhook](https://github.com/aakvatech/Bulk-Webhook) - Bulk Webhook allows creating webhook that sends multiple records and also reports from ERPNext, and has support for Apache Kafka.
 - [Chat](https://github.com/frappe/chat) - Modern chat for your Frappe deployments.
 - [ERPNext OCR](https://github.com/Monogramm/erpnext_ocr) - Optical Character Recognition using Tesseract within Frappe.
@@ -219,9 +220,9 @@ _Apps that showcase the power of the Frappe Framework_
 - [Frappe React SDK SDK](https://github.com/nikkothari22/frappe-react-sdk) -  React hooks for Frappe
 - [Frappe Straw](https://github.com/ssiyad/frappe-straw) - Developer focused React/TypeScript hooks and utilities for Frappe.
 - [Frappe-Request.js](https://github.com/bailabs/frappe-request) - A Frappe-Client made with JavaScript and Needle.
+- [FrappeAPI](https://github.com/0xsirsaif/frappeapi) - Provides FastAPI-style API development for Frappe, enabling modern path-based routing and leveraging FastAPI's familiar interface and semantics for a streamlined development experience.
 - [FrappeClient.php](https://github.com/hizbul25/frappe-client) - a PHP client for making requests to your Frappe Server.
 - [FrappeClient.py](https://github.com/zerodha/py-frappe-client) - @zerodha's Python client for making requests to your Frappe Server.
-- [FrappeAPI](https://github.com/0xsirsaif/frappeapi) - Provides FastAPI-style API development for Frappe, enabling modern path-based routing and leveraging FastAPI's familiar interface and semantics for a streamlined development experience.
 - [FrappeRestClient.Net](https://github.com/yemikudaisi/FrappeRestClient.Net) - Frappe Framework REST client for .Net
 - [Renovation](https://github.com/leam-tech/renovation_core) - Renovation is a Frappe Front End TS/JS SDK.
 - [renovation_core.dart](https://github.com/leam-tech/renovation_core.dart) - The Frappe Dart/Flutter Front End SDK.
