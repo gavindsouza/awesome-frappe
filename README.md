@@ -137,6 +137,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Meta Integration](https://github.com/efeone/frappe_meta_integration) - Meta Cloud API Integration for Frappe.
 - [Metabase Integration](https://github.com/pipech/frappe-metabase) - Access your Metabase instance from Desk.
 - [Microsoft 365 Groups](https://github.com/Aptitudetech/frappe-m365) - Microsoft 365 Groups Integration for Frappe.
+- [MSG91 Integration](https://github.com/dhwani-ris/frappe_msg91_integration) - Integration with the MSG91 SMS gateway for Frappe Framework
 - [Nextcloud Integration](https://github.com/frappe/nextcloud-integration) - Nextcloud + Frappe = ❤️
 - [Paystack Integration](https://github.com/mymi14s/frappe_paystack) - Paystack Payment Gateway Integration for Frappe.
 - [Pibiapp](https://github.com/doloresjuliana/pibiapp) - Connect with Nextcloud to store the attachments on your Nextcloud server, integrate with external data from Excel, CSV, JSON or XML files, and view Redash dashboards in Frappe.
@@ -156,6 +157,7 @@ _Apps that showcase the power of the Frappe Framework_
 
 - [Business Theme](https://github.com/Midocean-Technologies/business_theme_v14.git) - Business Theme for your Frappe v14 Apps.
 - [Classic White](https://github.com/hashirluv/whitetheme-v13) - Classic White theme for your Frappe v13 Apps.
+- [Desk Theme](https://github.com/dhwani-ris/frappe_desk_theme) - Comprehensive theming solution for Frappe/ ERPNext v16 Apps.
 - [Material Blue](https://github.com/hashirluv/bluetheme) - Material Blue Theme for your Frappe v12 Apps.
 - [Material Theme](https://github.com/itrostack/material_theme) - Frappe theme inspired by Google material design
 - [Material UI](https://github.com/michaelkaraz/kimstheme) - kims Theme Material UI for ERPNext.
