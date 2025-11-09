@@ -10,8 +10,20 @@ if __FILE__ == $PROGRAM_NAME
   file_entries_by_line = File.readlines(awesome_file)
   user_submission = JSON.parse(ENV['submission_entry'] || '{}')
 
+  # Validate submission data
+  if user_submission.empty? || !user_submission['category'] || !user_submission['app_or_resource_name']
+    puts "Error: Invalid or empty submission data"
+    exit(1)
+  end
+
   # add user submission to affirmations file
   category_index = file_entries_by_line.index("### #{user_submission['category']}\n")
+
+  unless category_index
+    puts "Error: Category '#{user_submission['category']}' not found in README"
+    exit(1)
+  end
+
   insert_at_index = category_index + 1
 
   sub_category = user_submission['sub_category']
