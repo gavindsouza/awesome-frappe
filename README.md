@@ -308,6 +308,7 @@ _Resources that can help you harness the power of the Frappe Framework_
 
 - [docs.frappe.io/framework](https://docs.frappe.io/framework) - Official documentation of the Frappe Framework.
 - [frappe.school](https://frappe.school) - Pick from the various courses by the maintainers or from the community.
+- [How Does the Frappe Framework Work?](https://gavv.in/blog/how-does-the-frappe-framework-work/) - Deep dive into the internals of the Frappe Framework.
 
 _Community Channels_
 
