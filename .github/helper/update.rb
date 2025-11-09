@@ -17,11 +17,9 @@ if __FILE__ == $PROGRAM_NAME
   sub_category = user_submission['sub_category']
   # Only search for sub_category if it's not nil, empty, or "None"
   if sub_category && !sub_category.empty? && sub_category != "None"
-    sub_category_index = file_entries_by_line.index(
-      "#### #{sub_category}\n",
-      category_index
-    )
-    insert_at_index = sub_category_index + 1 if sub_category_index
+    # Search for sub_category after the category_index
+    sub_category_index = file_entries_by_line[category_index..-1].index("#### #{sub_category}\n")
+    insert_at_index = category_index + sub_category_index + 1 if sub_category_index
   end
 
   new_entry = "- [#{user_submission['app_or_resource_name']}]" \
