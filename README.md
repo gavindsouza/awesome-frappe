@@ -58,6 +58,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Healthcare](https://github.com/frappe/healthcare) - An open source management system crafted for the medical industry.
 - [POS Awesome](https://github.com/yrestom/POS-Awesome) - An open-source Point of Sale for ERPNext using Vue.js and Vuetify.
 - [POS-Awesome-V15](https://github.com/defendicon/POS-Awesome-V15) - the enhance version with more bugs fixed and multiple currency add thanks to @defendicon
+- [POSNext](https://github.com/BrainWise-DEV/POSNext.git) - POSNext is a modern, open-source Point of Sale for ERPNext, offering fast billing, multiple payment methods, smart discounts, offline mode, and a clean touchscreen-friendly UI—built to handle real retail operations with speed and reliability.
 - [PropMS](https://github.com/aakvatech/PropMS) - Property Management Solution Powered on ERPNext by Aakvatech.
 - [Restaurant](https://github.com/quantumbitcore/erpnext-restaurant) - Restaurant App for ERPNext.
 - [School](https://github.com/frappe/school) - The Learning Management System (LMS) that powers [mon.school](https://mon.school) & [frappe.school](https://frappe.school).
