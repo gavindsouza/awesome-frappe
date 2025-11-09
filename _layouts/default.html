@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#60a5fa">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+
+  <!-- Additional SEO -->
+  <meta name="keywords" content="frappe, frappe framework, erpnext, apps, tools, resources, awesome list, curated list">
+  <meta name="author" content="Gavin D'souza">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  {% seo %}
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-content">
+        <a href="/" class="logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Awesome Frappe
+        </a>
+        <div class="nav-links">
+          <a href="https://docs.frappe.io/framework" target="_blank" rel="noopener">Docs</a>
+          <a href="https://github.com/gavindsouza/awesome-frappe" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- About Column -->
+        <div class="footer-column">
+          <div class="footer-brand">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3>Awesome Frappe</h3>
+          </div>
+          <p class="footer-tagline">A curated collection of Frappe Framework resources</p>
+          <p class="footer-made-by">Made with ❤️ by <a href="https://gavv.in" target="_blank" rel="noopener">Gavin D'souza</a></p>
+        </div>
+
+        <!-- More Projects Column -->
+        <div class="footer-column">
+          <h4>More Projects</h4>
+          <ul>
+            <li><a href="https://sheets.gavv.in" target="_blank" rel="noopener">Sheets</a></li>
+            <li><a href="https://toolbox.gavv.in" target="_blank" rel="noopener">ToolBox</a></li>
+            <li><a href="https://github.com/gavindsouza/photos" target="_blank" rel="noopener">Photos</a></li>
+            <li><a href="https://github.com/gavindsouza/desk-navbar-extended" target="_blank" rel="noopener">Desk Extended</a></li>
+          </ul>
+        </div>
+
+        <!-- Connect Column -->
+        <div class="footer-column">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://github.com/gavindsouza/awesome-frappe" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://github.com/gavindsouza/awesome-frappe/issues/new?assignees=&labels=new-submission&projects=&template=new_submission.yml" target="_blank" rel="noopener">Submit a Project</a></li>
+            <li><a href="https://discuss.frappe.io" target="_blank" rel="noopener">Frappe Community</a></li>
+            <li><a href="https://docs.frappe.io/framework" target="_blank" rel="noopener">Documentation</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>© {{ 'now' | date: "%Y" }} Gavin D'souza • Licensed under <a href="https://github.com/gavindsouza/awesome-frappe/blob/main/LICENSE" target="_blank" rel="noopener">CC0 1.0</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Toggle visibility of hidden cards
+    function initShowMoreButtons() {
+      const toggleButtons = document.querySelectorAll('.show-more-btn');
+
+      toggleButtons.forEach((button) => {
+        button.addEventListener('click', function(e) {
+          e.preventDefault();
+
+          const expandableSection = this.closest('.expandable-section');
+          if (!expandableSection) return;
+
+          const allCards = expandableSection.querySelectorAll('.card');
+          const isExpanded = this.dataset.expanded === 'true';
+
+          if (isExpanded) {
+            // Collapse - hide cards after the 9th one
+            allCards.forEach((card, index) => {
+              if (index >= 9) {
+                card.classList.add('hidden-card');
+              }
+            });
+            this.innerHTML = this.dataset.textShow + ' <span class="arrow">↓</span>';
+            this.dataset.expanded = 'false';
+          } else {
+            // Expand - show all cards
+            allCards.forEach(card => {
+              card.classList.remove('hidden-card');
+            });
+            this.innerHTML = this.dataset.textHide + ' <span class="arrow">↑</span>';
+            this.dataset.expanded = 'true';
+          }
+        });
+      });
+    }
+
+    // Live search functionality
+    function initSearch() {
+      const searchInput = document.getElementById('search-input');
+      const clearButton = document.getElementById('clear-search');
+      const resultsCount = document.getElementById('search-results-count');
+
+      if (!searchInput) return;
+
+      function performSearch() {
+        const query = searchInput.value.toLowerCase().trim();
+        const allCards = document.querySelectorAll('.card');
+        const allCategories = document.querySelectorAll('.category');
+        const allSubcategories = document.querySelectorAll('.category h3');
+        const allShowMoreButtons = document.querySelectorAll('.show-more-btn');
+        let visibleCount = 0;
+
+        if (query === '') {
+          // Reset to default state
+          allCards.forEach(card => {
+            card.style.display = '';
+          });
+          allCategories.forEach(category => {
+            category.style.display = '';
+          });
+          allSubcategories.forEach(subcategory => {
+            subcategory.style.display = '';
+          });
+          allShowMoreButtons.forEach(button => {
+            button.style.display = '';
+          });
+          // Remove highlighting from all TOC links
+          document.querySelectorAll('.hero-toc-list a').forEach(link => {
+            link.classList.remove('has-results');
+          });
+          if (resultsCount) resultsCount.textContent = '';
+          if (clearButton) clearButton.style.display = 'none';
+          return;
+        }
+
+        // Show clear button
+        if (clearButton) clearButton.style.display = 'flex';
+
+        // Search through cards
+        allCards.forEach(card => {
+          const title = card.querySelector('h4')?.textContent.toLowerCase() || '';
+          const description = card.querySelector('p')?.textContent.toLowerCase() || '';
+
+          if (title.includes(query) || description.includes(query)) {
+            card.style.display = '';
+            card.classList.remove('hidden-card');
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        // Hide categories with no visible cards and highlight TOC links for those with results
+        allCategories.forEach(category => {
+          const visibleCardsInCategory = Array.from(category.querySelectorAll('.card')).filter(
+            card => card.style.display !== 'none'
+          );
+
+          const categoryId = category.id;
+          const tocLink = document.querySelector(`.hero-toc-list a[href="#${categoryId}"]`);
+
+          if (visibleCardsInCategory.length === 0) {
+            category.style.display = 'none';
+            if (tocLink) tocLink.classList.remove('has-results');
+          } else {
+            category.style.display = '';
+            if (tocLink) tocLink.classList.add('has-results');
+          }
+        });
+
+        // Hide subcategories (h3) with no visible cards
+        allSubcategories.forEach(subcategory => {
+          // Get the next sibling until we hit another h3 or h2
+          let nextElement = subcategory.nextElementSibling;
+          let hasVisibleCards = false;
+
+          while (nextElement && !nextElement.matches('h2, h3')) {
+            if (nextElement.classList.contains('expandable-section')) {
+              const visibleCardsInSection = Array.from(nextElement.querySelectorAll('.card')).filter(
+                card => card.style.display !== 'none'
+              );
+              if (visibleCardsInSection.length > 0) {
+                hasVisibleCards = true;
+                break;
+              }
+            }
+            nextElement = nextElement.nextElementSibling;
+          }
+
+          subcategory.style.display = hasVisibleCards ? '' : 'none';
+        });
+
+        // Hide "Show more" buttons during search
+        allShowMoreButtons.forEach(button => {
+          button.style.display = 'none';
+        });
+
+        // Update results count
+        if (resultsCount) {
+          resultsCount.textContent = `${visibleCount} result${visibleCount !== 1 ? 's' : ''} found`;
+        }
+      }
+
+      // Add event listeners
+      searchInput.addEventListener('input', performSearch);
+
+      if (clearButton) {
+        clearButton.addEventListener('click', function() {
+          searchInput.value = '';
+          performSearch();
+          searchInput.focus();
+        });
+      }
+    }
+
+    // Run immediately if DOM is already loaded, otherwise wait for it
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() {
+        initShowMoreButtons();
+        initSearch();
+      });
+    } else {
+      initShowMoreButtons();
+      initSearch();
+    }
+  </script>
+
+  {% include analytics %}
+</body>
+</html>

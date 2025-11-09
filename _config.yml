@@ -1,14 +1,25 @@
 title: Awesome Frappe
-description: A curated list of awesome things related to the Frappe Framework. Maintained by Gavin D'souza
+description: Find what you're looking for through 130+ apps, 40+ tools & resources across the frappeverse. A curated list of awesome things related to the Frappe Framework.
 email: me@gavv.in
 url: https://awesome-frappe.gavv.in
 author:
   name: Gavin D'souza
   url: https://gavv.in/
 
-remote_theme: pages-themes/cayman@v0.2.0
+# SEO
+logo: /assets/images/favicon.svg
+social:
+  name: Awesome Frappe
+  links:
+    - https://github.com/gavindsouza/awesome-frappe
+
+twitter:
+  card: summary_large_image
+
+# OpenGraph
+image: /assets/images/og-image.png
+
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
 
 include: ["_includes"]

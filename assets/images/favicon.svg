@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" fill="#60a5fa" rx="6"/>
+  <g fill="#ffffff">
+    <!-- Top layer -->
+    <path d="M16 6 L8 10 L16 14 L24 10 Z"/>
+    <!-- Middle layer -->
+    <path d="M8 14 L16 18 L24 14"/>
+    <!-- Bottom layer -->
+    <path d="M8 18 L16 22 L24 18"/>
+  </g>
+</svg>

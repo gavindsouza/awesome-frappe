@@ -182,7 +182,7 @@ _Apps that showcase the power of the Frappe Framework_
 
 #### Other Apps
 
- 
+
 
 - [Contract Payment](https://github.com/morghim/contract-payment) - Link between contract with sales invoice and purchase invoice and make dues.
 - [Digistore](https://github.com/NagariaHussain/digistore) - Digital Asset Distribution Platform built on Frappe.
@@ -268,7 +268,7 @@ _Clients built for the Frappe Framework, other than the standard browser view De
 
 _Resources that can help you harness the power of the Frappe Framework_
 
-- [frappeframework.com](https://frappeframework.com) - Official documentation of the Frappe Framework.
+- [docs.frappe.io/framework](https://docs.frappe.io/framework) - Official documentation of the Frappe Framework.
 - [frappe.school](https://frappe.school) - Pick from the various courses by the maintainers or from the community.
 
 _Community Channels_
@@ -287,6 +287,6 @@ _YouTube Channels_
 
 _Providers that are catered to hosting of Frappe and Frappe Apps_
 
-- [Frappe Cloud](https://frappecloud.com) - Managed hosting platform for Frappe Apps.
+- [Frappe Cloud](https://cloud.frappe.io/dashboard/signup?referrer=a6d8da54) - Managed hosting platform for Frappe Apps.
 
 <!-- {% include analytics %} -->

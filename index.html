@@ -1,0 +1,132 @@
+---
+layout: default
+---
+
+<!-- Hero Section -->
+<section class="hero-compact">
+  <div class="container">
+    <div class="hero-split">
+      <!-- Left: Auto-playing Video -->
+      <div class="hero-video">
+        <video src="https://user-images.githubusercontent.com/36654812/166205861-0fc9ac53-c14b-4268-bfff-99d8aeb1a4eb.mp4" autoplay loop muted playsinline>
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <!-- Right: Stats, Search, TOC -->
+      <div class="hero-content">
+        <!-- Calculate Stats -->
+        {% assign total_apps = 0 %}
+        {% assign total_tools = 0 %}
+        {% assign total_resources = 0 %}
+
+        {% for category in site.data.projects %}
+          {% if category.name == "Apps" %}
+            {% for subcategory in category.subcategories %}
+              {% assign total_apps = total_apps | plus: subcategory.items.size %}
+            {% endfor %}
+          {% elsif category.name == "Developer Tooling" or category.name == "Other Tooling" or category.name == "Deployment Tools" %}
+            {% for subcategory in category.subcategories %}
+              {% assign total_tools = total_tools | plus: subcategory.items.size %}
+            {% endfor %}
+            {% assign total_tools = total_tools | plus: category.items.size %}
+          {% elsif category.name == "Resources" %}
+            {% assign total_resources = total_resources | plus: category.items.size %}
+          {% endif %}
+        {% endfor %}
+
+        <h1 class="hero-title">Find what you're looking for through <strong>{{ total_apps }} apps</strong>, <strong>{{ total_tools }} tools</strong> & <strong>{{ total_resources }} resources</strong> across the frappeverse</h1>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+          <input type="text" id="search-input" class="search-input" placeholder="Search projects..." autocomplete="off">
+          <button id="clear-search" class="clear-search" style="display: none;">✕</button>
+        </div>
+        <div id="search-results-count" class="search-results-count"></div>
+
+        <!-- Quick Links TOC -->
+        <div class="hero-toc">
+          <ul class="hero-toc-list">
+            {% for category in site.data.projects %}
+            <li><a href="#{{ category.id }}">{{ category.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <!-- Disclaimer -->
+        <p class="hero-disclaimer">
+          <small>Third-party packages • Check compatibility before use</small>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Main Content -->
+<section class="content-section">
+  <div class="container">
+
+    {% for category in site.data.projects %}
+    <!-- {{ category.name }} Section -->
+    <div class="category" id="{{ category.id }}">
+      <h2>{{ category.icon }} {{ category.name }}</h2>
+      {% if category.description %}
+      <p>{{ category.description }}</p>
+      {% endif %}
+
+      {% if category.subcategories.size > 0 %}
+        <!-- Has subcategories -->
+        {% for subcategory in category.subcategories %}
+        <h3>{{ subcategory.name }}</h3>
+        <div class="expandable-section" data-section="{{ subcategory.id }}">
+          <div class="card-grid">
+            {% for item in subcategory.items %}
+            <div class="card{% if forloop.index > 9 %} hidden-card{% endif %}">
+              <h4><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a></h4>
+              <p>{{ item.description | enrich_description }}</p>
+            </div>
+            {% endfor %}
+          </div>
+          {% if subcategory.items.size > 9 %}
+          <div class="show-more-container">
+            <button class="show-more-btn"
+                    data-section="{{ subcategory.id }}"
+                    data-expanded="false"
+                    data-text-show="Show all {{ subcategory.items.size }} items"
+                    data-text-hide="Show less">
+              Show all {{ subcategory.items.size }} items <span class="arrow">↓</span>
+            </button>
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
+
+      {% else %}
+        <!-- No subcategories, direct items -->
+        <div class="expandable-section" data-section="{{ category.id }}">
+          <div class="card-grid">
+            {% for item in category.items %}
+            <div class="card{% if forloop.index > 9 %} hidden-card{% endif %}">
+              <h4><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a></h4>
+              <p>{{ item.description | enrich_description }}</p>
+            </div>
+            {% endfor %}
+          </div>
+          {% if category.items.size > 9 %}
+          <div class="show-more-container">
+            <button class="show-more-btn"
+                    data-section="{{ category.id }}"
+                    data-expanded="false"
+                    data-text-show="Show all {{ category.items.size }} items"
+                    data-text-hide="Show less">
+              Show all {{ category.items.size }} items <span class="arrow">↓</span>
+            </button>
+          </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+
+  </div>
+</section>

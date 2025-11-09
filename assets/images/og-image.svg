@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#F8F8F8"/>
+
+  <!-- Decorative top bar -->
+  <rect width="1200" height="8" fill="#60a5fa"/>
+
+  <!-- Logo Icon -->
+  <g transform="translate(100, 150)">
+    <rect width="120" height="120" fill="#60a5fa" rx="20"/>
+    <g fill="#ffffff" transform="translate(60, 60)">
+      <!-- Stacks/Layers -->
+      <path d="M0 -25 L-30 -15 L0 -5 L30 -15 Z"/>
+      <path d="M-30 0 L0 10 L30 0"/>
+      <path d="M-30 15 L0 25 L30 15"/>
+    </g>
+  </g>
+
+  <!-- Title -->
+  <text x="250" y="220" font-family="'Newsreader', Georgia, serif" font-size="72" font-weight="600" fill="#171717">
+    Awesome Frappe
+  </text>
+
+  <!-- Description -->
+  <text x="250" y="300" font-family="'Inter', sans-serif" font-size="32" font-weight="400" fill="#383838">
+    Find what you're looking for through
+  </text>
+
+  <!-- Stats -->
+  <text x="250" y="360" font-family="'Inter', sans-serif" font-size="36" font-weight="600" fill="#2563eb">
+    132 apps
+  </text>
+  <text x="400" y="360" font-family="'Inter', sans-serif" font-size="36" font-weight="400" fill="#7C7C7C">
+    •
+  </text>
+  <text x="440" y="360" font-family="'Inter', sans-serif" font-size="36" font-weight="600" fill="#2563eb">
+    41 tools
+  </text>
+  <text x="580" y="360" font-family="'Inter', sans-serif" font-size="36" font-weight="400" fill="#7C7C7C">
+    •
+  </text>
+  <text x="620" y="360" font-family="'Inter', sans-serif" font-size="36" font-weight="600" fill="#2563eb">
+    7 resources
+  </text>
+
+  <!-- Subtitle -->
+  <text x="250" y="420" font-family="'Inter', sans-serif" font-size="32" font-weight="400" fill="#383838">
+    across the frappeverse
+  </text>
+
+  <!-- Footer -->
+  <text x="250" y="530" font-family="'Inter', sans-serif" font-size="24" font-weight="500" fill="#7C7C7C">
+    awesome-frappe.gavv.in
+  </text>
+</svg>
