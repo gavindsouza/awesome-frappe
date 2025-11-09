@@ -38,11 +38,15 @@ layout: default
         <h1 class="hero-title">Find what you're looking for through <strong>{{ total_apps }} apps</strong>, <strong>{{ total_tools }} tools</strong> & <strong>{{ total_resources }} resources</strong> across the frappeverse</h1>
 
         <!-- Search Bar -->
-        <div class="search-container">
-          <input type="text" id="search-input" class="search-input" placeholder="Search projects..." autocomplete="off">
-          <button id="clear-search" class="clear-search" style="display: none;">✕</button>
+        <div id="search-container-wrapper" class="search-container-wrapper">
+          <div class="search-container">
+            <input type="text" id="search-input" class="search-input" placeholder="Search projects..." autocomplete="off">
+            <button id="clear-search" class="clear-search" style="display: none;">✕</button>
+          </div>
+          <div id="search-results-count" class="search-results-count">
+            <span id="scroll-hint" class="scroll-hint" style="display: none;">↓ Scroll to see results</span>
+          </div>
         </div>
-        <div id="search-results-count" class="search-results-count"></div>
 
         <!-- Quick Links TOC -->
         <div class="hero-toc">

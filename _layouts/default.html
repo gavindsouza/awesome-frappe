@@ -58,6 +58,13 @@
     {{ content }}
   </main>
 
+  <!-- Scroll to Top Button -->
+  <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to top" style="display: none;">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
@@ -147,6 +154,8 @@
       const searchInput = document.getElementById('search-input');
       const clearButton = document.getElementById('clear-search');
       const resultsCount = document.getElementById('search-results-count');
+      const scrollHint = document.getElementById('scroll-hint');
+      let hasAutoScrolled = false;
 
       if (!searchInput) return;
 
@@ -159,9 +168,18 @@
         let visibleCount = 0;
 
         if (query === '') {
-          // Reset to default state
-          allCards.forEach(card => {
+          // Reset to default state - restore hidden cards
+          allCards.forEach((card, index) => {
             card.style.display = '';
+            // Re-add hidden-card class based on original index within section
+            const cardGrid = card.closest('.card-grid');
+            if (cardGrid) {
+              const cardsInGrid = Array.from(cardGrid.querySelectorAll('.card'));
+              const indexInGrid = cardsInGrid.indexOf(card);
+              if (indexInGrid >= 9) {
+                card.classList.add('hidden-card');
+              }
+            }
           });
           allCategories.forEach(category => {
             category.style.display = '';
@@ -171,6 +189,12 @@
           });
           allShowMoreButtons.forEach(button => {
             button.style.display = '';
+            // Reset button to collapsed state
+            const expandableSection = button.closest('.show-more-container').previousElementSibling;
+            if (expandableSection && button.dataset.expanded === 'true') {
+              button.dataset.expanded = 'false';
+              button.innerHTML = button.dataset.textShow + ' <span class="arrow">↓</span>';
+            }
           });
           // Remove highlighting from all TOC links
           document.querySelectorAll('.hero-toc-list a').forEach(link => {
@@ -178,6 +202,8 @@
           });
           if (resultsCount) resultsCount.textContent = '';
           if (clearButton) clearButton.style.display = 'none';
+          if (scrollHint) scrollHint.style.display = 'none';
+          hasAutoScrolled = false;
           return;
         }
 
@@ -243,9 +269,37 @@
           button.style.display = 'none';
         });
 
-        // Update results count
+        // Update results count with subtle scroll hint
         if (resultsCount) {
-          resultsCount.textContent = `${visibleCount} result${visibleCount !== 1 ? 's' : ''} found`;
+          const countText = `${visibleCount} result${visibleCount !== 1 ? 's' : ''} found`;
+
+          // Check if first result is below viewport
+          const firstVisibleCard = Array.from(allCards).find(card => card.style.display !== 'none');
+          const showHint = firstVisibleCard && firstVisibleCard.getBoundingClientRect().top > window.innerHeight;
+
+          if (scrollHint) {
+            scrollHint.style.display = showHint ? 'inline' : 'none';
+          }
+
+          // Set just the count text, scroll hint is separate element now
+          const countSpan = resultsCount.childNodes[0];
+          if (countSpan && countSpan.nodeType === Node.TEXT_NODE) {
+            countSpan.textContent = countText + ' ';
+          } else {
+            resultsCount.insertBefore(document.createTextNode(countText + ' '), resultsCount.firstChild);
+          }
+        }
+
+        // Auto-scroll to first result if user is already scrolled down
+        if (visibleCount > 0 && window.pageYOffset > 500) {
+          const firstVisibleCard = Array.from(allCards).find(card => card.style.display !== 'none');
+          if (firstVisibleCard) {
+            setTimeout(() => {
+              const yOffset = -200; // navbar (60px) + sticky search bar (~100px) + padding
+              const y = firstVisibleCard.getBoundingClientRect().top + window.pageYOffset + yOffset;
+              window.scrollTo({ top: y, behavior: 'smooth' });
+            }, 100);
+          }
         }
       }
 
@@ -259,6 +313,72 @@
           searchInput.focus();
         });
       }
+
+      // Scroll hint click handler
+      if (scrollHint) {
+        scrollHint.addEventListener('click', function(e) {
+          e.preventDefault();
+          const allCards = document.querySelectorAll('.card');
+          const firstVisibleCard = Array.from(allCards).find(card => card.style.display !== 'none');
+          if (firstVisibleCard) {
+            const yOffset = -280; // navbar (60px) + sticky search bar (~100px) + padding
+            const y = firstVisibleCard.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+          }
+        });
+      }
+    }
+
+    // Sticky search functionality
+    function initStickySearch() {
+      const searchWrapper = document.getElementById('search-container-wrapper');
+      const heroSection = document.querySelector('.hero-compact');
+      const scrollHint = document.getElementById('scroll-hint');
+
+      if (!searchWrapper || !heroSection) return;
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) {
+            searchWrapper.classList.add('sticky');
+            // Hide scroll hint when sticky (user has already scrolled)
+            if (scrollHint) {
+              scrollHint.style.display = 'none';
+            }
+          } else {
+            searchWrapper.classList.remove('sticky');
+          }
+        });
+      }, {
+        threshold: 0,
+        rootMargin: '-60px 0px 0px 0px' // Account for navbar height
+      });
+
+      observer.observe(heroSection);
+    }
+
+    // Scroll to top button
+    function initScrollToTop() {
+      const scrollToTopBtn = document.getElementById('scroll-to-top');
+
+      if (!scrollToTopBtn) return;
+
+      // Show/hide button based on scroll position
+      window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 300) {
+          scrollToTopBtn.style.display = 'block';
+        } else {
+          scrollToTopBtn.style.display = 'none';
+        }
+      });
+
+      // Scroll to top on click
+      scrollToTopBtn.addEventListener('click', function() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
     }
 
     // Run immediately if DOM is already loaded, otherwise wait for it
@@ -266,10 +386,14 @@
       document.addEventListener('DOMContentLoaded', function() {
         initShowMoreButtons();
         initSearch();
+        initStickySearch();
+        initScrollToTop();
       });
     } else {
       initShowMoreButtons();
       initSearch();
+      initStickySearch();
+      initScrollToTop();
     }
   </script>
 
