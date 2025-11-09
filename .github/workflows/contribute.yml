@@ -38,11 +38,22 @@ jobs:
         with:
           ruby-version: '3.4'
 
+      - name: Fetch issue body
+        id: issue
+        run: |
+          ISSUE_NUM=${{ github.event.issue.number || github.event.inputs.issue_number }}
+          ISSUE_BODY=$(gh issue view $ISSUE_NUM --json body --jq '.body')
+          echo "body<<EOF" >> $GITHUB_OUTPUT
+          echo "$ISSUE_BODY" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
         with:
-          template-path: ${GITHUB_WORKSPACE}/.github/ISSUE_TEMPLATE/new_submission.yml
-          issue-number: ${{ github.event.issue.number || github.event.inputs.issue_number }}
+          template-path: .github/ISSUE_TEMPLATE/new_submission.yml
+          issue-body: ${{ steps.issue.outputs.body }}
 
       - name: Update submissions file
         run: ruby ${GITHUB_WORKSPACE}/.github/helper/update.rb
