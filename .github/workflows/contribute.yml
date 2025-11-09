@@ -2,13 +2,19 @@ name: Submissions via Issues
 on:
   issue_comment:
     types: [created, edited]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'Issue number to process'
+        required: true
+        type: number
 
 jobs:
   approval:
-    # this job only runs for issue comments
+    # this job only runs for issue comments or manual dispatch
     name: Check if submission is approved
     runs-on: ubuntu-latest
-    if: ${{ github.event.issue.number }}
+    if: ${{ github.event.issue.number || github.event.inputs.issue_number }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -19,7 +25,7 @@ jobs:
       - name: Check if authorized member has approved submission
         run: ruby ${GITHUB_WORKSPACE}/.github/helper/approval.rb
         env:
-            ISSUE_NUMBER: ${{ github.event.issue.number }}
+            ISSUE_NUMBER: ${{ github.event.issue.number || github.event.inputs.issue_number }}
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   contribution:
@@ -36,6 +42,7 @@ jobs:
         id: issue-parser
         with:
           template-path: ${GITHUB_WORKSPACE}/.github/ISSUE_TEMPLATE/new_submission.yml
+          issue-number: ${{ github.event.issue.number || github.event.inputs.issue_number }}
 
       - name: Update submissions file
         run: ruby ${GITHUB_WORKSPACE}/.github/helper/update.rb
@@ -51,7 +58,7 @@ jobs:
           message: |
             docs: Add ${{ fromJson(steps.issue-parser.outputs.jsonString).app_or_resource_name }}
 
-            Closes #${{ github.event.issue.number }}
+            Closes #${{ github.event.issue.number || github.event.inputs.issue_number }}
 
   cleanup:
     name: Close Issue thread after successful contribution
@@ -61,7 +68,7 @@ jobs:
       - name: Close Issue
         uses: peter-evans/close-issue@v3
         with:
-          issue-number: ${{ github.event.issue.number }}
+          issue-number: ${{ github.event.issue.number || github.event.inputs.issue_number }}
           comment: |
             Thanks for your contribution! :tada:
 
