@@ -13,13 +13,11 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT }}
-      - uses: actions/setup-python@v5
+      - uses: ruby/setup-ruby@v1
         with:
-          python-version: '3.13'
+          ruby-version: '3.3'
       - name: Check if authorized member has approved submission
-        run: |
-          pip install requests
-          python ${GITHUB_WORKSPACE}/.github/helper/approval.py
+        run: ruby ${GITHUB_WORKSPACE}/.github/helper/approval.rb
         env:
             ISSUE_NUMBER: ${{ github.event.issue.number }}
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -30,9 +28,9 @@ jobs:
     needs: approval
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: ruby/setup-ruby@v1
         with:
-          python-version: '3.13'
+          ruby-version: '3.3'
 
       - uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
@@ -40,12 +38,12 @@ jobs:
           template-path: ${GITHUB_WORKSPACE}/.github/ISSUE_TEMPLATE/new_submission.yml
 
       - name: Update submissions file
-        run: python ${GITHUB_WORKSPACE}/.github/helper/update.py
+        run: ruby ${GITHUB_WORKSPACE}/.github/helper/update.rb
         env:
           submission_entry: ${{ steps.issue-parser.outputs.jsonString }}
 
       - name: Record Sorter
-        run: python ${GITHUB_WORKSPACE}/.github/helper/record_sorter.py
+        run: ruby ${GITHUB_WORKSPACE}/.github/helper/record_sorter.rb
 
       - name: Commit + Push changes
         uses: EndBug/add-and-commit@v9

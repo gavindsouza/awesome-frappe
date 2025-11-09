@@ -182,8 +182,6 @@ _Apps that showcase the power of the Frappe Framework_
 
 #### Other Apps
 
-
-
 - [Contract Payment](https://github.com/morghim/contract-payment) - Link between contract with sales invoice and purchase invoice and make dues.
 - [Digistore](https://github.com/NagariaHussain/digistore) - Digital Asset Distribution Platform built on Frappe.
 - [Digital Signage](https://github.com/one-highflyer/frappe-signage-display-app) - A lightweight digital signage solution made with Frappe. (Desinged for Single Board Computers (SBC) eg: Raspberry Pi.
