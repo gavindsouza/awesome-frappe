@@ -618,42 +618,6 @@ code {
   font-size: 0.9em;
 }
 
-/* Footer */
-.footer {
-  background: var(--color-bg-secondary);
-  border-top: 1px solid var(--color-border);
-  padding: 48px 0;
-  margin-top: 80px;
-}
-
-.footer-content {
-  text-align: center;
-  color: var(--color-text-muted);
-  font-size: 14px;
-}
-
-.footer-content p {
-  margin-bottom: 8px;
-}
-
-.footer-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.footer a {
-  color: var(--color-text-secondary);
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.footer a:hover {
-  color: var(--color-text-primary);
-}
-
 /* Table of Contents */
 .toc {
   background: var(--color-bg-secondary);

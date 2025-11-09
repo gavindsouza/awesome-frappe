@@ -3,7 +3,7 @@
 > A curated list of awesome things related to the Frappe Framework. Maintained by [Gavin D'souza](https://github.com/gavindsouza).
 
 <div align="center">
-  <img width="400" src="https://github.com/gavindsouza/awesome-frappe/raw/main/.github/frappe-framework-logo.svg" alt="Frappe logo" style="padding-right: 20px; padding-left: 20px;">
+  <img width="400" src="https://raw.githubusercontent.com/frappe/frappe/refs/heads/develop/.github/frappe-framework-logo.svg" alt="Frappe logo" style="padding-right: 20px; padding-left: 20px;">
 </div>
 
 Inspired by [awesome-django](https://github.com/wsvincent/awesome-django).
@@ -288,5 +288,3 @@ _YouTube Channels_
 _Providers that are catered to hosting of Frappe and Frappe Apps_
 
 - [Frappe Cloud](https://cloud.frappe.io/dashboard/signup?referrer=a6d8da54) - Managed hosting platform for Frappe Apps.
-
-<!-- {% include analytics %} -->
