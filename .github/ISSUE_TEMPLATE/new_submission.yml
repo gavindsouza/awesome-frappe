@@ -34,16 +34,19 @@ body:
         - SDKs & Libraries
         - Templates
   - type: input
+    id: app_or_resource_url
     attributes:
       label: App or Resource URL
     validations:
       required: true
   - type: input
+    id: app_or_resource_name
     attributes:
       label: App or Resource Name
     validations:
       required: true
   - type: textarea
+    id: app_or_resource_description
     attributes:
       label: App or Resource Description
       placeholder: A short description of the app or resource
