@@ -34,18 +34,23 @@ jobs:
     needs: approval
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.4'
 
-      - name: Fetch issue body
+      - name: Fetch issue body and author
         id: issue
         run: |
           ISSUE_NUM=${{ github.event.issue.number || github.event.inputs.issue_number }}
-          ISSUE_BODY=$(gh issue view $ISSUE_NUM --json body --jq '.body')
+          ISSUE_DATA=$(gh issue view $ISSUE_NUM --json body,author)
+          ISSUE_BODY=$(echo "$ISSUE_DATA" | jq -r '.body')
+          ISSUE_AUTHOR=$(echo "$ISSUE_DATA" | jq -r '.author.login')
           echo "body<<EOF" >> $GITHUB_OUTPUT
           echo "$ISSUE_BODY" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
+          echo "author=$ISSUE_AUTHOR" >> $GITHUB_OUTPUT
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -66,6 +71,8 @@ jobs:
       - name: Commit + Push changes
         uses: EndBug/add-and-commit@v9
         with:
+          author_name: ${{ steps.issue.outputs.author }}
+          author_email: ${{ steps.issue.outputs.author }}@users.noreply.github.com
           message: |
             docs: Add ${{ fromJson(steps.issue-parser.outputs.jsonString).app_or_resource_name }}
 
