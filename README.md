@@ -47,6 +47,7 @@ _Apps that showcase the power of the Frappe Framework_
 #### Business Apps
 
 - [Agriculture](https://github.com/frappe/agriculture) - Agriculture Domain for ERPNext.
+- [ALYF Banking](https://github.com/alyf-de/banking) - ALYF Banking is a seamless solution to connect and reconcile your bank accounts with ERPNext. It supports a robust Bank Integration (via EBICS) and a modern Bank Reconciliation tool ⚡
 - [Apparelo](https://github.com/aerele/apparelo) - Manufacturing Workflow Management for the garment industry.
 - [AuMMS](https://github.com/efeone/aumms) - Aurum Manufacturing Management System for Gold Manufacturing.
 - [Cargo Management](https://github.com/AgileShift/cargo_management) - Package Management App for ERPNext.
