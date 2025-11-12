@@ -96,7 +96,6 @@ _Apps that showcase the power of the Frappe Framework_
 - [Event Streaming](https://github.com/frappe/event_streaming) - Event Streaming for frappe.
 - [Frappe Assistant Core](https://github.com/buildswithpaul/Frappe_Assistant_Core) - Infrastructure that connects LLMs to ERPNext with Model Context Protocol (MCP).
 - [Frappe Dynamic OG](https://github.com/NagariaHussain/frappe_dynamic_og) - Dynamic OG Image Generation in Frappe Sites.
-- [Frappe MCP](https://github.com/frappe/mcp) - Allows Frappe apps to function as MCP servers.
 - [Frappe Private Attachments](https://github.com/shridarpatil/frappe_private_attachments) - Make all frappe attachments as private by default.
 - [Frappe PWA](https://github.com/Monogramm/frappe_pwa) - PWA setup for Frappe website.
 - [Frappe ReST API Wrapper](https://github.com/pifabs/restipie) - Build custom ReST api's on top of Frappe.
@@ -260,6 +259,7 @@ _Apps that showcase the power of the Frappe Framework_
 #### SDKs & Libraries
 
 - [Frappe JS SDK](https://github.com/nikkothari22/frappe-js-sdk) - TypeScript/JavaScript library for Frappe REST API
+- [Frappe MCP](https://github.com/frappe/mcp) - Allows Frappe apps to function as MCP servers.
 - [Frappe React SDK SDK](https://github.com/nikkothari22/frappe-react-sdk) -  React hooks for Frappe
 - [Frappe Straw](https://github.com/ssiyad/frappe-straw) - Developer focused React/TypeScript hooks and utilities for Frappe.
 - [Frappe-Request.js](https://github.com/bailabs/frappe-request) - A Frappe-Client made with JavaScript and Needle.
@@ -281,7 +281,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Smart Weighing Scale & Inventory](https://github.com/msf4-0/SWSI) - A wireless & portable smart weighing scale embedded system that interfaces with Node-Red for IoT connectivity and ERPNext for inventory & stock tracking.
 - [Biometric Attendance Sync Tool](https://github.com/frappe/biometric-attendance-sync-tool) - Python Scripts to poll your biometric attendance system (BAS) for logs and sync with your ERPNext instance.
 - [Frappe Chrome Dev Utils](https://github.com/ascorbic-acid/frappe_chrome_dev_utils) - A simple Browser Extension that help you work & develop in Frappe/ERPNext Framework.
-- [Frappe MCP Server](https://github.com/appliedrelevance/frappe_mcp_server) - A server that implements the Anthropic Model Control Protocol (MCP) to enable controlled access to Frappe sites.
+- [Frappe MCP Server](https://github.com/appliedrelevance/frappe-mcp-server) - A server that implements the Anthropic Model Control Protocol (MCP) to enable controlled access to Frappe sites.
 
 ### Deployment Tools
 
