@@ -17,15 +17,26 @@
   <meta name="author" content="Gavin D'souza">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-  <!-- Enhanced CTR Meta Tags -->
+  <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="🚀 {{ site.data.counts.total_items }}+ Free Frappe Apps & Tools | Production-Ready">
   <meta property="og:description" content="Find the perfect Frappe app: {{ site.data.counts.apps }} apps, {{ site.data.counts.developer_tooling }} dev tools, themes, integrations & more. Browse by category, all open source & ready to use.">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="{{ site.image | absolute_url }}">
+  <meta property="og:updated_time" content="{{ site.time | date_to_xmlschema }}">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="{{ site.twitter.card }}">
   <meta name="twitter:title" content="🚀 {{ site.data.counts.total_items }}+ Free Frappe Apps & Tools">
   <meta name="twitter:description" content="{{ site.data.counts.apps }} production-ready apps, {{ site.data.counts.developer_tooling }} developer tools, themes & integrations for Frappe/ERPNext. All open source.">
+  <meta name="twitter:image" content="{{ site.image | absolute_url }}">
+  <meta name="twitter:site" content="@gavinxdsouza">
+  <meta name="twitter:creator" content="@gavinxdsouza">
 
-  <!-- Freshness signals (beat GitHub's static repo) -->
+  <!-- Freshness signals -->
   <meta property="article:modified_time" content="{{ site.time | date_to_xmlschema }}">
-  <meta property="og:updated_time" content="{{ site.time | date_to_xmlschema }}">
 
   <!-- Authority signals -->
   <meta name="rating" content="general">
@@ -45,8 +56,6 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-
-  {% seo %}
 
   <!-- Enhanced Structured Data for Rich Snippets -->
   {% include structured_data.html %}
