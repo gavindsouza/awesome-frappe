@@ -1,0 +1,114 @@
+<!-- Enhanced Structured Data for Rich Snippets -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}",
+      "description": "{{ site.description }}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ site.author.name }}",
+        "url": "{{ site.author.url }}"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.social.name }}",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.logo | absolute_url }}"
+        }
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "Frappe Framework Apps and Tools",
+      "description": "Curated collection of {{ site.data.counts.total_items }} Frappe Framework applications, tools, and resources",
+      "numberOfItems": {{ site.data.counts.total_items }},
+      "itemListElement": [
+        {% assign item_position = 0 %}
+        {% for category in site.data.projects %}
+          {% for item in category.items %}
+            {% assign item_position = item_position | plus: 1 %}
+            {
+              "@type": "ListItem",
+              "position": {{ item_position }},
+              "item": {
+                "@type": "SoftwareApplication",
+                "name": "{{ item.name }}",
+                "url": "{{ item.url }}",
+                "description": "{{ item.description | strip_html | escape }}",
+                "applicationCategory": "{{ category.name }}",
+                "operatingSystem": "Linux, Windows, macOS"
+              }
+            }{% unless forloop.last and category.subcategories.size == 0 %},{% endunless %}
+          {% endfor %}
+          {% for subcategory in category.subcategories %}
+            {% for item in subcategory.items %}
+              {% assign item_position = item_position | plus: 1 %}
+              {
+                "@type": "ListItem",
+                "position": {{ item_position }},
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "name": "{{ item.name }}",
+                  "url": "{{ item.url }}",
+                  "description": "{{ item.description | strip_html | escape }}",
+                  "applicationCategory": "{{ category.name }} - {{ subcategory.name }}",
+                  "operatingSystem": "Linux, Windows, macOS"
+                }
+              }{% unless forloop.last and forloop.parentloop.last %},{% endunless %}
+            {% endfor %}
+          {% endfor %}
+        {% endfor %}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {% assign breadcrumb_position = 0 %}
+        {% for category in site.data.projects %}
+          {% assign breadcrumb_position = breadcrumb_position | plus: 1 %}
+          {
+            "@type": "ListItem",
+            "position": {{ breadcrumb_position }},
+            "name": "{{ category.name }}",
+            "item": "{{ site.url }}#{{ category.id }}"
+          }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Frappe Framework?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework written in Python and Javascript with MariaDB (and Postgres too) as the database. It is the framework which powers ERPNext and can be used to build database driven apps."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many Frappe apps are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There are {{ site.data.counts.apps }} production-ready Frappe applications available, including business apps, utility apps, plugins, integrations, themes, and regional apps."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are these Frappe apps free and open source?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most Frappe apps listed are free and open source, though they may be third-party community packages. Always check each project's licensing and compatibility information before using."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>

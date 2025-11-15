@@ -4,13 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#60a5fa">
-  <title>{{ page.title | default: site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
+
+  <!-- Dynamic SEO Title & Description -->
+  {% assign seo_title = "Awesome Frappe - " | append: site.data.counts.apps | append: " Free Apps & " | append: site.data.counts.developer_tooling | append: " Tools for ERPNext" %}
+  {% assign seo_description = "Browse " | append: site.data.counts.total_items | append: "+ production-ready Frappe apps: CRM, HR, POS, eCommerce & integrations. All open source, community-vetted, ready to deploy today." %}
+
+  <title>{{ page.title | default: seo_title }}</title>
+  <meta name="description" content="{{ page.description | default: seo_description }}">
 
   <!-- Additional SEO -->
-  <meta name="keywords" content="frappe, frappe framework, erpnext, apps, tools, resources, awesome list, curated list">
+  <meta name="keywords" content="frappe apps, erpnext apps, frappe framework, frappe plugins, frappe integrations, frappe themes, erpnext extensions, frappe developer tools, frappe resources, awesome frappe">
   <meta name="author" content="Gavin D'souza">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+  <!-- Enhanced CTR Meta Tags -->
+  <meta property="og:title" content="🚀 {{ site.data.counts.total_items }}+ Free Frappe Apps & Tools | Production-Ready">
+  <meta property="og:description" content="Find the perfect Frappe app: {{ site.data.counts.apps }} apps, {{ site.data.counts.developer_tooling }} dev tools, themes, integrations & more. Browse by category, all open source & ready to use.">
+  <meta name="twitter:title" content="🚀 {{ site.data.counts.total_items }}+ Free Frappe Apps & Tools">
+  <meta name="twitter:description" content="{{ site.data.counts.apps }} production-ready apps, {{ site.data.counts.developer_tooling }} developer tools, themes & integrations for Frappe/ERPNext. All open source.">
+
+  <!-- Freshness signals (beat GitHub's static repo) -->
+  <meta property="article:modified_time" content="{{ site.time | date_to_xmlschema }}">
+  <meta property="og:updated_time" content="{{ site.time | date_to_xmlschema }}">
+
+  <!-- Authority signals -->
+  <meta name="rating" content="general">
+  <meta name="distribution" content="global">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,6 +47,9 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
   {% seo %}
+
+  <!-- Enhanced Structured Data for Rich Snippets -->
+  {% include structured_data.html %}
 </head>
 <body>
   <!-- Navigation -->

@@ -14,6 +14,9 @@ module Jekyll
 
       # Make the parsed data available to templates
       site.data['projects'] = data
+
+      # Calculate counts for SEO
+      site.data['counts'] = calculate_counts(data)
     end
 
     private
@@ -114,6 +117,34 @@ module Jekyll
 
     def slugify(text)
       text.downcase.gsub(/[^\w\s-]/, '').gsub(/[\s_]+/, '-').gsub(/^-+|-+$/, '')
+    end
+
+    def calculate_counts(categories)
+      counts = {
+        'total_items' => 0,
+        'apps' => 0,
+        'developer_tooling' => 0,
+        'other_tooling' => 0,
+        'deployment_tools' => 0,
+        'other_clients' => 0,
+        'resources' => 0,
+        'hosting' => 0
+      }
+
+      categories.each do |category|
+        # Count all items in category and subcategories
+        category_count = category['items'].length
+        category['subcategories'].each do |subcat|
+          category_count += subcat['items'].length
+        end
+
+        # Map to count keys
+        key = slugify(category['name']).gsub('-', '_')
+        counts[key] = category_count if counts.key?(key)
+        counts['total_items'] += category_count
+      end
+
+      counts
     end
   end
 end
