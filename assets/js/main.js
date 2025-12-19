@@ -9,7 +9,7 @@ function initShowMoreButtons() {
       const expandableSection = this.closest('.expandable-section');
       if (!expandableSection) return;
 
-      const allCards = expandableSection.querySelectorAll('.card');
+      const allCards = expandableSection.querySelectorAll('.card-container');
       const isExpanded = this.dataset.expanded === 'true';
 
       if (isExpanded) {
@@ -45,7 +45,7 @@ function initSearch() {
 
   function performSearch() {
     const query = searchInput.value.toLowerCase().trim();
-    const allCards = document.querySelectorAll('.card');
+    const allCards = document.querySelectorAll('.card-container');
     const allCategories = document.querySelectorAll('.category');
     const allSubcategories = document.querySelectorAll('.category h3');
     const allShowMoreButtons = document.querySelectorAll('.show-more-btn');
@@ -58,7 +58,7 @@ function initSearch() {
         // Re-add hidden-card class based on original index within section
         const cardGrid = card.closest('.card-grid');
         if (cardGrid) {
-          const cardsInGrid = Array.from(cardGrid.querySelectorAll('.card'));
+          const cardsInGrid = Array.from(cardGrid.querySelectorAll('.card-container'));
           const indexInGrid = cardsInGrid.indexOf(card);
           if (indexInGrid >= 9) {
             card.classList.add('hidden-card');
@@ -96,8 +96,8 @@ function initSearch() {
 
     // Search through cards
     allCards.forEach(card => {
-      const title = card.querySelector('h4')?.textContent.toLowerCase() || '';
-      const description = card.querySelector('p')?.textContent.toLowerCase() || '';
+      const title = card.querySelector('.card-front h4')?.textContent.toLowerCase() || '';
+      const description = card.querySelector('.card-front p')?.textContent.toLowerCase() || '';
 
       if (title.includes(query) || description.includes(query)) {
         card.style.display = '';
@@ -110,7 +110,7 @@ function initSearch() {
 
     // Hide categories with no visible cards and highlight TOC links for those with results
     allCategories.forEach(category => {
-      const visibleCardsInCategory = Array.from(category.querySelectorAll('.card')).filter(
+      const visibleCardsInCategory = Array.from(category.querySelectorAll('.card-container')).filter(
         card => card.style.display !== 'none'
       );
 
@@ -134,7 +134,7 @@ function initSearch() {
 
       while (nextElement && !nextElement.matches('h2, h3')) {
         if (nextElement.classList.contains('expandable-section')) {
-          const visibleCardsInSection = Array.from(nextElement.querySelectorAll('.card')).filter(
+          const visibleCardsInSection = Array.from(nextElement.querySelectorAll('.card-container')).filter(
             card => card.style.display !== 'none'
           );
           if (visibleCardsInSection.length > 0) {
@@ -202,7 +202,7 @@ function initSearch() {
   if (scrollHint) {
     scrollHint.addEventListener('click', function(e) {
       e.preventDefault();
-      const allCards = document.querySelectorAll('.card');
+      const allCards = document.querySelectorAll('.card-container');
       const firstVisibleCard = Array.from(allCards).find(card => card.style.display !== 'none');
       if (firstVisibleCard) {
         const yOffset = -280; // navbar (60px) + sticky search bar (~100px) + padding
@@ -241,6 +241,91 @@ function initStickySearch() {
   observer.observe(heroSection);
 }
 
+// Install card flip functionality
+function initInstallDropdowns() {
+  document.addEventListener('click', function(e) {
+    // Handle install button click - flip card
+    const installBtn = e.target.closest('.install-btn');
+    if (installBtn) {
+      e.preventDefault();
+      e.stopPropagation();
+
+      const card = installBtn.closest('.card');
+
+      // Unflip any other flipped cards
+      document.querySelectorAll('.card.flipped').forEach(c => {
+        if (c !== card) c.classList.remove('flipped');
+      });
+
+      // Flip this card
+      card.classList.add('flipped');
+      return;
+    }
+
+    // Handle click on install option row (copy command and flip back)
+    const option = e.target.closest('.install-option');
+    if (option) {
+      e.preventDefault();
+      e.stopPropagation();
+
+      const command = option.dataset.command;
+      const card = option.closest('.card');
+      const panel = option.closest('.install-panel');
+
+      // Store original content if not already stored
+      if (!panel.dataset.originalContent) {
+        panel.dataset.originalContent = panel.innerHTML;
+      }
+
+      navigator.clipboard.writeText(command).then(() => {
+        // Show copied message
+        panel.innerHTML = '<div class="copied-message">Copied to clipboard!</div>';
+
+        // Flip back after delay and restore content
+        setTimeout(() => {
+          card.classList.remove('flipped');
+          // Restore original content after flip animation
+          setTimeout(() => {
+            if (panel.dataset.originalContent) {
+              panel.innerHTML = panel.dataset.originalContent;
+            }
+          }, 400);
+        }, 800);
+      }).catch(err => {
+        console.error('Failed to copy:', err);
+      });
+      return;
+    }
+
+    // Click outside flipped card - unflip it
+    if (!e.target.closest('.card-container')) {
+      document.querySelectorAll('.card.flipped').forEach(card => {
+        card.classList.remove('flipped');
+      });
+    }
+  });
+
+  // Escape key unflips cards
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.card.flipped').forEach(card => {
+        card.classList.remove('flipped');
+      });
+    }
+  });
+
+  // Hovering another card unflips the current one
+  document.querySelectorAll('.card-container').forEach(container => {
+    container.addEventListener('mouseenter', function() {
+      document.querySelectorAll('.card.flipped').forEach(card => {
+        if (!this.contains(card)) {
+          card.classList.remove('flipped');
+        }
+      });
+    });
+  });
+}
+
 // Scroll to top button
 function initScrollToTop() {
   const scrollToTopBtn = document.getElementById('scroll-to-top');
@@ -272,10 +357,12 @@ if (document.readyState === 'loading') {
     initSearch();
     initStickySearch();
     initScrollToTop();
+    initInstallDropdowns();
   });
 } else {
   initShowMoreButtons();
   initSearch();
   initStickySearch();
   initScrollToTop();
+  initInstallDropdowns();
 }

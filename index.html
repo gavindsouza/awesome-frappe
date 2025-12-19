@@ -85,9 +85,42 @@ layout: default
         <div class="expandable-section" data-section="{{ subcategory.id }}">
           <div class="card-grid">
             {% for item in subcategory.items %}
-            <div class="card{% if forloop.index > 9 %} hidden-card{% endif %}">
-              <h4><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a></h4>
-              <p>{{ item.description | enrich_description }}</p>
+            {% assign show_install = false %}
+            {% if category.name == "Apps" %}
+              {% if item.url contains 'github.com' or item.url contains 'gitlab.com' %}
+                {% assign show_install = true %}
+              {% endif %}
+            {% endif %}
+            <div class="card-container{% if forloop.index > 9 %} hidden-card{% endif %}">
+              <div class="card">
+                <div class="card-front">
+                  {% if show_install %}
+                  <button class="install-btn" title="Install">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"/><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"/></svg>
+                  </button>
+                  {% endif %}
+                  <h4><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a></h4>
+                  <p>{{ item.description | enrich_description }}</p>
+                </div>
+                {% if show_install %}
+                {% assign ssh_url = item.url | replace: 'https://github.com/', 'git@github.com:' %}
+                <div class="card-back">
+                  <div class="install-panel">
+                    <div class="install-menu-header">Install with bench</div>
+                    <div class="install-option" data-command="bench get-app {{ item.url }}">
+                      <span class="install-label">HTTPS</span>
+                      <code class="install-code">bench get-app {{ item.url }}</code>
+                    </div>
+                    {% if item.url contains 'github.com' %}
+                    <div class="install-option" data-command="bench get-app {{ ssh_url }}">
+                      <span class="install-label">SSH</span>
+                      <code class="install-code">bench get-app {{ ssh_url }}</code>
+                    </div>
+                    {% endif %}
+                  </div>
+                </div>
+                {% endif %}
+              </div>
             </div>
             {% endfor %}
           </div>
@@ -110,9 +143,42 @@ layout: default
         <div class="expandable-section" data-section="{{ category.id }}">
           <div class="card-grid">
             {% for item in category.items %}
-            <div class="card{% if forloop.index > 9 %} hidden-card{% endif %}">
-              <h4><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a></h4>
-              <p>{{ item.description | enrich_description }}</p>
+            {% assign show_install = false %}
+            {% if category.name == "Apps" %}
+              {% if item.url contains 'github.com' or item.url contains 'gitlab.com' %}
+                {% assign show_install = true %}
+              {% endif %}
+            {% endif %}
+            <div class="card-container{% if forloop.index > 9 %} hidden-card{% endif %}">
+              <div class="card">
+                <div class="card-front">
+                  {% if show_install %}
+                  <button class="install-btn" title="Install">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"/><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"/></svg>
+                  </button>
+                  {% endif %}
+                  <h4><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a></h4>
+                  <p>{{ item.description | enrich_description }}</p>
+                </div>
+                {% if show_install %}
+                {% assign ssh_url = item.url | replace: 'https://github.com/', 'git@github.com:' %}
+                <div class="card-back">
+                  <div class="install-panel">
+                    <div class="install-menu-header">Install with bench</div>
+                    <div class="install-option" data-command="bench get-app {{ item.url }}">
+                      <span class="install-label">HTTPS</span>
+                      <code class="install-code">bench get-app {{ item.url }}</code>
+                    </div>
+                    {% if item.url contains 'github.com' %}
+                    <div class="install-option" data-command="bench get-app {{ ssh_url }}">
+                      <span class="install-label">SSH</span>
+                      <code class="install-code">bench get-app {{ ssh_url }}</code>
+                    </div>
+                    {% endif %}
+                  </div>
+                </div>
+                {% endif %}
+              </div>
             </div>
             {% endfor %}
           </div>

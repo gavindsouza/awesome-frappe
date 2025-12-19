@@ -504,20 +504,57 @@ body {
   }
 }
 
+.card-container {
+  perspective: 1000px;
+  z-index: 0;
+}
+
+.card-container:hover {
+  z-index: 50;
+}
+
 .card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease;
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
   background: var(--color-bg);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
   padding: 20px;
-  transition: all 0.3s ease;
-  opacity: 1;
-  animation: fadeIn 0.3s ease-in;
+  backface-visibility: hidden;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  min-height: 120px;
 }
 
-.card:hover {
+.card-front {
+  position: relative;
+}
+
+.card-container:hover .card-front,
+.card-container:hover .card-back {
   box-shadow: var(--shadow-hover);
-  transform: translateY(-2px);
   border-color: var(--color-text-muted);
+}
+
+.card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
 }
 
 @keyframes fadeIn {
@@ -727,6 +764,93 @@ code {
 
 .hidden-card {
   display: none !important;
+}
+
+/* Install Button & Panel */
+.install-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background: var(--color-bg-secondary);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  z-index: 5;
+}
+
+.install-btn:hover {
+  background: var(--color-bg-tertiary);
+  border-color: var(--color-text-muted);
+  color: var(--color-text-primary);
+}
+
+.install-panel {
+  width: 100%;
+}
+
+.install-menu-header {
+  padding: 6px 8px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 2px;
+}
+
+.install-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+  border-radius: 4px;
+  margin: 2px 4px;
+}
+
+.install-option:hover {
+  background: var(--color-bg-secondary);
+}
+
+.install-label {
+  font-size: 9px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  width: 32px;
+  padding-right: 6px;
+  border-right: 1px solid var(--color-border);
+  margin-right: 6px;
+  flex-shrink: 0;
+}
+
+.install-code {
+  flex: 1;
+  font-size: 11px;
+  font-family: 'Monaco', 'Courier New', monospace;
+  color: var(--color-text-secondary);
+  background: transparent;
+  padding: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.copied-message {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6ee7b7;
 }
 
 /* Utility Classes */
