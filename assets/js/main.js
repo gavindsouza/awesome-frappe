@@ -1,3 +1,31 @@
+// Theme toggle functionality
+function initThemeToggle() {
+  const toggle = document.getElementById('theme-toggle');
+  const html = document.documentElement;
+
+  // Apply theme
+  function setTheme(isDark) {
+    if (isDark) {
+      html.setAttribute('data-theme', 'dark');
+    } else {
+      html.removeAttribute('data-theme');
+    }
+  }
+
+  // Initialize from system preference
+  setTheme(window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+  // Toggle on click
+  if (toggle) {
+    toggle.addEventListener('click', function() {
+      setTheme(!html.hasAttribute('data-theme'));
+    });
+  }
+}
+
+// Run theme toggle immediately to prevent flash
+initThemeToggle();
+
 // Toggle visibility of hidden cards
 function initShowMoreButtons() {
   const toggleButtons = document.querySelectorAll('.show-more-btn');

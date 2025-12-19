@@ -19,6 +19,31 @@
   --radius: 10px;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   --shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  --navbar-bg: rgba(255, 255, 255, 0.95);
+  --disclaimer-bg: #FEF3C7;
+  --disclaimer-border: #FCD34D;
+  --disclaimer-text: #78350F;
+}
+
+[data-theme="dark"] {
+  --color-bg: #0f0f0f;
+  --color-bg-secondary: #1a1a1a;
+  --color-bg-tertiary: #262626;
+  --color-text-primary: #f5f5f5;
+  --color-text-secondary: #d4d4d4;
+  --color-text-muted: #a3a3a3;
+  --color-border: #404040;
+  --color-accent: #60a5fa;
+  --color-accent-hover: #93c5fd;
+
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+  --navbar-bg: rgba(15, 15, 15, 0.95);
+  --disclaimer-bg: #422006;
+  --disclaimer-border: #854d0e;
+  --disclaimer-text: #fef3c7;
 }
 
 * {
@@ -49,13 +74,12 @@ body {
 
 /* Navigation */
 .navbar {
-  background: var(--color-bg);
+  background: var(--navbar-bg);
   border-bottom: 1px solid var(--color-border);
   position: sticky;
   top: 0;
   z-index: 100;
   backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.95);
 }
 
 .nav-content {
@@ -99,6 +123,49 @@ body {
 
 .nav-links a:hover {
   color: var(--color-text-primary);
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--color-text-secondary);
+  transition: all 0.2s;
+}
+
+.theme-toggle:hover {
+  background: var(--color-bg-tertiary);
+  color: var(--color-text-primary);
+  border-color: var(--color-text-muted);
+}
+
+.theme-toggle svg {
+  width: 18px;
+  height: 18px;
+}
+
+.theme-toggle .sun-icon {
+  display: none;
+}
+
+.theme-toggle .moon-icon {
+  display: block;
+}
+
+[data-theme="dark"] .theme-toggle .sun-icon {
+  display: block;
+}
+
+[data-theme="dark"] .theme-toggle .moon-icon {
+  display: none;
 }
 
 /* Hero Section - Compact */
@@ -242,10 +309,10 @@ body {
   left: 0;
   right: 0;
   z-index: 90;
-  background: rgba(255, 255, 255, 0.98);
+  background: var(--navbar-bg);
   backdrop-filter: blur(10px);
   padding: 12px 24px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-hover);
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -287,13 +354,13 @@ body {
   height: 48px;
   border-radius: 50%;
   background: var(--color-text-primary);
-  color: white;
+  color: var(--color-bg);
   border: none;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow-hover);
   transition: all 0.3s ease;
   z-index: 100;
   opacity: 0;
@@ -303,7 +370,6 @@ body {
 .scroll-to-top:hover {
   background: var(--color-text-secondary);
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
 .scroll-to-top[style*="display: block"] {
@@ -355,12 +421,12 @@ body {
 
 .hero-toc-list a:hover {
   background: var(--color-text-primary);
-  color: white;
+  color: var(--color-bg);
 }
 
 .hero-toc-list a.has-results {
   background: var(--color-text-primary);
-  color: white;
+  color: var(--color-bg);
   font-weight: 600;
 }
 
@@ -717,17 +783,17 @@ code {
 
 /* Disclaimer */
 .disclaimer {
-  background: #FEF3C7;
-  border: 1px solid #FCD34D;
+  background: var(--disclaimer-bg);
+  border: 1px solid var(--disclaimer-border);
   border-radius: var(--radius);
   padding: 16px 20px;
   margin: 32px 0;
   font-size: 14px;
-  color: #78350F;
+  color: var(--disclaimer-text);
 }
 
 .disclaimer strong {
-  color: #78350F;
+  color: var(--disclaimer-text);
 }
 
 /* Show More Button */
