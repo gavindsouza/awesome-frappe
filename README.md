@@ -206,6 +206,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [ERPNext France](https://github.com/scopen-coop/erpnext_france.git) - Regional code for France, built on top of ERPNext.
 - [ERPNext Germany](https://github.com/alyf-de/erpnext_germany) - Regional code for Germany, built on top of ERPNext.
 - [ERPNext Thailand](https://github.com/ecosoft-frappe/erpnext_thailand) - Thailand Taxation (VAT, WHT), Thai Billing Process, Get Address from Tax ID, Bank of Thailand Exchange Rate and more... for ERPNext.
+- [ERPNext TSE](https://github.com/Rocket-Quack/erpnext_tse) - This app extends ERPNext by connecting cash registers to a TSE and forms the basis for legally compliant cash register transactions in Germany (KassenSichV).
 - [Grynn Swiss QR Bill](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext) - Swiss QR Bill Generator app for ERPNext.
 - [GSTR 2B Reconciler](https://github.com/aerele/reconciler) - Reconciliation tool for GSTR 2B and Purchase Register.
 - [India Compliance](https://github.com/resilient-tech/india-compliance) - Simple, yet powerful compliance solutions for Indian businesses.
