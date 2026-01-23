@@ -177,6 +177,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Shipstation Integration](https://github.com/ParsimonyGit/shipstation_integration) - Shipstation Integration for ERPNext.
 - [Shopify Integration](https://github.com/frappe/ecommerce_integrations) - Shopify Integration for ERPNext.
 - [Storage Integration](https://github.com/frappe/storage_integration) - Storage Integration for Frappe.
+- [SumUp Integration](https://github.com/Rocket-Quack/erpnext_sumup) - This App is an SumUP integration for ERPNext POS. Initiate card payments directly via the POS interface, check status, and post transactions cleanly in ERPNext for fast, reliable checkout.
 - [Telegram Integration](https://github.com/yrestom/erpnext_telegram) - Telegram Integration app for more productivity.
 - [Twilio Integration](https://github.com/frappe/twilio-integration) - Twilio Integration for Frappe.
 - [Unicommerce Integration](https://github.com/frappe/ecommerce_integrations) - Unicommerce Integration for ERPNext.
