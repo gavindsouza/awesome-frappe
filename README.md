@@ -325,8 +325,14 @@ _Community Channels_
 
 _YouTube Channels_
 
-- [@frappetech](https://www.youtube.com/@frappetech) - Frappe Technologies' official Youtube channel.
-- [@buildwithhussain](https://www.youtube.com/@buildwithhussain) - Watch Frappe Framework used live to build world-class web apps.
+- [@frappetech](https://www.youtube.com/@frappetech) `EN` - Frappe Technologies' official Youtube channel.
+- [@buildwithhussain](https://www.youtube.com/@buildwithhussain) `EN` - Watch Frappe Framework used live to build world-class web apps.
+- [@ERPGulf](https://www.youtube.com/@ERPGulf) `EN` - ERPNext training videos for accountants and business owners.
+- [@erpnextconsultingbyn0c0de](https://www.youtube.com/@erpnextconsultingbyn0c0de) `EN` - Comprehensive ERPNext tutorials covering all aspects of the system.
+- [@Finbyz](https://www.youtube.com/@Finbyz) `EN` - Free ERPNext video tutorials with step-by-step modules and real-world demos.
+- [@ghorzace8347](https://www.youtube.com/@ghorzace8347) `EN` - Frappe Framework tutorials and development walkthroughs.
+- [@KaraniGeoffrey](https://www.youtube.com/@KaraniGeoffrey) `EN` - ERPNext and Frappe developer tutorials, installation guides and courses.
+- [@erpnextAR](https://www.youtube.com/@erpnextAR) `AR` - ERPNext tutorials and walkthroughs in Arabic.
 
 
 ### Hosting
