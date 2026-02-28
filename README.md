@@ -121,6 +121,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [ToolBox](https://toolbox.gavv.in/) - Automate your Site Maintenance with ToolBox.
 - [Wiki](https://github.com/frappe/wiki) - Wiki for serving dynamic data along with a built-in review system.
 - [XcelForm](https://github.com/jezlan/xcelform) - A powerful app for Exporting Doctype data to Excel with custom formats in Frappe/ERPNext.
+- [Ghost](https://github.com/muneeb141/ghost) -  Headless identity and OTP authentication engine for Frappe. Centralizes Guest Sessions, Secure Login, and seamless Ghost-to-Real User conversion for building modern Web & Mobile apps.
 
 #### Plugins
 
