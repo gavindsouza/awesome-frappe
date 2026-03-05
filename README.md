@@ -83,6 +83,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [UPH (Unified Party Hub)](https://github.com/Sendipad/uph) - A comprehensive master data hub for managing parties in ERPNext. Provides unified party profiles, enable easy multicurrency support, relationships, multi party roles, validations, and advanced master-data governance inspired by SAP BP and Oracle Tca.
 - [URY - Open Source Restaurant Management System](https://github.com/ury-erp/ury) - URY is an open-source ERP designed to simplify and streamline restaurant operations, built over ERPNext.
 - [Webshop](https://github.com/frappe/webshop) - eCommerce Platform for ERPNext.
+- [DeskAllocationSystem](https://github.com/yashtilala412/Desk_Allocation_System)-A gamified office management app for Frappe/ERPNext that automates quarterly team seating shuffles with a randomized desk-to-employee distribution engine
 
 #### Utility Apps
 
