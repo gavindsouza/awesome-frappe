@@ -55,6 +55,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Cargo Management](https://github.com/AgileShift/cargo_management) - Package Management App for ERPNext.
 - [Clefincode Chat](https://github.com/clefincode/clefincode_chat) - ERPNext/Frappe Business Chat: A self-hosted communication solution.
 - [CRM](https://github.com/frappe/crm) - Fully featured, open source CRM.
+- [DeskAllocationSystem](https://github.com/yashtilala412/Desk_Allocation_System) - A gamified office management app for Frappe/ERPNext that automates quarterly team seating shuffles with a randomized desk-to-employee distribution engine.
 - [Education](https://github.com/frappe/education) - Open source education / school management system.
 - [ERPNext](https://erpnext.com) - Open source full-featured business management system.
 - [Expenses](https://github.com/kid1194/erpnext_expenses) - An expenses management module for ERPNext.
