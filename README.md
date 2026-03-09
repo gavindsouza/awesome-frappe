@@ -55,6 +55,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Cargo Management](https://github.com/AgileShift/cargo_management) - Package Management App for ERPNext.
 - [Clefincode Chat](https://github.com/clefincode/clefincode_chat) - ERPNext/Frappe Business Chat: A self-hosted communication solution.
 - [CRM](https://github.com/frappe/crm) - Fully featured, open source CRM.
+- [DeskAllocationSystem](https://github.com/yashtilala412/Desk_Allocation_System) - A gamified office management app for Frappe/ERPNext that automates quarterly team seating shuffles with a randomized desk-to-employee distribution engine.
 - [Education](https://github.com/frappe/education) - Open source education / school management system.
 - [ERPNext](https://erpnext.com) - Open source full-featured business management system.
 - [Expenses](https://github.com/kid1194/erpnext_expenses) - An expenses management module for ERPNext.
@@ -83,7 +84,6 @@ _Apps that showcase the power of the Frappe Framework_
 - [UPH (Unified Party Hub)](https://github.com/Sendipad/uph) - A comprehensive master data hub for managing parties in ERPNext. Provides unified party profiles, enable easy multicurrency support, relationships, multi party roles, validations, and advanced master-data governance inspired by SAP BP and Oracle Tca.
 - [URY - Open Source Restaurant Management System](https://github.com/ury-erp/ury) - URY is an open-source ERP designed to simplify and streamline restaurant operations, built over ERPNext.
 - [Webshop](https://github.com/frappe/webshop) - eCommerce Platform for ERPNext.
-- [DeskAllocationSystem](https://github.com/yashtilala412/Desk_Allocation_System)-A gamified office management app for Frappe/ERPNext that automates quarterly team seating shuffles with a randomized desk-to-employee distribution engine
 
 #### Utility Apps
 
