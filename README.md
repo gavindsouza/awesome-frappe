@@ -313,6 +313,7 @@ _Clients built for the Frappe Framework, other than the standard browser view De
 - [Mobile](https://github.com/frappe/mobile) - Mobile App for Frappe built on Dart. _[Version 13+]_
 
 ### Resources
+- [Singapore Compliance](https://github.com/kingstechspl/Singapore-Compliance) - Open-source app to manage Singapore-specific regulatory compliance. The app creates ledgers and tax templates and comes with GST reports.
 - [ERPNext China](https://github.com/zelin-tech/erpnext_china) - Chinese Chart of Accounts, Tax Templates and Language customizations
 
 _Resources that can help you harness the power of the Frappe Framework_
