@@ -313,6 +313,7 @@ _Clients built for the Frappe Framework, other than the standard browser view De
 - [Mobile](https://github.com/frappe/mobile) - Mobile App for Frappe built on Dart. _[Version 13+]_
 
 ### Resources
+- [ERPNext China](https://github.com/zelin-tech/erpnext_china) - Chinese Chart of Accounts, Tax Templates and Language customizations
 
 _Resources that can help you harness the power of the Frappe Framework_
 
