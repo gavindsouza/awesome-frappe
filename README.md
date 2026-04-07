@@ -313,6 +313,7 @@ _Clients built for the Frappe Framework, other than the standard browser view De
 - [Mobile](https://github.com/frappe/mobile) - Mobile App for Frappe built on Dart. _[Version 13+]_
 
 ### Resources
+- [Italian Electronic Invoicing for EPRNext](https://github.com/Solede-SA/italian_invoice) - Complete Italian electronic invoicing management for ERPNext. FatturaPA v1.2.1 XML generation, automatic supplier invoice import, compliant VAT records, payment rounding, and pluggable provider architecture for SDI. Zero external dependencies.
 - [Zambia Revenue Authority Smart Invoice - CA ERPNext](https://github.com/CrystalisedApps/ca-erpnext-zra) - A Frappe custom application that integrates with the Zambia Revenue Authority (ZRA) Virtual Sales Data Controller (VSDC) API to enable seamless tax compliance, e-invoicing, and reporting directly within your ERP system.
 - [Singapore Compliance](https://github.com/kingstechspl/Singapore-Compliance) - Open-source app to manage Singapore-specific regulatory compliance. The app creates ledgers and tax templates and comes with GST reports.
 - [ERPNext China](https://github.com/zelin-tech/erpnext_china) - Chinese Chart of Accounts, Tax Templates and Language customizations
