@@ -92,6 +92,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Bench Manager](https://github.com/frappe/bench_manager) - Frappe app for managing bench.
 - [Block Administrator](https://frappecloud.com/marketplace/apps/block_administrator) - Enhances security by disabling password-based logins for the Administrator user, thereby reducing the vulnerability surface for brute-force attacks.
 - [Bulk Webhook](https://github.com/aakvatech/Bulk-Webhook) - Bulk Webhook allows creating webhook that sends multiple records and also reports from ERPNext, and has support for Apache Kafka.
+- [changAI](https://github.com/ERPGulf/changAI) - AI-powered assistant for ERPNext that lets users ask business questions in plain English and get instant answers.
 - [Chat](https://github.com/frappe/chat) - Modern chat for your Frappe deployments.
 - [Enhanced Kanban View](https://github.com/ibrahim317/enhanced_kanban_view) - Frappe Kanban boards with Link field columns, validation dialogs, and automatic synchronization.
 - [ERPNext OCR](https://github.com/Monogramm/erpnext_ocr) - Optical Character Recognition using Tesseract within Frappe.
