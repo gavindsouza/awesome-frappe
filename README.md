@@ -305,6 +305,7 @@ _Resources allowing you to deploy Frappe apps with your favourite toolset_
 - [Benchless](https://github.com/castlecraft/benchless) - CLI tool to manage Frappe deployments without bench.
 - [Docker Hub](https://hub.docker.com/u/frappe) - Container images for Frappe & ERPNext releases.
 - [ERPNextFailOver](https://github.com/martinhbramwell/ERPNextFailOver) - Tool to automate setting up Database Replication for ERPNext.
+- [Curated ReadyMade Docker Image with Apps](https://github.com/geniusdynamics/erp-next-docker) - Pre-built Docker image with curated ERPNext apps, daily automatic rebuilds, and optional ARM support.
 - [Frappe Docker](https://github.com/frappe/frappe_docker) - Official docker images for Frappe.
 - [Helm Chart](https://helm.erpnext.com/) - Kubernetes Helm Chart for ERPNext.
 - [Nethserver](https://github.com/geniusdynamics/ns8-erp-next) - @geniusdynamics's configuration for NS8 with backup/restore, server to server node migration, Ldap & Active directory integration and more. [[read more here](https://community.nethserver.org/t/erpnext-the-most-agile-erp-on-the-planet-in-ns8/24240)]
