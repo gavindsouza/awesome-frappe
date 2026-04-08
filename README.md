@@ -262,6 +262,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Intellisense](https://github.com/frappe/intellisense) - VSCode Extension and Language Server for Frappe Framework.
 - [Lost Doctype](https://github.com/rareMaxim/lost_doctype) - A Frappe app that maps your site structure and finds DocTypes that are not accessible through the UI.
 - [Nano Press](https://github.com/BuildWithHussain/nano_press) - Nano Press automates your Frappe/ERPNext deployment from zero to production.
+- [InfraScan](https://github.com/SolDevelo/InfraScan) - Infrastructure scanning, vulnerability detection, and security auditing for Frappe deployments.
 - [Semgrep Rules](https://github.com/frappe/semgrep-rules) - Semgrep Rules for following the best practices while building your Frappe Apps.
 - [TypeScript Type generator](https://github.com/The-Commit-Company/frappe-types) - Typescript type definition generator for Frappe DocTypes.
 
