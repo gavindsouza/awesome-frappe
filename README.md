@@ -94,6 +94,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Bulk Webhook](https://github.com/aakvatech/Bulk-Webhook) - Bulk Webhook allows creating webhook that sends multiple records and also reports from ERPNext, and has support for Apache Kafka.
 - [changAI](https://github.com/ERPGulf/changAI) - AI-powered assistant for ERPNext that lets users ask business questions in plain English and get instant answers.
 - [Chat](https://github.com/frappe/chat) - Modern chat for your Frappe deployments.
+- [Crispy Print](https://github.com/agatho-daemon/crispy_print) - Typst-powered printing and report formatting engine for Frappe with a visual builder and code-level control for consistent, production-quality PDFs.
 - [Enhanced Kanban View](https://github.com/ibrahim317/enhanced_kanban_view) - Frappe Kanban boards with Link field columns, validation dialogs, and automatic synchronization.
 - [ERPNext OCR](https://github.com/Monogramm/erpnext_ocr) - Optical Character Recognition using Tesseract within Frappe.
 - [ERPNext POS Hardware Integrations](https://github.com/aisenyi/pasigono) - Weigh scale integration, Stripe Terminal integration, and Raw printing via QZ Tray
