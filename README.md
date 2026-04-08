@@ -303,6 +303,7 @@ _Resources allowing you to deploy Frappe apps with your favourite toolset_
 
 - [Bench](https://frappe.io/bench) - CLI to Manage Frappe Deployments
 - [Benchless](https://github.com/castlecraft/benchless) - CLI tool to manage Frappe deployments without bench.
+- [BenchPress](https://github.com/Venkateshvenki404224/benchpress) - Self-hosted Frappe Cloud alternative with Docker-based bench environments, WireGuard VPN, live build logs, and a Vue 3 dashboard.
 - [Docker Hub](https://hub.docker.com/u/frappe) - Container images for Frappe & ERPNext releases.
 - [ERPNextFailOver](https://github.com/martinhbramwell/ERPNextFailOver) - Tool to automate setting up Database Replication for ERPNext.
 - [Curated ReadyMade Docker Image with Apps](https://github.com/geniusdynamics/erp-next-docker) - Pre-built Docker image with curated ERPNext apps, daily automatic rebuilds, and optional ARM support.
