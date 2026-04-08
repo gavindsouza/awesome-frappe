@@ -106,6 +106,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Frappe System Monitor](https://github.com/mymi14s/frappe_system_monitor) - Web interface for webserver running processes and system utilization (RAM, CPU, Disk)
 - [Frappe Web Push](https://github.com/meichthys/frappe_web_push) - Enables native local browser toast notifications without the need for remote servers like firebase or frappe-cloud
 - [Ghost](https://github.com/muneeb141/ghost) -  Headless identity and OTP authentication engine for Frappe. Centralizes Guest Sessions, Secure Login, and seamless Ghost-to-Real User conversion for building modern Web & Mobile apps.
+- [Mind Map](https://github.com/nilpatel42/mind_map) - Create, edit, and navigate interactive mind maps inside Frappe Desk for planning, documentation trees, and knowledge organization.
 - [Go1 CMS](https://github.com/TridotsTech/go1cms) - Advanced Content Management System built on Frappe.
 - [Matcha](https://github.com/Negentropy-Solutions/matcha) - Faster payment reconciliation for ERPNext with a React UI, FX gain/loss preview, cross-company reconciliation, and undo support.
 - [In-Context Translation](https://github.com/Mazen-Almortada/incontext_translation) - In-context translation for Frappe & ERPNext with automated suggestions.
