@@ -214,6 +214,7 @@ _Apps that showcase the power of the Frappe Framework_
 #### Regional Apps
 
 - [CSF_TZ](https://github.com/aakvatech/CSF_TZ) - Regional App for Tanzania.
+- [ERPNext China](https://github.com/zelin-tech/erpnext_china) - Chinese Chart of Accounts, Tax Templates and Language customizations
 - [ERPNext France](https://github.com/scopen-coop/erpnext_france.git) - Regional code for France, built on top of ERPNext.
 - [ERPNext Germany](https://github.com/alyf-de/erpnext_germany) - Regional code for Germany, built on top of ERPNext.
 - [ERPNext Thailand](https://github.com/ecosoft-frappe/erpnext_thailand) - Thailand Taxation (VAT, WHT), Thai Billing Process, Get Address from Tax ID, Bank of Thailand Exchange Rate and more... for ERPNext.
@@ -221,13 +222,16 @@ _Apps that showcase the power of the Frappe Framework_
 - [Grynn Swiss QR Bill](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext) - Swiss QR Bill Generator app for ERPNext.
 - [GSTR 2B Reconciler](https://github.com/aerele/reconciler) - Reconciliation tool for GSTR 2B and Purchase Register.
 - [India Compliance](https://github.com/resilient-tech/india-compliance) - Simple, yet powerful compliance solutions for Indian businesses.
+- [Italian Electronic Invoicing for ERPNext](https://github.com/Solede-SA/italian_invoice) - Complete Italian electronic invoicing management for ERPNext. FatturaPA v1.2.1 XML generation, automatic supplier invoice import, compliant VAT records, payment rounding, and pluggable provider architecture for SDI. Zero external dependencies.
 - [KSA](https://github.com/8848digital/KSA) - Regional Compliance for the Kingdom of Saudi Arabia
 - [Pakistan Workspace](https://github.com/ParaLogicTech/erpnext_pk) - Regional App for Pakistan with NIC, NTN, and STRN numbers, and reports for FBR tax compliance.
 - [Payware](https://github.com/aakvatech/Payware) - ERPNext Payroll enhancements specific for functionality required in Tanzania.
+- [Singapore Compliance](https://github.com/kingstechspl/Singapore-Compliance) - Open-source app to manage Singapore-specific regulatory compliance. The app creates ledgers and tax templates and comes with GST reports.
 - [South African Localization for ERPNext](https://github.com/EPIUSECX/cohenix_local_za) - Comprehensive South African localization with statutory compliance, tax regulations, payroll localization, and financial reporting.
 - [Swiss Accounting Integration](https://github.com/phamos-eu/Swiss-Accounting-Integration) - Extend ERPNext with Swiss QR Integration and Abacus Export.
 - [Swiss Factur X E Invoicing](https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext) - For E-Invoice Hybrid PDF based on Factur-X and ZugFerd (EN 16931 Standards).
 - [UAE E-Invoicing Integration](https://github.com/ERPGulf/uae_erpgulf) - UAE FTA e-invoicing implementation for ERPNext with UBL 2.1 compliant XML generation, VAT validation, and clearance-ready workflows.
+- [Zambia Revenue Authority Smart Invoice - CA ERPNext](https://github.com/CrystalisedApps/ca-erpnext-zra) - A Frappe custom application that integrates with the Zambia Revenue Authority (ZRA) Virtual Sales Data Controller (VSDC) API to enable seamless tax compliance, e-invoicing, and reporting directly within your ERP system.
 
 #### Other Apps
 
@@ -325,10 +329,6 @@ _Clients built for the Frappe Framework, other than the standard browser view De
 - [Mobile](https://github.com/frappe/mobile) - Mobile App for Frappe built on Dart. _[Version 13+]_
 
 ### Resources
-- [Italian Electronic Invoicing for EPRNext](https://github.com/Solede-SA/italian_invoice) - Complete Italian electronic invoicing management for ERPNext. FatturaPA v1.2.1 XML generation, automatic supplier invoice import, compliant VAT records, payment rounding, and pluggable provider architecture for SDI. Zero external dependencies.
-- [Zambia Revenue Authority Smart Invoice - CA ERPNext](https://github.com/CrystalisedApps/ca-erpnext-zra) - A Frappe custom application that integrates with the Zambia Revenue Authority (ZRA) Virtual Sales Data Controller (VSDC) API to enable seamless tax compliance, e-invoicing, and reporting directly within your ERP system.
-- [Singapore Compliance](https://github.com/kingstechspl/Singapore-Compliance) - Open-source app to manage Singapore-specific regulatory compliance. The app creates ledgers and tax templates and comes with GST reports.
-- [ERPNext China](https://github.com/zelin-tech/erpnext_china) - Chinese Chart of Accounts, Tax Templates and Language customizations
 
 _Resources that can help you harness the power of the Frappe Framework_
 

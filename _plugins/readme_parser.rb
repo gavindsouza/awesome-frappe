@@ -77,10 +77,17 @@ module Jekyll
           url = $2.strip
           description = $3.strip
 
+          # Extract GitHub owner/repo for metadata lookup
+          github_repo = nil
+          if url.match(%r{https://github\.com/([^/]+/[^/]+?)(?:\.git)?(?:/|$)})
+            github_repo = $1
+          end
+
           item = {
             'name' => name,
             'url' => url,
-            'description' => description
+            'description' => description,
+            'github_repo' => github_repo
           }
 
           if current_subcategory

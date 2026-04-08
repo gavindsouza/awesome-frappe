@@ -7,3 +7,4 @@ vendor/
 *.gem
 .direnv/
 result
+_github_cache.json

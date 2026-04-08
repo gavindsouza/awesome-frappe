@@ -157,6 +157,9 @@
       <!-- Footer Bottom -->
       <div class="footer-bottom">
         <p>© {{ 'now' | date: "%Y" }} Gavin D'souza • Licensed under <a href="https://github.com/gavindsouza/awesome-frappe/blob/main/LICENSE" target="_blank" rel="noopener">CC0 1.0</a></p>
+        {% if site.data.github_meta_synced_at %}
+        <p class="meta-sync-info">GitHub metadata last synced <time datetime="{{ site.data.github_meta_synced_at }}" data-synced-at="{{ site.data.github_meta_synced_at }}">{{ site.data.github_meta_synced_at | date: "%b %-d, %Y" }}</time></p>
+        {% endif %}
       </div>
     </div>
   </footer>

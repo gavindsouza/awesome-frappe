@@ -4,7 +4,13 @@
     {% assign show_install = true %}
   {% endif %}
 {% endif %}
-<div class="card-container{% if forloop.index > 9 %} hidden-card{% endif %}">
+
+{% assign gh_meta = nil %}
+{% if item.github_repo and site.data.github_meta %}
+  {% assign gh_meta = site.data.github_meta[item.github_repo] %}
+{% endif %}
+
+<div class="card-container{% if forloop.index > 9 %} hidden-card{% endif %}{% if gh_meta.archived %} archived{% endif %}">
   <div class="card">
     <div class="card-front">
       {% if show_install %}
@@ -12,8 +18,27 @@
         <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"/><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"/></svg>
       </button>
       {% endif %}
+      {% if gh_meta.archived %}
+      <span class="badge badge-archived" title="This repository is archived">Archived</span>
+      {% endif %}
       <h4><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a></h4>
       <p>{{ item.description | enrich_description }}</p>
+      {% if gh_meta %}
+      <div class="card-meta">
+        {% if gh_meta.stars %}
+        <span class="meta-item" title="{{ gh_meta.stars }} stars on GitHub">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg>
+          {{ gh_meta.stars }}
+        </span>
+        {% endif %}
+        {% if gh_meta.pushed_at %}
+        <span class="meta-item meta-last-push" title="Last activity: {{ gh_meta.pushed_at }}" data-pushed-at="{{ gh_meta.pushed_at }}">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm7.25-3.25a.75.75 0 0 0-1.5 0v2.992l-1.28.853a.75.75 0 0 0 .832 1.248l1.6-1.067a.746.746 0 0 0 .348-.634V4.75Z"/></svg>
+          <time datetime="{{ gh_meta.pushed_at }}">{{ gh_meta.pushed_at | date: "%b %Y" }}</time>
+        </span>
+        {% endif %}
+      </div>
+      {% endif %}
     </div>
     {% if show_install %}
     {% assign ssh_url = item.url | replace: 'https://github.com/', 'git@github.com:' %}

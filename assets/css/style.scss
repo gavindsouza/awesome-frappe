@@ -911,6 +911,65 @@ code {
   white-space: nowrap;
 }
 
+/* Card Meta (stars, last push) */
+.card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--color-border);
+}
+
+.meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.meta-item svg {
+  opacity: 0.6;
+}
+
+/* Archived badge */
+.badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  line-height: 1.4;
+}
+
+.badge-archived {
+  background: var(--disclaimer-bg);
+  color: var(--disclaimer-text);
+  border: 1px solid var(--disclaimer-border);
+  margin-bottom: 6px;
+}
+
+.card-container.archived .card-front {
+  opacity: 0.7;
+}
+
+.card-container.archived:hover .card-front {
+  opacity: 1;
+}
+
+/* Stale indicator - repos with no activity for 2+ years */
+.meta-last-push.stale {
+  color: #b45309;
+}
+
+[data-theme="dark"] .meta-last-push.stale {
+  color: #fbbf24;
+}
+
 .copied-message {
   text-align: center;
   padding: 20px;
@@ -1048,6 +1107,13 @@ code {
 
 .footer-bottom a:hover {
   color: #60a5fa;
+}
+
+.meta-sync-info {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--color-text-muted);
+  opacity: 0.7;
 }
 
 @media (max-width: 968px) {

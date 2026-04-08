@@ -378,6 +378,45 @@ function initScrollToTop() {
   });
 }
 
+// Relative time + stale indicator for last push dates
+function initCardMeta() {
+  const TWO_YEARS_MS = 2 * 365.25 * 24 * 60 * 60 * 1000;
+  const now = Date.now();
+
+  document.querySelectorAll('.meta-last-push').forEach(el => {
+    const pushedAt = el.dataset.pushedAt;
+    if (!pushedAt) return;
+
+    const date = new Date(pushedAt);
+    const diffMs = now - date.getTime();
+
+    // Mark stale if no activity for 2+ years
+    if (diffMs > TWO_YEARS_MS) {
+      el.classList.add('stale');
+    }
+
+    // Replace static date with relative time
+    const timeEl = el.querySelector('time');
+    if (timeEl) {
+      timeEl.textContent = relativeTime(diffMs);
+    }
+  });
+}
+
+function relativeTime(diffMs) {
+  const seconds = Math.floor(diffMs / 1000);
+  const minutes = Math.floor(seconds / 60);
+  const hours = Math.floor(minutes / 60);
+  const days = Math.floor(hours / 24);
+  const months = Math.floor(days / 30.44);
+  const years = Math.floor(days / 365.25);
+
+  if (years > 0) return years === 1 ? '1 year ago' : `${years} years ago`;
+  if (months > 0) return months === 1 ? '1 month ago' : `${months} months ago`;
+  if (days > 0) return days === 1 ? '1 day ago' : `${days} days ago`;
+  return 'today';
+}
+
 // Run immediately if DOM is already loaded, otherwise wait for it
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', function() {
@@ -386,6 +425,7 @@ if (document.readyState === 'loading') {
     initStickySearch();
     initScrollToTop();
     initInstallDropdowns();
+    initCardMeta();
   });
 } else {
   initShowMoreButtons();
@@ -393,4 +433,5 @@ if (document.readyState === 'loading') {
   initStickySearch();
   initScrollToTop();
   initInstallDropdowns();
+  initCardMeta();
 }
