@@ -70,6 +70,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Mail](https://github.com/frappe/mail) - Frappe Mail.
 - [Mon School](https://github.com/fossunited/mon_school) - Frappe App for Mon School based on Frappe LMS.
 - [Nepal Compliance](https://github.com/yarsa/nepal-compliance) - Open source ERP for Nepal with HR, Payroll & Accounting compliance.
+- [NextAssist](https://github.com/navdeepghai/nextassist) - AI-powered chat assistant for Frappe/ERPNext with multi-provider support (OpenAI, Claude, Gemini), streaming responses, and a secure RestrictedPython sandbox.
 - [Non Profit](https://github.com/frappe/non_profit) - Non Profit module for Frappe/ERPNext.
 - [Payments](https://github.com/frappe/payments) - A payments app for frappe.
 - [POS Awesome](https://github.com/yrestom/POS-Awesome) - An open-source Point of Sale for ERPNext using Vue.js and Vuetify.
@@ -108,11 +109,11 @@ _Apps that showcase the power of the Frappe Framework_
 - [Frappe System Monitor](https://github.com/mymi14s/frappe_system_monitor) - Web interface for webserver running processes and system utilization (RAM, CPU, Disk)
 - [Frappe Web Push](https://github.com/meichthys/frappe_web_push) - Enables native local browser toast notifications without the need for remote servers like firebase or frappe-cloud
 - [Ghost](https://github.com/muneeb141/ghost) -  Headless identity and OTP authentication engine for Frappe. Centralizes Guest Sessions, Secure Login, and seamless Ghost-to-Real User conversion for building modern Web & Mobile apps.
-- [Mind Map](https://github.com/nilpatel42/mind_map) - Create, edit, and navigate interactive mind maps inside Frappe Desk for planning, documentation trees, and knowledge organization.
 - [Go1 CMS](https://github.com/TridotsTech/go1cms) - Advanced Content Management System built on Frappe.
-- [Matcha](https://github.com/Negentropy-Solutions/matcha) - Faster payment reconciliation for ERPNext with a React UI, FX gain/loss preview, cross-company reconciliation, and undo support.
 - [In-Context Translation](https://github.com/Mazen-Almortada/incontext_translation) - In-context translation for Frappe & ERPNext with automated suggestions.
 - [Kai](https://github.com/KorucuTech/kai) - Custom Frappe App to integrate AI Agents as DocTypes using CrewAI & Frappe Framework.
+- [Matcha](https://github.com/Negentropy-Solutions/matcha) - Faster payment reconciliation for ERPNext with a React UI, FX gain/loss preview, cross-company reconciliation, and undo support.
+- [Mind Map](https://github.com/nilpatel42/mind_map) - Create, edit, and navigate interactive mind maps inside Frappe Desk for planning, documentation trees, and knowledge organization.
 - [Photos](https://github.com/gavindsouza/photos) - AI powered Image classification & labelling similar to Google Photos in Desk.
 - [Pibicut](https://github.com/pibico/pibicut) - URL Shortener with QR Code Generator.
 - [PibiDAV](https://github.com/pibico/pibiDAV) - Integrate webDAV, calDAV and cardDAV (Future) with a NextCloud Server, used as (DMS), for a copy of Frappe Files uploaded and tagged to NextCloud while uploading files to Frappe.
@@ -153,6 +154,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Sidebar Collapsed Default](https://github.com/Nasr-Systems/sidebar_collapsed_default) - Collapses Sidebar by default on all desk pages. Helps use screen real-estate better on small screens.
 - [Silent Print](https://github.com/roquegv/Silent-Print-ERPNext) - Utility App for printing documents silently, that is, without having to interact with browser's print dialog and send the printing order directly to the printer(s).
 - [Strict Session Defaults](https://github.com/kid1194/frappe-strict-session-defaults) - Enforces and manages the session defaults popup.
+- [WalletE](https://github.com/ruknsoftware/WalletE) - Comprehensive electronic wallet solution integrated with ERPNext for customer wallet management, loyalty, and digital payment workflows.
 
 #### Integrations
 
@@ -170,6 +172,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [HDFC Bank Integration](https://github.com/resilient-tech/bank_integration) - Unofficial API to handle bank transactions using ERPNext.
 - [Mandrill Integration](https://github.com/frappe/mandrill_integration) - Mandrill Integration for Frappe.
 - [Mautic Integration](https://github.com/dokos-io/mautic) - Mautic Integration for ERPNext.
+- [MCP ERPNext](https://github.com/Casys-AI/mcp-erpnext) - MCP server for ERPNext with 97 tools across 11 categories and 7 interactive UI viewers. Zero-config setup via npx.
 - [Meta Integration](https://github.com/efeone/frappe_meta_integration) - Meta Cloud API Integration for Frappe.
 - [Metabase Integration](https://github.com/pipech/frappe-metabase) - Access your Metabase instance from Desk.
 - [Microsoft 365 Groups](https://github.com/Aptitudetech/frappe-m365) - Microsoft 365 Groups Integration for Frappe.
@@ -214,7 +217,6 @@ _Apps that showcase the power of the Frappe Framework_
 - [ERPNext France](https://github.com/scopen-coop/erpnext_france.git) - Regional code for France, built on top of ERPNext.
 - [ERPNext Germany](https://github.com/alyf-de/erpnext_germany) - Regional code for Germany, built on top of ERPNext.
 - [ERPNext Thailand](https://github.com/ecosoft-frappe/erpnext_thailand) - Thailand Taxation (VAT, WHT), Thai Billing Process, Get Address from Tax ID, Bank of Thailand Exchange Rate and more... for ERPNext.
-- [South African Localization for ERPNext](https://github.com/EPIUSECX/cohenix_local_za) - Comprehensive South African localization with statutory compliance, tax regulations, payroll localization, and financial reporting.
 - [ERPNext TSE](https://github.com/Rocket-Quack/erpnext_tse) - This app extends ERPNext by connecting cash registers to a TSE and forms the basis for legally compliant cash register transactions in Germany (KassenSichV).
 - [Grynn Swiss QR Bill](https://github.com/Grynn-GmbH/Swiss-QR-Bill-ERPNext) - Swiss QR Bill Generator app for ERPNext.
 - [GSTR 2B Reconciler](https://github.com/aerele/reconciler) - Reconciliation tool for GSTR 2B and Purchase Register.
@@ -222,6 +224,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [KSA](https://github.com/8848digital/KSA) - Regional Compliance for the Kingdom of Saudi Arabia
 - [Pakistan Workspace](https://github.com/ParaLogicTech/erpnext_pk) - Regional App for Pakistan with NIC, NTN, and STRN numbers, and reports for FBR tax compliance.
 - [Payware](https://github.com/aakvatech/Payware) - ERPNext Payroll enhancements specific for functionality required in Tanzania.
+- [South African Localization for ERPNext](https://github.com/EPIUSECX/cohenix_local_za) - Comprehensive South African localization with statutory compliance, tax regulations, payroll localization, and financial reporting.
 - [Swiss Accounting Integration](https://github.com/phamos-eu/Swiss-Accounting-Integration) - Extend ERPNext with Swiss QR Integration and Abacus Export.
 - [Swiss Factur X E Invoicing](https://github.com/Grynn-GmbH/Swiss-E-invoicing-ERPNext) - For E-Invoice Hybrid PDF based on Factur-X and ZugFerd (EN 16931 Standards).
 - [UAE E-Invoicing Integration](https://github.com/ERPGulf/uae_erpgulf) - UAE FTA e-invoicing implementation for ERPNext with UBL 2.1 compliant XML generation, VAT validation, and clearance-ready workflows.
@@ -265,10 +268,10 @@ _Apps that showcase the power of the Frappe Framework_
 - [FrappeAPI](https://github.com/0xsirsaif/frappeapi) - Provides FastAPI-style API development for Frappe, enabling modern path-based routing.
 - [Frappeviz](https://github.com/yemikudaisi/frappeviz) - Visualize class diagrams of a Frappe App's doctypes using PlantUML.
 - [Fsocket](https://github.com/pifabs/fsocket) - Extend frappe's websocket server using socket.io and redis.
+- [InfraScan](https://github.com/SolDevelo/InfraScan) - Infrastructure scanning, vulnerability detection, and security auditing for Frappe deployments.
 - [Intellisense](https://github.com/frappe/intellisense) - VSCode Extension and Language Server for Frappe Framework.
 - [Lost Doctype](https://github.com/rareMaxim/lost_doctype) - A Frappe app that maps your site structure and finds DocTypes that are not accessible through the UI.
 - [Nano Press](https://github.com/BuildWithHussain/nano_press) - Nano Press automates your Frappe/ERPNext deployment from zero to production.
-- [InfraScan](https://github.com/SolDevelo/InfraScan) - Infrastructure scanning, vulnerability detection, and security auditing for Frappe deployments.
 - [Semgrep Rules](https://github.com/frappe/semgrep-rules) - Semgrep Rules for following the best practices while building your Frappe Apps.
 - [TypeScript Type generator](https://github.com/The-Commit-Company/frappe-types) - Typescript type definition generator for Frappe DocTypes.
 
@@ -306,9 +309,9 @@ _Resources allowing you to deploy Frappe apps with your favourite toolset_
 - [Bench](https://frappe.io/bench) - CLI to Manage Frappe Deployments
 - [Benchless](https://github.com/castlecraft/benchless) - CLI tool to manage Frappe deployments without bench.
 - [BenchPress](https://github.com/Venkateshvenki404224/benchpress) - Self-hosted Frappe Cloud alternative with Docker-based bench environments, WireGuard VPN, live build logs, and a Vue 3 dashboard.
+- [Curated ReadyMade Docker Image with Apps](https://github.com/geniusdynamics/erp-next-docker) - Pre-built Docker image with curated ERPNext apps, daily automatic rebuilds, and optional ARM support.
 - [Docker Hub](https://hub.docker.com/u/frappe) - Container images for Frappe & ERPNext releases.
 - [ERPNextFailOver](https://github.com/martinhbramwell/ERPNextFailOver) - Tool to automate setting up Database Replication for ERPNext.
-- [Curated ReadyMade Docker Image with Apps](https://github.com/geniusdynamics/erp-next-docker) - Pre-built Docker image with curated ERPNext apps, daily automatic rebuilds, and optional ARM support.
 - [Frappe Docker](https://github.com/frappe/frappe_docker) - Official docker images for Frappe.
 - [Helm Chart](https://helm.erpnext.com/) - Kubernetes Helm Chart for ERPNext.
 - [Nethserver](https://github.com/geniusdynamics/ns8-erp-next) - @geniusdynamics's configuration for NS8 with backup/restore, server to server node migration, Ldap & Active directory integration and more. [[read more here](https://community.nethserver.org/t/erpnext-the-most-agile-erp-on-the-planet-in-ns8/24240)]
