@@ -317,6 +317,7 @@ _Resources allowing you to deploy Frappe apps with your favourite toolset_
 - [Docker Hub](https://hub.docker.com/u/frappe) - Container images for Frappe & ERPNext releases.
 - [ERPNextFailOver](https://github.com/martinhbramwell/ERPNextFailOver) - Tool to automate setting up Database Replication for ERPNext.
 - [Frappe Docker](https://github.com/frappe/frappe_docker) - Official docker images for Frappe.
+- [Frappe Operator](https://github.com/vyogotech/frappe-operator) - Kubernetes operator for automated deployment and management of Frappe/ERPNext.
 - [Helm Chart](https://helm.erpnext.com/) - Kubernetes Helm Chart for ERPNext.
 - [Nethserver](https://github.com/geniusdynamics/ns8-erp-next) - @geniusdynamics's configuration for NS8 with backup/restore, server to server node migration, Ldap & Active directory integration and more. [[read more here](https://community.nethserver.org/t/erpnext-the-most-agile-erp-on-the-planet-in-ns8/24240)]
 - [Press](https://github.com/frappe/press) - Full service cloud hosting for the Frappe stack - powers Frappe Cloud
@@ -359,3 +360,4 @@ _YouTube Channels_
 _Providers that are catered to hosting of Frappe and Frappe Apps_
 
 - [Frappe Cloud](https://cloud.frappe.io/dashboard/signup?referrer=a6d8da54) - Managed hosting platform for Frappe Apps.
+- [Frappe Operator](https://github.com/vyogotech/frappe-operator) - A production-ready Kubernetes operator that automates deployment, scaling, and management of Frappe Framework applications on Kubernetes.
