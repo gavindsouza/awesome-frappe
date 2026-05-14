@@ -276,6 +276,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Console](https://github.com/yrestom/Console) - Powerful Console for Frappe Backend.
 - [DocType Model Generator](https://github.com/assemmarwan/model_generator) - Generate models to different languages based on Doctype.
 - [Doppio](https://github.com/NagariaHussain/doppio) - Magically setup single page applications on your Frappe Apps.
+- [Frappe Chrome Dev Utils](https://github.com/ascorbic-acid/frappe_chrome_dev_utils) - A simple Browser Extension that help you work & develop in Frappe/ERPNext Framework.
 - [Frappe Deployer](https://github.com/Henry-Do-Su/frappe_deployer) - Streamlined and efficient way to set up development and production environments for Frappe.
 - [Frappe Diff Custom](https://github.com/scopen-coop/scopen-frappe-diff) - Easy way to compare Custom Fields and Property Setters between the git version of an App.
 - [Frappe ER Generator](https://github.com/The-Commit-Company/frappe_er_generator) - Frappe ER Generator is application to generate ERD.
@@ -321,11 +322,12 @@ _Apps that showcase the power of the Frappe Framework_
 - [Frappe MCP](https://github.com/frappe/mcp) - Allows Frappe apps to function as MCP servers.
 - [MCP ERPNext](https://github.com/Casys-AI/mcp-erpnext) - MCP server for ERPNext with 97 tools across 11 categories and 7 interactive UI viewers. Zero-config setup via npx.
 
-### Other Tooling
+### Hardware & IoT
 
-- [Smart Weighing Scale & Inventory](https://github.com/msf4-0/SWSI) - A wireless & portable smart weighing scale embedded system that interfaces with Node-Red for IoT connectivity and ERPNext for inventory & stock tracking.
+_Tools that bridge Frappe with physical hardware or IoT devices_
+
 - [Biometric Attendance Sync Tool](https://github.com/frappe/biometric-attendance-sync-tool) - Python Scripts to poll your biometric attendance system (BAS) for logs and sync with your ERPNext instance.
-- [Frappe Chrome Dev Utils](https://github.com/ascorbic-acid/frappe_chrome_dev_utils) - A simple Browser Extension that help you work & develop in Frappe/ERPNext Framework.
+- [Smart Weighing Scale & Inventory](https://github.com/msf4-0/SWSI) - A wireless & portable smart weighing scale embedded system that interfaces with Node-Red for IoT connectivity and ERPNext for inventory & stock tracking.
 
 ### Deployment Tools
 
