@@ -72,18 +72,23 @@ _Apps that showcase the power of the Frappe Framework_
 - [Nepal Compliance](https://github.com/yarsa/nepal-compliance) - Open source ERP for Nepal with HR, Payroll & Accounting compliance.
 - [Non Profit](https://github.com/frappe/non_profit) - Non Profit module for Frappe/ERPNext.
 - [Payments](https://github.com/frappe/payments) - A payments app for frappe.
-- [POS Awesome](https://github.com/yrestom/POS-Awesome) - An open-source Point of Sale for ERPNext using Vue.js and Vuetify.
-- [POS-Awesome-V15](https://github.com/defendicon/POS-Awesome-V15) - the enhance version with more bugs fixed and multiple currency add thanks to @defendicon
-- [POSNext](https://github.com/BrainWise-DEV/POSNext.git) - POSNext is a modern, open-source Point of Sale for ERPNext, offering fast billing, multiple payment methods, smart discounts, offline mode, and a clean touchscreen-friendly UI—built to handle real retail operations with speed and reliability.
 - [PropMS](https://github.com/aakvatech/PropMS) - Property Management Solution Powered on ERPNext by Aakvatech.
 - [Restaurant](https://github.com/quantumbitcore/erpnext-restaurant) - Restaurant App for ERPNext.
 - [School](https://github.com/frappe/school) - The Learning Management System (LMS) that powers [mon.school](https://mon.school) & [frappe.school](https://frappe.school).
 - [ServiceMS](https://github.com/aakvatech/servicems) - Service Management System for ERPNext by Aakvatech.
 - [Stone Warehouse](https://github.com/finbyz/stonewarehouse) - Manage batch wise balance, especially setup for a ceramic tiles vendor.
-- [TailPOS](https://github.com/bailabs/tailpos) - Offline First Open Source POS for ERPNext.
 - [UPH (Unified Party Hub)](https://github.com/Sendipad/uph) - A comprehensive master data hub for managing parties in ERPNext. Provides unified party profiles, enable easy multicurrency support, relationships, multi party roles, validations, and advanced master-data governance inspired by SAP BP and Oracle Tca.
 - [URY - Open Source Restaurant Management System](https://github.com/ury-erp/ury) - URY is an open-source ERP designed to simplify and streamline restaurant operations, built over ERPNext.
 - [Webshop](https://github.com/frappe/webshop) - eCommerce Platform for ERPNext.
+
+#### POS
+
+- [ERPNext POS Hardware Integrations](https://github.com/aisenyi/pasigono) - Weigh scale integration, Stripe Terminal integration, and Raw printing via QZ Tray
+- [ERPNext: POS Restrictions](https://github.com/kid1194/erpnext_pos_controller) - ERPNext plugin that helps in adding some restrictions over default POS.
+- [POS Awesome](https://github.com/yrestom/POS-Awesome) - An open-source Point of Sale for ERPNext using Vue.js and Vuetify.
+- [POS-Awesome-V15](https://github.com/defendicon/POS-Awesome-V15) - the enhance version with more bugs fixed and multiple currency add thanks to @defendicon
+- [POSNext](https://github.com/BrainWise-DEV/POSNext.git) - POSNext is a modern, open-source Point of Sale for ERPNext, offering fast billing, multiple payment methods, smart discounts, offline mode, and a clean touchscreen-friendly UI—built to handle real retail operations with speed and reliability.
+- [TailPOS](https://github.com/bailabs/tailpos) - Offline First Open Source POS for ERPNext.
 
 #### Utility Apps
 
@@ -96,7 +101,6 @@ _Apps that showcase the power of the Frappe Framework_
 - [Crispy Print](https://github.com/agatho-daemon/crispy_print) - Typst-powered printing and report formatting engine for Frappe with a visual builder and code-level control for consistent, production-quality PDFs.
 - [Enhanced Kanban View](https://github.com/ibrahim317/enhanced_kanban_view) - Frappe Kanban boards with Link field columns, validation dialogs, and automatic synchronization.
 - [ERPNext OCR](https://github.com/Monogramm/erpnext_ocr) - Optical Character Recognition using Tesseract within Frappe.
-- [ERPNext POS Hardware Integrations](https://github.com/aisenyi/pasigono) - Weigh scale integration, Stripe Terminal integration, and Raw printing via QZ Tray
 - [ERPNext Quota](https://github.com/ahmadpak/erpnext_quota) - App to manage ERPNext Site, User, Company and Space limitations.
 - [Event Streaming](https://github.com/frappe/event_streaming) - Event Streaming for frappe.
 - [Frappe Dynamic OG](https://github.com/NagariaHussain/frappe_dynamic_og) - Dynamic OG Image Generation in Frappe Sites.
@@ -138,7 +142,6 @@ _Apps that showcase the power of the Frappe Framework_
 - [Database Console](https://github.com/mymi14s/database_console) - Execute SQL queries directly from Frappe/ERPNext desk just like 'bench mariadb'.
 - [Desk Navbar Extended](https://github.com/gavindsouza/desk-navbar-extended) - Frappe's Navbar, slightly salted.
 - [ERPNext: Fiscal Year](https://github.com/kid1194/ERPNext-Fiscal-Year-Based-Date-Related-Fields) - Desk plugin that makes date related fields respect the start and end dates of default fiscal year.
-- [ERPNext: POS Restrictions](https://github.com/kid1194/erpnext_pos_controller) - ERPNext plugin that helps in adding some restrictions over default POS.
 - [Export Setting](https://github.com/zaid2229/Export-Settings.git) - This app allows you to predefine the fields you want to export from any given doctype in Frappe.
 - [Frappe Msdoc Template](https://github.com/rareMaxim/frappe_msdoc_template) - Generate documents from MS Docs templates (.docx and .xlsx)
 - [Frappe tinyMCE](https://github.com/shridarpatil/frappe_tinymce) - Replace frappe's Quill Text Editor with tinyMCE Text Editor.
