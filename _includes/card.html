@@ -10,6 +10,21 @@
   {% assign gh_meta = site.data.github_meta[item.github_repo] %}
 {% endif %}
 
+{% assign fc_marketplace = nil %}
+{% if site.data.fc_marketplace %}
+  {% if item.github_repo %}
+    {% assign fc_key = item.github_repo | downcase %}
+    {% assign fc_marketplace = site.data.fc_marketplace[fc_key] %}
+  {% endif %}
+  {% unless fc_marketplace %}
+    {% assign fc_name_key = item.name | downcase | prepend: 'name:' %}
+    {% assign fc_marketplace = site.data.fc_marketplace[fc_name_key] %}
+  {% endunless %}
+{% endif %}
+{% if fc_marketplace %}
+  {% assign show_install = true %}
+{% endif %}
+
 <div class="card-container{% if forloop.index > 9 %} hidden-card{% endif %}{% if gh_meta.archived %} archived{% endif %}">
   <div class="card">
     <div class="card-front">
@@ -41,10 +56,11 @@
       {% endif %}
     </div>
     {% if show_install %}
-    {% assign ssh_url = item.url | replace: 'https://github.com/', 'git@github.com:' %}
     <div class="card-back">
       <div class="install-panel">
-        <div class="install-menu-header">Install with bench</div>
+        <div class="install-menu-header">Install</div>
+        {% if item.url contains 'github.com' or item.url contains 'gitlab.com' %}
+        {% assign ssh_url = item.url | replace: 'https://github.com/', 'git@github.com:' %}
         <div class="install-option" data-command="bench get-app {{ item.url }}">
           <span class="install-label">HTTPS</span>
           <code class="install-code">bench get-app {{ item.url }}</code>
@@ -54,6 +70,14 @@
           <span class="install-label">SSH</span>
           <code class="install-code">bench get-app {{ ssh_url }}</code>
         </div>
+        {% endif %}
+        {% endif %}
+        {% if fc_marketplace %}
+        <a class="install-option install-option-link" href="{{ fc_marketplace.install_url }}" target="_blank" rel="noopener" data-href="{{ fc_marketplace.install_url }}">
+          <span class="install-label">FC</span>
+          <code class="install-code">Install on Frappe Cloud</code>
+          <svg class="install-external-icon" width="11" height="11" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"/></svg>
+        </a>
         {% endif %}
       </div>
     </div>

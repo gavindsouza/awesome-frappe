@@ -290,9 +290,15 @@ function initInstallDropdowns() {
       return;
     }
 
-    // Handle click on install option row (copy command and flip back)
+    // Handle click on install option row (copy command and flip back, or open link)
     const option = e.target.closest('.install-option');
     if (option) {
+      // Link-style option (e.g. Frappe Cloud) — let the browser navigate normally
+      if (option.dataset.href) {
+        e.stopPropagation();
+        return;
+      }
+
       e.preventDefault();
       e.stopPropagation();
 
