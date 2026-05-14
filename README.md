@@ -26,8 +26,14 @@ Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework w
 
 - [Apps](#apps)
   - [Business Apps](#business-apps)
+  - [POS](#pos)
   - [Utility Apps](#utility-apps)
+  - [AI & Assistants](#ai--assistants)
   - [Plugins](#plugins)
+  - [Communications](#communications)
+  - [Payments](#payments)
+  - [eCommerce & Shipping](#ecommerce--shipping)
+  - [Storage & File Sync](#storage--file-sync)
   - [Integrations](#integrations)
   - [Themes](#themes)
   - [Regional Apps](#regional-apps)
@@ -35,10 +41,14 @@ Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework w
 - [Developer Tooling](#developer-tooling)
   - [SDKs & Libraries](#sdks--libraries)
   - [Templates](#templates)
-- [Other Tooling](#other-tooling)
+  - [AI & MCP Tooling](#ai--mcp-tooling)
+- [Hardware & IoT](#hardware--iot)
 - [Deployment Tools](#deployment-tools)
+- [Other Clients](#other-clients)
 - [Resources](#resources)
 - [Hosting](#hosting)
+  - [Managed Hosting](#managed-hosting)
+  - [Self-hosted Platforms](#self-hosted-platforms)
 
 
 ### Apps
