@@ -15,25 +15,9 @@ layout: default
 
       <!-- Right: Stats, Search, TOC -->
       <div class="hero-content">
-        <!-- Calculate Stats -->
-        {% assign total_apps = 0 %}
-        {% assign total_tools = 0 %}
-        {% assign total_resources = 0 %}
-
-        {% for category in site.data.projects %}
-          {% if category.name == "Apps" %}
-            {% for subcategory in category.subcategories %}
-              {% assign total_apps = total_apps | plus: subcategory.items.size %}
-            {% endfor %}
-          {% elsif category.name == "Developer Tooling" or category.name == "Other Tooling" or category.name == "Deployment Tools" %}
-            {% for subcategory in category.subcategories %}
-              {% assign total_tools = total_tools | plus: subcategory.items.size %}
-            {% endfor %}
-            {% assign total_tools = total_tools | plus: category.items.size %}
-          {% elsif category.name == "Resources" %}
-            {% assign total_resources = total_resources | plus: category.items.size %}
-          {% endif %}
-        {% endfor %}
+        {% assign total_apps = site.data.counts.apps | default: 0 %}
+        {% assign total_resources = site.data.counts.resources | default: 0 %}
+        {% assign total_tools = site.data.counts.total_items | minus: total_apps | minus: total_resources %}
 
         <h1 class="hero-title">Find what you're looking for through <strong>{{ total_apps }} apps</strong>, <strong>{{ total_tools }} tools</strong> & <strong>{{ total_resources }} resources</strong> across the frappeverse</h1>
 

@@ -127,27 +127,16 @@ module Jekyll
     end
 
     def calculate_counts(categories)
-      counts = {
-        'total_items' => 0,
-        'apps' => 0,
-        'developer_tooling' => 0,
-        'other_tooling' => 0,
-        'deployment_tools' => 0,
-        'other_clients' => 0,
-        'resources' => 0,
-        'hosting' => 0
-      }
+      counts = { 'total_items' => 0 }
 
       categories.each do |category|
-        # Count all items in category and subcategories
         category_count = category['items'].length
         category['subcategories'].each do |subcat|
           category_count += subcat['items'].length
         end
 
-        # Map to count keys
         key = slugify(category['name']).gsub('-', '_')
-        counts[key] = category_count if counts.key?(key)
+        counts[key] = category_count
         counts['total_items'] += category_count
       end
 
