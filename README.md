@@ -150,6 +150,7 @@ _Apps that showcase the power of the Frappe Framework_
 
 - [Active User Lister](https://github.com/kid1194/frappe-active-users) - App that displays a list of current active users.
 - [Attachment Control extended](https://github.com/kid1194/frappe-better-attach-control) - Plugin that gives you more control over the attachments at field level.
+- [BPMN Diagrams](https://github.com/geraldmeunier/frappe_bpmn_diagrams) - Adds a BPMN fieldtype to Frappe (powered by [bpmn.io](https://github.com/bpmn-io/bpmn-js)) so you can draw BPMN diagrams on any DocType.
 - [Database Console](https://github.com/mymi14s/database_console) - Execute SQL queries directly from Frappe/ERPNext desk just like 'bench mariadb'.
 - [Desk Navbar Extended](https://github.com/gavindsouza/desk-navbar-extended) - Frappe's Navbar, slightly salted.
 - [ERPNext: Fiscal Year](https://github.com/kid1194/ERPNext-Fiscal-Year-Based-Date-Related-Fields) - Desk plugin that makes date related fields respect the start and end dates of default fiscal year.
