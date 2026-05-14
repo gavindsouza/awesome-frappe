@@ -76,6 +76,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Gameplan](https://github.com/frappe/gameplan/) - Delightful, open-source, work communication tool for remote teams.
 - [Healthcare](https://github.com/frappe/healthcare) - An open source management system crafted for the medical industry.
 - [Hospitality](https://github.com/frappe/hospitality) - Hospitality app for ERPNext to manage hotels & restaurants.
+- [Ifitwala Ed](https://github.com/fderyckel/ifitwala_ed) - Full Education Operating System built on Frappe (independent of ERPNext) with admissions/CRM, student management, timetabling, transcripts, four user portals (staff/students/guardians/admissions), health, accounting, HR, and assessment modules.
 - [Lending](https://github.com/frappe/lending) - Open Source Lending software.
 - [Mail](https://github.com/frappe/mail) - Frappe Mail.
 - [Mon School](https://github.com/fossunited/mon_school) - Frappe App for Mon School based on Frappe LMS.
