@@ -11,8 +11,9 @@ body:
       options:
         - Apps
         - Developer Tooling
-        - Other Tooling
+        - Hardware & IoT
         - Deployment Tools
+        - Other Clients
         - Resources
         - Hosting
     validations:
@@ -24,8 +25,14 @@ body:
       options:
         # Apps
         - Business Apps
+        - POS
         - Utility Apps
+        - AI & Assistants
         - Plugins
+        - Communications
+        - Payments
+        - eCommerce & Shipping
+        - Storage & File Sync
         - Integrations
         - Themes
         - Regional Apps
@@ -33,6 +40,10 @@ body:
         # Developer Tooling
         - SDKs & Libraries
         - Templates
+        - AI & MCP Tooling
+        # Hosting
+        - Managed Hosting
+        - Self-hosted Platforms
   - type: input
     id: app_or_resource_url
     attributes:

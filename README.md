@@ -26,8 +26,14 @@ Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework w
 
 - [Apps](#apps)
   - [Business Apps](#business-apps)
+  - [POS](#pos)
   - [Utility Apps](#utility-apps)
+  - [AI & Assistants](#ai--assistants)
   - [Plugins](#plugins)
+  - [Communications](#communications)
+  - [Payments](#payments)
+  - [eCommerce & Shipping](#ecommerce--shipping)
+  - [Storage & File Sync](#storage--file-sync)
   - [Integrations](#integrations)
   - [Themes](#themes)
   - [Regional Apps](#regional-apps)
@@ -35,10 +41,14 @@ Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework w
 - [Developer Tooling](#developer-tooling)
   - [SDKs & Libraries](#sdks--libraries)
   - [Templates](#templates)
-- [Other Tooling](#other-tooling)
+  - [AI & MCP Tooling](#ai--mcp-tooling)
+- [Hardware & IoT](#hardware--iot)
 - [Deployment Tools](#deployment-tools)
+- [Other Clients](#other-clients)
 - [Resources](#resources)
 - [Hosting](#hosting)
+  - [Managed Hosting](#managed-hosting)
+  - [Self-hosted Platforms](#self-hosted-platforms)
 
 
 ### Apps
@@ -70,21 +80,25 @@ _Apps that showcase the power of the Frappe Framework_
 - [Mail](https://github.com/frappe/mail) - Frappe Mail.
 - [Mon School](https://github.com/fossunited/mon_school) - Frappe App for Mon School based on Frappe LMS.
 - [Nepal Compliance](https://github.com/yarsa/nepal-compliance) - Open source ERP for Nepal with HR, Payroll & Accounting compliance.
-- [NextAssist](https://github.com/navdeepghai/nextassist) - AI-powered chat assistant for Frappe/ERPNext with multi-provider support (OpenAI, Claude, Gemini), streaming responses, and a secure RestrictedPython sandbox.
 - [Non Profit](https://github.com/frappe/non_profit) - Non Profit module for Frappe/ERPNext.
 - [Payments](https://github.com/frappe/payments) - A payments app for frappe.
-- [POS Awesome](https://github.com/yrestom/POS-Awesome) - An open-source Point of Sale for ERPNext using Vue.js and Vuetify.
-- [POS-Awesome-V15](https://github.com/defendicon/POS-Awesome-V15) - the enhance version with more bugs fixed and multiple currency add thanks to @defendicon
-- [POSNext](https://github.com/BrainWise-DEV/POSNext.git) - POSNext is a modern, open-source Point of Sale for ERPNext, offering fast billing, multiple payment methods, smart discounts, offline mode, and a clean touchscreen-friendly UI—built to handle real retail operations with speed and reliability.
 - [PropMS](https://github.com/aakvatech/PropMS) - Property Management Solution Powered on ERPNext by Aakvatech.
 - [Restaurant](https://github.com/quantumbitcore/erpnext-restaurant) - Restaurant App for ERPNext.
 - [School](https://github.com/frappe/school) - The Learning Management System (LMS) that powers [mon.school](https://mon.school) & [frappe.school](https://frappe.school).
 - [ServiceMS](https://github.com/aakvatech/servicems) - Service Management System for ERPNext by Aakvatech.
 - [Stone Warehouse](https://github.com/finbyz/stonewarehouse) - Manage batch wise balance, especially setup for a ceramic tiles vendor.
-- [TailPOS](https://github.com/bailabs/tailpos) - Offline First Open Source POS for ERPNext.
 - [UPH (Unified Party Hub)](https://github.com/Sendipad/uph) - A comprehensive master data hub for managing parties in ERPNext. Provides unified party profiles, enable easy multicurrency support, relationships, multi party roles, validations, and advanced master-data governance inspired by SAP BP and Oracle Tca.
 - [URY - Open Source Restaurant Management System](https://github.com/ury-erp/ury) - URY is an open-source ERP designed to simplify and streamline restaurant operations, built over ERPNext.
 - [Webshop](https://github.com/frappe/webshop) - eCommerce Platform for ERPNext.
+
+#### POS
+
+- [ERPNext POS Hardware Integrations](https://github.com/aisenyi/pasigono) - Weigh scale integration, Stripe Terminal integration, and Raw printing via QZ Tray
+- [ERPNext: POS Restrictions](https://github.com/kid1194/erpnext_pos_controller) - ERPNext plugin that helps in adding some restrictions over default POS.
+- [POS Awesome](https://github.com/yrestom/POS-Awesome) - An open-source Point of Sale for ERPNext using Vue.js and Vuetify.
+- [POS-Awesome-V15](https://github.com/defendicon/POS-Awesome-V15) - the enhance version with more bugs fixed and multiple currency add thanks to @defendicon
+- [POSNext](https://github.com/BrainWise-DEV/POSNext.git) - POSNext is a modern, open-source Point of Sale for ERPNext, offering fast billing, multiple payment methods, smart discounts, offline mode, and a clean touchscreen-friendly UI—built to handle real retail operations with speed and reliability.
+- [TailPOS](https://github.com/bailabs/tailpos) - Offline First Open Source POS for ERPNext.
 
 #### Utility Apps
 
@@ -93,15 +107,12 @@ _Apps that showcase the power of the Frappe Framework_
 - [Bench Manager](https://github.com/frappe/bench_manager) - Frappe app for managing bench.
 - [Block Administrator](https://frappecloud.com/marketplace/apps/block_administrator) - Enhances security by disabling password-based logins for the Administrator user, thereby reducing the vulnerability surface for brute-force attacks.
 - [Bulk Webhook](https://github.com/aakvatech/Bulk-Webhook) - Bulk Webhook allows creating webhook that sends multiple records and also reports from ERPNext, and has support for Apache Kafka.
-- [changAI](https://github.com/ERPGulf/changAI) - AI-powered assistant for ERPNext that lets users ask business questions in plain English and get instant answers.
 - [Chat](https://github.com/frappe/chat) - Modern chat for your Frappe deployments.
 - [Crispy Print](https://github.com/agatho-daemon/crispy_print) - Typst-powered printing and report formatting engine for Frappe with a visual builder and code-level control for consistent, production-quality PDFs.
 - [Enhanced Kanban View](https://github.com/ibrahim317/enhanced_kanban_view) - Frappe Kanban boards with Link field columns, validation dialogs, and automatic synchronization.
 - [ERPNext OCR](https://github.com/Monogramm/erpnext_ocr) - Optical Character Recognition using Tesseract within Frappe.
-- [ERPNext POS Hardware Integrations](https://github.com/aisenyi/pasigono) - Weigh scale integration, Stripe Terminal integration, and Raw printing via QZ Tray
 - [ERPNext Quota](https://github.com/ahmadpak/erpnext_quota) - App to manage ERPNext Site, User, Company and Space limitations.
 - [Event Streaming](https://github.com/frappe/event_streaming) - Event Streaming for frappe.
-- [Frappe Assistant Core](https://github.com/buildswithpaul/Frappe_Assistant_Core) - Infrastructure that connects LLMs to ERPNext with Model Context Protocol (MCP).
 - [Frappe Dynamic OG](https://github.com/NagariaHussain/frappe_dynamic_og) - Dynamic OG Image Generation in Frappe Sites.
 - [Frappe Private Attachments](https://github.com/shridarpatil/frappe_private_attachments) - Make all frappe attachments as private by default.
 - [Frappe PWA](https://github.com/Monogramm/frappe_pwa) - PWA setup for Frappe website.
@@ -111,12 +122,9 @@ _Apps that showcase the power of the Frappe Framework_
 - [Ghost](https://github.com/muneeb141/ghost) -  Headless identity and OTP authentication engine for Frappe. Centralizes Guest Sessions, Secure Login, and seamless Ghost-to-Real User conversion for building modern Web & Mobile apps.
 - [Go1 CMS](https://github.com/TridotsTech/go1cms) - Advanced Content Management System built on Frappe.
 - [In-Context Translation](https://github.com/Mazen-Almortada/incontext_translation) - In-context translation for Frappe & ERPNext with automated suggestions.
-- [Kai](https://github.com/KorucuTech/kai) - Custom Frappe App to integrate AI Agents as DocTypes using CrewAI & Frappe Framework.
 - [Matcha](https://github.com/Negentropy-Solutions/matcha) - Faster payment reconciliation for ERPNext with a React UI, FX gain/loss preview, cross-company reconciliation, and undo support.
 - [Mind Map](https://github.com/nilpatel42/mind_map) - Create, edit, and navigate interactive mind maps inside Frappe Desk for planning, documentation trees, and knowledge organization.
-- [Photos](https://github.com/gavindsouza/photos) - AI powered Image classification & labelling similar to Google Photos in Desk.
 - [Pibicut](https://github.com/pibico/pibicut) - URL Shortener with QR Code Generator.
-- [PibiDAV](https://github.com/pibico/pibiDAV) - Integrate webDAV, calDAV and cardDAV (Future) with a NextCloud Server, used as (DMS), for a copy of Frappe Files uploaded and tagged to NextCloud while uploading files to Frappe.
 - [Print Designer](https://github.com/frappe/print_designer) - Frappe app to design print formats using interactive UI.
 - [Private Comment](https://github.com/rtCamp/frappe-private-comment.git) - App that allows controlling comment visibility for tagged user and user-groups with three modes: Private, Public & Mentioned
 - [ProjectIT](https://github.com/Arus-Info/ProjectIT) - Open Source PWA mobile app to track the Employees out in the field.
@@ -130,15 +138,20 @@ _Apps that showcase the power of the Frappe Framework_
 - [Wiki](https://github.com/frappe/wiki) - Wiki for serving dynamic data along with a built-in review system.
 - [XcelForm](https://github.com/jezlan/xcelform) - A powerful app for Exporting Doctype data to Excel with custom formats in Frappe/ERPNext.
 
+#### AI & Assistants
+
+- [changAI](https://github.com/ERPGulf/changAI) - AI-powered assistant for ERPNext that lets users ask business questions in plain English and get instant answers.
+- [Kai](https://github.com/KorucuTech/kai) - Custom Frappe App to integrate AI Agents as DocTypes using CrewAI & Frappe Framework.
+- [NextAssist](https://github.com/navdeepghai/nextassist) - AI-powered chat assistant for Frappe/ERPNext with multi-provider support (OpenAI, Claude, Gemini), streaming responses, and a secure RestrictedPython sandbox.
+- [Photos](https://github.com/gavindsouza/photos) - AI powered Image classification & labelling similar to Google Photos in Desk.
+
 #### Plugins
 
 - [Active User Lister](https://github.com/kid1194/frappe-active-users) - App that displays a list of current active users.
 - [Attachment Control extended](https://github.com/kid1194/frappe-better-attach-control) - Plugin that gives you more control over the attachments at field level.
 - [Database Console](https://github.com/mymi14s/database_console) - Execute SQL queries directly from Frappe/ERPNext desk just like 'bench mariadb'.
 - [Desk Navbar Extended](https://github.com/gavindsouza/desk-navbar-extended) - Frappe's Navbar, slightly salted.
-- [DFP External Storage](https://github.com/developmentforpeople/dfp_external_storage) - S3 compatible external storages per folder management app for Frappe and ERPNext.
 - [ERPNext: Fiscal Year](https://github.com/kid1194/ERPNext-Fiscal-Year-Based-Date-Related-Fields) - Desk plugin that makes date related fields respect the start and end dates of default fiscal year.
-- [ERPNext: POS Restrictions](https://github.com/kid1194/erpnext_pos_controller) - ERPNext plugin that helps in adding some restrictions over default POS.
 - [Export Setting](https://github.com/zaid2229/Export-Settings.git) - This app allows you to predefine the fields you want to export from any given doctype in Frappe.
 - [Frappe Msdoc Template](https://github.com/rareMaxim/frappe_msdoc_template) - Generate documents from MS Docs templates (.docx and .xlsx)
 - [Frappe tinyMCE](https://github.com/shridarpatil/frappe_tinymce) - Replace frappe's Quill Text Editor with tinyMCE Text Editor.
@@ -149,52 +162,65 @@ _Apps that showcase the power of the Frappe Framework_
 - [List View: Unassign From](https://github.com/kid1194/frappe-list-unassign-from) - A Frappe plugin that adds the support of unassign from for multiple selection in Desk's List View.
 - [Numeric Control extended](https://github.com/kid1194/frappe-better-numerical-controls) - Allows for more control over numeric fields on Website & Desk.
 - [OIDC Extended](https://github.com/MohammedNoureldin/frappe-oidc-extended) - An extension to the ERPNext Social Login authentication method (OIDC) that incorporates new features designed to meet the needs of enterprises.
-- [S3 Attachments](https://github.com/zerodha/frappe-attachments-s3) - Plug an S3 bucket for storing and fetching files in Frappe.
 - [Select Control extended](https://github.com/kid1194/frappe-better-select-control) - Plugin that adds the support of options group to the select control.
 - [Sidebar Collapsed Default](https://github.com/Nasr-Systems/sidebar_collapsed_default) - Collapses Sidebar by default on all desk pages. Helps use screen real-estate better on small screens.
 - [Silent Print](https://github.com/roquegv/Silent-Print-ERPNext) - Utility App for printing documents silently, that is, without having to interact with browser's print dialog and send the printing order directly to the printer(s).
 - [Strict Session Defaults](https://github.com/kid1194/frappe-strict-session-defaults) - Enforces and manages the session defaults popup.
+
+#### Communications
+
+- [FCM Notification for ERPNext](https://github.com/tridz-dev/erpnext_fcm) - Send notifications created in Frappe or ERPNext as push notication via Firebase Cloud Message.
+- [Mandrill Integration](https://github.com/frappe/mandrill_integration) - Mandrill Integration for Frappe.
+- [MSG91 Integration](https://github.com/dhwani-ris/frappe_msg91_integration) - Integration with the MSG91 SMS gateway for Frappe Framework
+- [Telegram Integration](https://github.com/yrestom/erpnext_telegram) - Telegram Integration app for more productivity.
+- [Twilio Integration](https://github.com/frappe/twilio-integration) - Twilio Integration for Frappe.
+- [WABA Integration](https://github.com/frappe/waba_integration) - WhatsApp Business Cloud API integration for Frappe.
+- [WhatsApp Integration](https://github.com/shridarpatil/frappe_whatsapp) - WhatsApp Cloud Integration for Frappe.
+
+#### Payments
+
+- [Banking API Integration](https://github.com/aerele/bank_api_integration) - Bank API Integration for ERPNext.
+- [ERPNextFinTS](https://github.com/jHetzer/erpnextfints) - FinTS Connector for ERPNext.
+- [HDFC Bank Integration](https://github.com/resilient-tech/bank_integration) - Unofficial API to handle bank transactions using ERPNext.
+- [Paystack Integration](https://github.com/mymi14s/frappe_paystack) - Paystack Payment Gateway Integration for Frappe.
+- [Razorpay Integration](https://github.com/frappe/razorpay_integration) - Razorpay Integration for Frappe.
+- [SumUp Integration](https://github.com/Rocket-Quack/erpnext_sumup) - This App is an SumUP integration for ERPNext POS. Initiate card payments directly via the POS interface, check status, and post transactions cleanly in ERPNext for fast, reliable checkout.
 - [WalletE](https://github.com/ruknsoftware/WalletE) - Comprehensive electronic wallet solution integrated with ERPNext for customer wallet management, loyalty, and digital payment workflows.
+
+#### eCommerce & Shipping
+
+- [Ecommerce Integrations](https://github.com/frappe/ecommerce_integrations) - Ecommerce integrations for ERPNext (Shopify, Unicommerce, Zenoti).
+- [ERPNext Shipping](https://github.com/frappe/erpnext-shipping) - Shipping Integration for ERPNext with Packlink, LetMeShip & SendCloud.
+- [Shipstation Integration](https://github.com/ParsimonyGit/shipstation_integration) - Shipstation Integration for ERPNext.
+- [Shopify Integration](https://github.com/frappe/ecommerce_integrations) - Shopify Integration for ERPNext.
+- [Unicommerce Integration](https://github.com/frappe/ecommerce_integrations) - Unicommerce Integration for ERPNext.
+- [WooCommerceConnector](https://github.com/libracore/WooCommerceConnector) - Integration App for ERPNext to connect to WooCommerce.
+- [Zenoti Integration](https://github.com/frappe/ecommerce_integrations) - Zenoti Integration for ERPNext.
+
+#### Storage & File Sync
+
+- [DFP External Storage](https://github.com/developmentforpeople/dfp_external_storage) - S3 compatible external storages per folder management app for Frappe and ERPNext.
+- [Nextcloud Integration](https://github.com/frappe/nextcloud-integration) - Nextcloud + Frappe = ❤️
+- [Pibiapp](https://github.com/doloresjuliana/pibiapp) - Connect with Nextcloud to store the attachments on your Nextcloud server, integrate with external data from Excel, CSV, JSON or XML files, and view Redash dashboards in Frappe.
+- [PibiDAV](https://github.com/pibico/pibiDAV) - Integrate webDAV, calDAV and cardDAV (Future) with a NextCloud Server, used as (DMS), for a copy of Frappe Files uploaded and tagged to NextCloud while uploading files to Frappe.
+- [RClone Integration](https://github.com/Muzzy73/rclone_integration) - Frappe integration with Rclone.
+- [S3 Attachments](https://github.com/zerodha/frappe-attachments-s3) - Plug an S3 bucket for storing and fetching files in Frappe.
+- [Storage Integration](https://github.com/frappe/storage_integration) - Storage Integration for Frappe.
 
 #### Integrations
 
-- [Banking API Integration](https://github.com/aerele/bank_api_integration) - Bank API Integration for ERPNext.
 - [Dash Integration](https://github.com/pipech/frappe-plotly-dash) - Build analytical web apps through the Desk with @plotly's [Dash](https://github.com/plotly/dash).
 - [DATEV Integration](https://github.com/alyf-de/erpnext_datev) - Integration between ERPNext and DATEV.
 - [Discourse SSO Integration](https://github.com/shridarpatil/frappe_discourse) - Simple frappe app to setup Single sign-on for Discourse.
 - [DocuSign Integration](https://frappecloud.com/marketplace/apps/dsc_erpnext) - DocuSign integration for Frappe Apps.
-- [Ecommerce Integrations](https://github.com/frappe/ecommerce_integrations) - Ecommerce integrations for ERPNext (Shopify, Unicommerce, Zenoti).
-- [ERPNext Shipping](https://github.com/frappe/erpnext-shipping) - Shipping Integration for ERPNext with Packlink, LetMeShip & SendCloud.
-- [ERPNextFinTS](https://github.com/jHetzer/erpnextfints) - FinTS Connector for ERPNext.
 - [EWB API Integration](https://github.com/aerele/ewb_api_integration) - Implementing E-WayBill API integration for India.
-- [FCM Notification for ERPNext](https://github.com/tridz-dev/erpnext_fcm) - Send notifications created in Frappe or ERPNext as push notication via Firebase Cloud Message.
 - [Frepple Integration](https://github.com/msf4-0/ERPNext-Frepple-Integration) - Frepple Production Scheduling Tool.
-- [HDFC Bank Integration](https://github.com/resilient-tech/bank_integration) - Unofficial API to handle bank transactions using ERPNext.
-- [Mandrill Integration](https://github.com/frappe/mandrill_integration) - Mandrill Integration for Frappe.
 - [Mautic Integration](https://github.com/dokos-io/mautic) - Mautic Integration for ERPNext.
-- [MCP ERPNext](https://github.com/Casys-AI/mcp-erpnext) - MCP server for ERPNext with 97 tools across 11 categories and 7 interactive UI viewers. Zero-config setup via npx.
 - [Meta Integration](https://github.com/efeone/frappe_meta_integration) - Meta Cloud API Integration for Frappe.
 - [Metabase Integration](https://github.com/pipech/frappe-metabase) - Access your Metabase instance from Desk.
 - [Microsoft 365 Groups](https://github.com/Aptitudetech/frappe-m365) - Microsoft 365 Groups Integration for Frappe.
-- [MSG91 Integration](https://github.com/dhwani-ris/frappe_msg91_integration) - Integration with the MSG91 SMS gateway for Frappe Framework
-- [Nextcloud Integration](https://github.com/frappe/nextcloud-integration) - Nextcloud + Frappe = ❤️
-- [Paystack Integration](https://github.com/mymi14s/frappe_paystack) - Paystack Payment Gateway Integration for Frappe.
-- [Pibiapp](https://github.com/doloresjuliana/pibiapp) - Connect with Nextcloud to store the attachments on your Nextcloud server, integrate with external data from Excel, CSV, JSON or XML files, and view Redash dashboards in Frappe.
 - [PostGrid Integration](https://github.com/Avunu/postgrid_integration) - Direct Mail Documents within Frappe via PostGrid Print & Mail API
 - [PrintNode Integration](https://github.com/techmaxsolucoes/printnode-integration) - Smart Printing from Frappe using Print Node API.
-- [Razorpay Integration](https://github.com/frappe/razorpay_integration) - Razorpay Integration for Frappe.
-- [RClone Integration](https://github.com/Muzzy73/rclone_integration) - Frappe integration with Rclone.
-- [Shipstation Integration](https://github.com/ParsimonyGit/shipstation_integration) - Shipstation Integration for ERPNext.
-- [Shopify Integration](https://github.com/frappe/ecommerce_integrations) - Shopify Integration for ERPNext.
-- [Storage Integration](https://github.com/frappe/storage_integration) - Storage Integration for Frappe.
-- [SumUp Integration](https://github.com/Rocket-Quack/erpnext_sumup) - This App is an SumUP integration for ERPNext POS. Initiate card payments directly via the POS interface, check status, and post transactions cleanly in ERPNext for fast, reliable checkout.
-- [Telegram Integration](https://github.com/yrestom/erpnext_telegram) - Telegram Integration app for more productivity.
-- [Twilio Integration](https://github.com/frappe/twilio-integration) - Twilio Integration for Frappe.
-- [Unicommerce Integration](https://github.com/frappe/ecommerce_integrations) - Unicommerce Integration for ERPNext.
-- [WABA Integration](https://github.com/frappe/waba_integration) - WhatsApp Business Cloud API integration for Frappe.
-- [WhatsApp Integration](https://github.com/shridarpatil/frappe_whatsapp) - WhatsApp Cloud Integration for Frappe.
-- [WooCommerceConnector](https://github.com/libracore/WooCommerceConnector) - Integration App for ERPNext to connect to WooCommerce.
-- [Zenoti Integration](https://github.com/frappe/ecommerce_integrations) - Zenoti Integration for ERPNext.
 
 #### Themes
 
@@ -260,6 +286,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Console](https://github.com/yrestom/Console) - Powerful Console for Frappe Backend.
 - [DocType Model Generator](https://github.com/assemmarwan/model_generator) - Generate models to different languages based on Doctype.
 - [Doppio](https://github.com/NagariaHussain/doppio) - Magically setup single page applications on your Frappe Apps.
+- [Frappe Chrome Dev Utils](https://github.com/ascorbic-acid/frappe_chrome_dev_utils) - A simple Browser Extension that help you work & develop in Frappe/ERPNext Framework.
 - [Frappe Deployer](https://github.com/Henry-Do-Su/frappe_deployer) - Streamlined and efficient way to set up development and production environments for Frappe.
 - [Frappe Diff Custom](https://github.com/scopen-coop/scopen-frappe-diff) - Easy way to compare Custom Fields and Property Setters between the git version of an App.
 - [Frappe ER Generator](https://github.com/The-Commit-Company/frappe_er_generator) - Frappe ER Generator is application to generate ERD.
@@ -282,7 +309,6 @@ _Apps that showcase the power of the Frappe Framework_
 #### SDKs & Libraries
 
 - [Frappe JS SDK](https://github.com/nikkothari22/frappe-js-sdk) - TypeScript/JavaScript library for Frappe REST API
-- [Frappe MCP](https://github.com/frappe/mcp) - Allows Frappe apps to function as MCP servers.
 - [Frappe React SDK SDK](https://github.com/nikkothari22/frappe-react-sdk) -  React hooks for Frappe
 - [Frappe Straw](https://github.com/ssiyad/frappe-straw) - Developer focused React/TypeScript hooks and utilities for Frappe.
 - [Frappe-Request.js](https://github.com/bailabs/frappe-request) - A Frappe-Client made with JavaScript and Needle.
@@ -299,12 +325,19 @@ _Apps that showcase the power of the Frappe Framework_
 - [Doppio Bot](https://github.com/NagariaHussain/doppio_bot) - AI ChatBot Template, built into Frappe's Desk Interface.
 - [Doppio FrappeUI Starter](https://github.com/NagariaHussain/doppio_frappeui_starter) - A Vite + Vue 3 + TailwindCSS + Frappe UI starter template for building frontends for Frappe Apps.
 
-### Other Tooling
+#### AI & MCP Tooling
 
-- [Smart Weighing Scale & Inventory](https://github.com/msf4-0/SWSI) - A wireless & portable smart weighing scale embedded system that interfaces with Node-Red for IoT connectivity and ERPNext for inventory & stock tracking.
-- [Biometric Attendance Sync Tool](https://github.com/frappe/biometric-attendance-sync-tool) - Python Scripts to poll your biometric attendance system (BAS) for logs and sync with your ERPNext instance.
-- [Frappe Chrome Dev Utils](https://github.com/ascorbic-acid/frappe_chrome_dev_utils) - A simple Browser Extension that help you work & develop in Frappe/ERPNext Framework.
+- [Frappe Assistant Core](https://github.com/buildswithpaul/Frappe_Assistant_Core) - Infrastructure that connects LLMs to ERPNext with Model Context Protocol (MCP).
 - [Frappe MCP Server](https://github.com/appliedrelevance/frappe-mcp-server) - A server that implements the Anthropic Model Control Protocol (MCP) to enable controlled access to Frappe sites.
+- [Frappe MCP](https://github.com/frappe/mcp) - Allows Frappe apps to function as MCP servers.
+- [MCP ERPNext](https://github.com/Casys-AI/mcp-erpnext) - MCP server for ERPNext with 97 tools across 11 categories and 7 interactive UI viewers. Zero-config setup via npx.
+
+### Hardware & IoT
+
+_Tools that bridge Frappe with physical hardware or IoT devices_
+
+- [Biometric Attendance Sync Tool](https://github.com/frappe/biometric-attendance-sync-tool) - Python Scripts to poll your biometric attendance system (BAS) for logs and sync with your ERPNext instance.
+- [Smart Weighing Scale & Inventory](https://github.com/msf4-0/SWSI) - A wireless & portable smart weighing scale embedded system that interfaces with Node-Red for IoT connectivity and ERPNext for inventory & stock tracking.
 
 ### Deployment Tools
 
@@ -312,7 +345,6 @@ _Resources allowing you to deploy Frappe apps with your favourite toolset_
 
 - [Bench](https://frappe.io/bench) - CLI to Manage Frappe Deployments
 - [Benchless](https://github.com/castlecraft/benchless) - CLI tool to manage Frappe deployments without bench.
-- [BenchPress](https://github.com/Venkateshvenki404224/benchpress) - Self-hosted Frappe Cloud alternative with Docker-based bench environments, WireGuard VPN, live build logs, and a Vue 3 dashboard.
 - [Curated ReadyMade Docker Image with Apps](https://github.com/geniusdynamics/erp-next-docker) - Pre-built Docker image with curated ERPNext apps, daily automatic rebuilds, and optional ARM support.
 - [Docker Hub](https://hub.docker.com/u/frappe) - Container images for Frappe & ERPNext releases.
 - [ERPNextFailOver](https://github.com/martinhbramwell/ERPNextFailOver) - Tool to automate setting up Database Replication for ERPNext.
@@ -320,8 +352,6 @@ _Resources allowing you to deploy Frappe apps with your favourite toolset_
 - [Frappe Operator](https://github.com/vyogotech/frappe-operator) - Kubernetes operator for automated deployment and management of Frappe/ERPNext.
 - [Frappista](https://github.com/vyogotech/frappista) - Pre-baked Frappe/ERPNext images designed for quick trials and simplified development workloads. High-performance, bootable containers that include a pre-configured site for immediate use.
 - [Helm Chart](https://helm.erpnext.com/) - Kubernetes Helm Chart for ERPNext.
-- [Nethserver](https://github.com/geniusdynamics/ns8-erp-next) - @geniusdynamics's configuration for NS8 with backup/restore, server to server node migration, Ldap & Active directory integration and more. [[read more here](https://community.nethserver.org/t/erpnext-the-most-agile-erp-on-the-planet-in-ns8/24240)]
-- [Press](https://github.com/frappe/press) - Full service cloud hosting for the Frappe stack - powers Frappe Cloud
 
 ### Other Clients
 
@@ -358,6 +388,14 @@ _YouTube Channels_
 
 ### Hosting
 
-_Providers that are catered to hosting of Frappe and Frappe Apps_
+_Hosted services that run Frappe for you, or self-hostable platforms you can run yourself_
+
+#### Managed Hosting
 
 - [Frappe Cloud](https://cloud.frappe.io/dashboard/signup?referrer=a6d8da54) - Managed hosting platform for Frappe Apps.
+
+#### Self-hosted Platforms
+
+- [BenchPress](https://github.com/Venkateshvenki404224/benchpress) - Self-hosted Frappe Cloud alternative with Docker-based bench environments, WireGuard VPN, live build logs, and a Vue 3 dashboard.
+- [Nethserver](https://github.com/geniusdynamics/ns8-erp-next) - @geniusdynamics's configuration for NS8 with backup/restore, server to server node migration, Ldap & Active directory integration and more. [[read more here](https://community.nethserver.org/t/erpnext-the-most-agile-erp-on-the-planet-in-ns8/24240)]
+- [Press](https://github.com/frappe/press) - Full service cloud hosting for the Frappe stack - powers Frappe Cloud
