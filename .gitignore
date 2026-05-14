@@ -8,3 +8,4 @@ vendor/
 .direnv/
 result
 _github_cache.json
+_fc_cache.json

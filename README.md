@@ -63,6 +63,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Apparelo](https://github.com/aerele/apparelo) - Manufacturing Workflow Management for the garment industry.
 - [AuMMS](https://github.com/efeone/aumms) - Aurum Manufacturing Management System for Gold Manufacturing.
 - [Cargo Management](https://github.com/AgileShift/cargo_management) - Package Management App for ERPNext.
+- [Changemakers](https://github.com/frappe/changemakers) - FOSS Beneficiary Management System with tracking of services like Food Distribution, Shelter, Education and more.
 - [Clefincode Chat](https://github.com/clefincode/clefincode_chat) - ERPNext/Frappe Business Chat: A self-hosted communication solution.
 - [CRM](https://github.com/frappe/crm) - Fully featured, open source CRM.
 - [DeskAllocationSystem](https://github.com/yashtilala412/Desk_Allocation_System) - A gamified office management app for Frappe/ERPNext that automates quarterly team seating shuffles with a randomized desk-to-employee distribution engine.
@@ -77,6 +78,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Healthcare](https://github.com/frappe/healthcare) - An open source management system crafted for the medical industry.
 - [Hospitality](https://github.com/frappe/hospitality) - Hospitality app for ERPNext to manage hotels & restaurants.
 - [Ifitwala Ed](https://github.com/fderyckel/ifitwala_ed) - Full Education Operating System built on Frappe (independent of ERPNext) with admissions/CRM, student management, timetabling, transcripts, four user portals (staff/students/guardians/admissions), health, accounting, HR, and assessment modules.
+- [Learning](https://github.com/frappe/lms) - Easy to use, open source learning management system.
 - [Lending](https://github.com/frappe/lending) - Open Source Lending software.
 - [Mail](https://github.com/frappe/mail) - Frappe Mail.
 - [Mon School](https://github.com/fossunited/mon_school) - Frappe App for Mon School based on Frappe LMS.
@@ -85,7 +87,6 @@ _Apps that showcase the power of the Frappe Framework_
 - [Payments](https://github.com/frappe/payments) - A payments app for frappe.
 - [PropMS](https://github.com/aakvatech/PropMS) - Property Management Solution Powered on ERPNext by Aakvatech.
 - [Restaurant](https://github.com/quantumbitcore/erpnext-restaurant) - Restaurant App for ERPNext.
-- [School](https://github.com/frappe/school) - The Learning Management System (LMS) that powers [mon.school](https://mon.school) & [frappe.school](https://frappe.school).
 - [ServiceMS](https://github.com/aakvatech/servicems) - Service Management System for ERPNext by Aakvatech.
 - [Stone Warehouse](https://github.com/finbyz/stonewarehouse) - Manage batch wise balance, especially setup for a ceramic tiles vendor.
 - [UPH (Unified Party Hub)](https://github.com/Sendipad/uph) - A comprehensive master data hub for managing parties in ERPNext. Provides unified party profiles, enable easy multicurrency support, relationships, multi party roles, validations, and advanced master-data governance inspired by SAP BP and Oracle Tca.
@@ -152,19 +153,24 @@ _Apps that showcase the power of the Frappe Framework_
 
 - [Active User Lister](https://github.com/kid1194/frappe-active-users) - App that displays a list of current active users.
 - [Attachment Control extended](https://github.com/kid1194/frappe-better-attach-control) - Plugin that gives you more control over the attachments at field level.
+- [Blog](https://github.com/frappe/blog) - Write, publish, and manage blog posts with author profiles & blog categories with interaction capabilities of comments & likes.
 - [BPMN Diagrams](https://github.com/geraldmeunier/frappe_bpmn_diagrams) - Adds a BPMN fieldtype to Frappe (powered by [bpmn.io](https://github.com/bpmn-io/bpmn-js)) so you can draw BPMN diagrams on any DocType.
+- [Builder](https://github.com/frappe/builder) - Low-code website builder for designers and developers.
 - [Database Console](https://github.com/mymi14s/database_console) - Execute SQL queries directly from Frappe/ERPNext desk just like 'bench mariadb'.
 - [Desk Navbar Extended](https://github.com/gavindsouza/desk-navbar-extended) - Frappe's Navbar, slightly salted.
+- [Energy Point System](https://github.com/frappe/eps) - Gamify user engagement by rewarding points for app activities, peer-to-peer appreciation, and dynamic leaderboards.
 - [ERPNext: Fiscal Year](https://github.com/kid1194/ERPNext-Fiscal-Year-Based-Date-Related-Fields) - Desk plugin that makes date related fields respect the start and end dates of default fiscal year.
 - [Export Setting](https://github.com/zaid2229/Export-Settings.git) - This app allows you to predefine the fields you want to export from any given doctype in Frappe.
 - [Frappe Msdoc Template](https://github.com/rareMaxim/frappe_msdoc_template) - Generate documents from MS Docs templates (.docx and .xlsx)
 - [Frappe tinyMCE](https://github.com/shridarpatil/frappe_tinymce) - Replace frappe's Quill Text Editor with tinyMCE Text Editor.
+- [Item Translation](https://github.com/alyf-de/item_translation) - Create translations for Item descriptions and fetch them in transactions.
 - [Jodit HTML Editor](https://github.com/ashish-greycube/jodit_html_editor) - Replace Quill Text Editor With [Jodit](https://github.com/xdan/jodit) HTML Editor on WebPage and WebForm for Frappe/ERPNext Version 11 & 12.
 - [Language Toggle](https://github.com/zaid2229/language-toggle) - Button on navbar to toggle language in ERPNext.
 - [Language Translator](https://github.com/mymi14s/language_translator) - Automatic language translator on Frappe Desk and website.
 - [List View extended](https://github.com/kid1194/frappe-better-list-view) - List view plugin with more customization sugar.
 - [List View: Unassign From](https://github.com/kid1194/frappe-list-unassign-from) - A Frappe plugin that adds the support of unassign from for multiple selection in Desk's List View.
 - [Numeric Control extended](https://github.com/kid1194/frappe-better-numerical-controls) - Allows for more control over numeric fields on Website & Desk.
+- [Offsite Backups](https://github.com/frappe/offsite_backups) - Offsite backup service that ships database and file backups to external storage.
 - [OIDC Extended](https://github.com/MohammedNoureldin/frappe-oidc-extended) - An extension to the ERPNext Social Login authentication method (OIDC) that incorporates new features designed to meet the needs of enterprises.
 - [Select Control extended](https://github.com/kid1194/frappe-better-select-control) - Plugin that adds the support of options group to the select control.
 - [Sidebar Collapsed Default](https://github.com/Nasr-Systems/sidebar_collapsed_default) - Collapses Sidebar by default on all desk pages. Helps use screen real-estate better on small screens.
@@ -173,7 +179,10 @@ _Apps that showcase the power of the Frappe Framework_
 
 #### Communications
 
+- [ChatNext](https://github.com/chromonav/chatnext) - AI-powered assistant for Frappe and ERPNext with contextual help, in-depth module knowledge, and instant query resolution.
+- [Email Delivery Service](https://github.com/frappe/email_delivery_service) - A plug and play email delivery service for Frappe Cloud.
 - [FCM Notification for ERPNext](https://github.com/tridz-dev/erpnext_fcm) - Send notifications created in Frappe or ERPNext as push notication via Firebase Cloud Message.
+- [Frappe WhatsApp Chatbot](https://github.com/shridarpatil/frappe_whatsapp_chatbot) - Chatbot solution built on top of Frappe's WhatsApp integration.
 - [Mandrill Integration](https://github.com/frappe/mandrill_integration) - Mandrill Integration for Frappe.
 - [MSG91 Integration](https://github.com/dhwani-ris/frappe_msg91_integration) - Integration with the MSG91 SMS gateway for Frappe Framework
 - [Telegram Integration](https://github.com/yrestom/erpnext_telegram) - Telegram Integration app for more productivity.
@@ -194,16 +203,19 @@ _Apps that showcase the power of the Frappe Framework_
 #### eCommerce & Shipping
 
 - [Ecommerce Integrations](https://github.com/frappe/ecommerce_integrations) - Ecommerce integrations for ERPNext (Shopify, Unicommerce, Zenoti).
+- [Ecommerce Theme](https://github.com/omfsakib/ecommerce-theme) - A modern, responsive theme builder for e-commerce webshops built on the Frappe Framework.
 - [ERPNext Shipping](https://github.com/frappe/erpnext-shipping) - Shipping Integration for ERPNext with Packlink, LetMeShip & SendCloud.
 - [Shipstation Integration](https://github.com/ParsimonyGit/shipstation_integration) - Shipstation Integration for ERPNext.
 - [Shopify Integration](https://github.com/frappe/ecommerce_integrations) - Shopify Integration for ERPNext.
 - [Unicommerce Integration](https://github.com/frappe/ecommerce_integrations) - Unicommerce Integration for ERPNext.
+- [WooCommerce Integration](https://github.com/alyf-de/woocommerce_integration) - Sync your stock levels from ERPNext to WooCommerce and receive sales orders from WooCommerce in ERPNext.
 - [WooCommerceConnector](https://github.com/libracore/WooCommerceConnector) - Integration App for ERPNext to connect to WooCommerce.
 - [Zenoti Integration](https://github.com/frappe/ecommerce_integrations) - Zenoti Integration for ERPNext.
 
 #### Storage & File Sync
 
 - [DFP External Storage](https://github.com/developmentforpeople/dfp_external_storage) - S3 compatible external storages per folder management app for Frappe and ERPNext.
+- [Drive](https://github.com/frappe/drive) - Delightful, open source file storage and sharing solution.
 - [Nextcloud Integration](https://github.com/frappe/nextcloud-integration) - Nextcloud + Frappe = ❤️
 - [Pibiapp](https://github.com/doloresjuliana/pibiapp) - Connect with Nextcloud to store the attachments on your Nextcloud server, integrate with external data from Excel, CSV, JSON or XML files, and view Redash dashboards in Frappe.
 - [PibiDAV](https://github.com/pibico/pibiDAV) - Integrate webDAV, calDAV and cardDAV (Future) with a NextCloud Server, used as (DMS), for a copy of Frappe Files uploaded and tagged to NextCloud while uploading files to Frappe.
@@ -218,6 +230,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Discourse SSO Integration](https://github.com/shridarpatil/frappe_discourse) - Simple frappe app to setup Single sign-on for Discourse.
 - [DocuSign Integration](https://frappecloud.com/marketplace/apps/dsc_erpnext) - DocuSign integration for Frappe Apps.
 - [EWB API Integration](https://github.com/aerele/ewb_api_integration) - Implementing E-WayBill API integration for India.
+- [Exotel Integration](https://github.com/frappe/exotel_integration) - Exotel telephony integration for Frappe apps.
 - [FC Site Manager](https://github.com/wahni-green/fc_site_manager) - App for partners managing multiple Frappe Cloud sites — single-click login to client sites without passwords, and periodic rotation/disabling of user accounts across them.
 - [Frepple Integration](https://github.com/msf4-0/ERPNext-Frepple-Integration) - Frepple Production Scheduling Tool.
 - [Mautic Integration](https://github.com/dokos-io/mautic) - Mautic Integration for ERPNext.
@@ -226,6 +239,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Microsoft 365 Groups](https://github.com/Aptitudetech/frappe-m365) - Microsoft 365 Groups Integration for Frappe.
 - [PostGrid Integration](https://github.com/Avunu/postgrid_integration) - Direct Mail Documents within Frappe via PostGrid Print & Mail API
 - [PrintNode Integration](https://github.com/techmaxsolucoes/printnode-integration) - Smart Printing from Frappe using Print Node API.
+- [Telephony](https://github.com/frappe/telephony) - Exotel and Twilio integration for Frappe apps.
 
 #### Themes
 
@@ -240,6 +254,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Pink](https://github.com/Muhammad-shaalan/pink-theme) - @Muhammad-shaalan's Pink theme.
 - [Portal Theme](https://github.com/Sudhanshu-Badole/Portal-Theme) - Theme your entire Frappe portal — navbar, cards, login page, and more.
 - [Red](https://github.com/hashirluv/redtheme_v13b) - @hashirluv's Red theme for your Frappe v13-beta Apps.
+- [Saas Theme by CommitStreet](https://github.com/vineyrawat/saas_theme) - A modern, polished SaaS UI theme for Frappe Framework v16 — dual sidebar, slide-in editors, enhanced forms & dashboard.
 - [Tekton Theme](https://github.com/vineyrawat/Tekton-Theme) - Tekton Theme - Custom App for frappe for addon themes.
 
 #### Regional Apps
