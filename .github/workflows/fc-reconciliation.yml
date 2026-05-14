@@ -1,0 +1,71 @@
+name: Frappe Cloud Marketplace Reconciliation
+
+# Generates a weekly curator's worklist of FC marketplace apps not yet in
+# awesome-frappe. The list lives in a sticky GitHub issue that is rewritten
+# on each run — no files committed, no PR churn.
+#
+# The build-time enricher (_plugins/fc_marketplace_enricher.rb) handles
+# install-link metadata for cards. This workflow only produces the report.
+
+on:
+  schedule:
+    - cron: '0 5 * * 1'  # Mondays at 05:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: fc-reconciliation
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+
+      - name: Generate reconciliation report
+        run: ruby scripts/fc_reconciliation.rb > /tmp/report.md
+
+      - name: Upsert sticky issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('/tmp/report.md', 'utf8');
+            const title = 'Frappe Cloud Marketplace — Reconciliation';
+
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              state: 'open',
+              labels: 'fc-reconciliation',
+              per_page: 5
+            });
+
+            const existing = issues.find(i => i.title === title);
+            if (existing) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo:  context.repo.repo,
+                issue_number: existing.number,
+                body
+              });
+              core.info(`Updated issue #${existing.number}`);
+            } else {
+              const { data: created } = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo:  context.repo.repo,
+                title,
+                body,
+                labels: ['fc-reconciliation']
+              });
+              core.info(`Opened issue #${created.number}`);
+            }
