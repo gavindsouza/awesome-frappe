@@ -123,6 +123,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Ghost](https://github.com/muneeb141/ghost) -  Headless identity and OTP authentication engine for Frappe. Centralizes Guest Sessions, Secure Login, and seamless Ghost-to-Real User conversion for building modern Web & Mobile apps.
 - [Go1 CMS](https://github.com/TridotsTech/go1cms) - Advanced Content Management System built on Frappe.
 - [In-Context Translation](https://github.com/Mazen-Almortada/incontext_translation) - In-context translation for Frappe & ERPNext with automated suggestions.
+- [Item Code Generator](https://github.com/grandpaSam/item-code-generator) - Define template Items with `{attribute_name}` placeholders in `item_code` that auto-substitute from Item Attribute SKU codes when generating single or multi-attribute variants (e.g. `SHIRT{Size}{Color}` → `SHIRTXLRED`).
 - [Matcha](https://github.com/Negentropy-Solutions/matcha) - Faster payment reconciliation for ERPNext with a React UI, FX gain/loss preview, cross-company reconciliation, and undo support.
 - [Mind Map](https://github.com/nilpatel42/mind_map) - Create, edit, and navigate interactive mind maps inside Frappe Desk for planning, documentation trees, and knowledge organization.
 - [Pibicut](https://github.com/pibico/pibicut) - URL Shortener with QR Code Generator.
