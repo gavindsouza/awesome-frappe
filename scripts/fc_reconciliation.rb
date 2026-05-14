@@ -110,9 +110,11 @@ text = File.read(README_PATH)
 by_section.each { |section, lines| text = insert_into_section(text, section, lines) }
 File.write(README_PATH, text)
 
-# Alphabetize via the project's sorter.
+# Alphabetize via the project's sorter (it reads ./README.md, so chdir).
 if File.exist?(SORTER)
-  system('ruby', SORTER, README_PATH) || warn('record_sorter.rb returned non-zero')
+  Dir.chdir(ROOT) do
+    system('ruby', SORTER) || warn('record_sorter.rb returned non-zero')
+  end
 end
 
 # ---------------------------------------------------------------------------
