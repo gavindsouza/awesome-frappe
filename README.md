@@ -342,6 +342,7 @@ It is built for teams that already use ERPNext and want a practical assistant in
 - [Frappe Assistant Core](https://github.com/buildswithpaul/Frappe_Assistant_Core) - Infrastructure that connects LLMs to ERPNext with Model Context Protocol (MCP).
 - [Frappe MCP Server](https://github.com/appliedrelevance/frappe-mcp-server) - A server that implements the Anthropic Model Control Protocol (MCP) to enable controlled access to Frappe sites.
 - [Frappe MCP](https://github.com/frappe/mcp) - Allows Frappe apps to function as MCP servers.
+- [Frappe Skills](https://github.com/frappe/skills) - A collection of agent skills for building Frappe Framework applications, plus general code-style and UI design skills.
 - [MCP ERPNext](https://github.com/Casys-AI/mcp-erpnext) - MCP server for ERPNext with 97 tools across 11 categories and 7 interactive UI viewers. Zero-config setup via npx.
 - [Pacioli](https://github.com/john-broadway/pacioli) - Governance layer that makes it safe to let AI agents or any automation touch your ERPNext books. Scoped deny-biased tokens, plan-prove-record workflow, immutable audit trail. Works over MCP, A2A and REST
 
