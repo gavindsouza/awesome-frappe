@@ -1,0 +1,20 @@
+# Frappe Cloud marketplace slug -> README entry name
+#
+# Used by scripts/fc_sync.rb to avoid false-negative duplicate detection
+# when the README entry uses a product URL or marketplace URL instead of
+# the canonical GitHub URL.
+#
+# The value is the EXACT name as it appears in `- [Name](url) - ...` in
+# README.md (case-insensitive match). The script will tag the FC install
+# link onto that named entry's card.
+#
+# Add an entry whenever you spot an FC app the matcher misses because
+# its README entry doesn't link to GitHub.
+
+erpnext: ERPNext
+helpdesk: Frappe Desk
+hrms: Frappe HR
+block_administrator: Block Administrator
+sheets: Sheets
+toolbox: ToolBox
+dsc_erpnext: DocuSign Integration

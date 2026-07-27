@@ -30,6 +30,13 @@ jobs:
           ruby-version: '3.4'
           bundler-cache: true
 
+      - name: Restore FC scrape cache
+        uses: actions/cache@v4
+        with:
+          path: _fc_cache.json
+          key: fc-cache-${{ github.run_id }}
+          restore-keys: fc-cache-
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
