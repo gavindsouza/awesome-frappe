@@ -301,6 +301,7 @@ It is built for teams that already use ERPNext and want a practical assistant in
 - [Frappe Deployer](https://github.com/Henry-Do-Su/frappe_deployer) - Streamlined and efficient way to set up development and production environments for Frappe.
 - [Frappe Diff Custom](https://github.com/scopen-coop/scopen-frappe-diff) - Easy way to compare Custom Fields and Property Setters between the git version of an App.
 - [Frappe ER Generator](https://github.com/The-Commit-Company/frappe_er_generator) - Frappe ER Generator is application to generate ERD.
+- [Frappe Flow](https://github.com/frappe/flow) - Flow puts an AI assistant inside your Frappe site. It knows your DocTypes, respects your permissions, and can operate your site in plain English — creating records, sending emails, building DocTypes, creating agents and tools, and setting up RAG chatbots.
 - [Frappe GraphQL](https://github.com/leam-tech/frappe_graphql) - GraphQL API Layer for Frappe Framework.
 - [Frappe Schema JSON Diff](https://github.com/Robproject/fsjd) - CI tool for showing any schema changes between commits.
 - [Frappe Test Runner](https://marketplace.visualstudio.com/items?itemName=AnkushMenat.frappe-test-runner) - VS Code extension to run Frappe tests with single keybind.
