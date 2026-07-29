@@ -218,7 +218,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Dash Integration](https://github.com/pipech/frappe-plotly-dash) - Build analytical web apps through the Desk with @plotly's [Dash](https://github.com/plotly/dash).
 - [DATEV Integration](https://github.com/alyf-de/erpnext_datev) - Integration between ERPNext and DATEV.
 - [Discourse SSO Integration](https://github.com/shridarpatil/frappe_discourse) - Simple frappe app to setup Single sign-on for Discourse.
-- [DocuSign Integration](https://frappecloud.com/marketplace/apps/dsc_erpnext) - DocuSign integration for Frappe Apps.
+- [DocuSign Integration](https://cloud.frappe.io/marketplace/apps/dsc) - DocuSign integration for Frappe Apps.
 - [EWB API Integration](https://github.com/aerele/ewb_api_integration) - Implementing E-WayBill API integration for India.
 - [FC Site Manager](https://github.com/wahni-green/fc_site_manager) - App for partners managing multiple Frappe Cloud sites — single-click login to client sites without passwords, and periodic rotation/disabling of user accounts across them.
 - [Frepple Integration](https://github.com/msf4-0/ERPNext-Frepple-Integration) - Frepple Production Scheduling Tool.
