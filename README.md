@@ -86,7 +86,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Payments](https://github.com/frappe/payments) - A payments app for frappe.
 - [PropMS](https://github.com/aakvatech/PropMS) - Property Management Solution Powered on ERPNext by Aakvatech.
 - [Restaurant](https://github.com/quantumbitcore/erpnext-restaurant) - Restaurant App for ERPNext.
-- [School](https://github.com/frappe/school) - The Learning Management System (LMS) that powers [mon.school](https://mon.school) & [frappe.school](https://frappe.school).
+- [School](https://github.com/frappe/lms) - The Learning Management System (LMS) that powers [mon.school](https://mon.school) & [frappe.school](https://frappe.school).
 - [ServiceMS](https://github.com/aakvatech/servicems) - Service Management System for ERPNext by Aakvatech.
 - [Stone Warehouse](https://github.com/finbyz/stonewarehouse) - Manage batch wise balance, especially setup for a ceramic tiles vendor.
 - [UPH (Unified Party Hub)](https://github.com/Sendipad/uph) - A comprehensive master data hub for managing parties in ERPNext. Provides unified party profiles, enable easy multicurrency support, relationships, multi party roles, validations, and advanced master-data governance inspired by SAP BP and Oracle Tca.
@@ -149,6 +149,8 @@ _Apps that showcase the power of the Frappe Framework_
 - [Kai](https://github.com/KorucuTech/kai) - Custom Frappe App to integrate AI Agents as DocTypes using CrewAI & Frappe Framework.
 - [NextAssist](https://github.com/navdeepghai/nextassist) - AI-powered chat assistant for Frappe/ERPNext with multi-provider support (OpenAI, Claude, Gemini), streaming responses, and a secure RestrictedPython sandbox.
 - [Photos](https://github.com/gavindsouza/photos) - AI powered Image classification & labelling similar to Google Photos in Desk.
+- [Ask ALYF](https://github.com/alyf-de/ask_alyf) - Ask ALYF adds an assistant to ERPNext so users can ask questions, find information, and get help working with documents without leaving the Desk.
+- [Frappe Flow](https://github.com/frappe/flow) - Flow puts an AI assistant inside your Frappe site. It knows your DocTypes, respects your permissions, and can operate your site in plain English — creating records, sending emails, building DocTypes, creating agents and tools, and setting up RAG chatbots.
 
 #### Plugins
 
@@ -179,6 +181,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Mandrill Integration](https://github.com/frappe/mandrill_integration) - Mandrill Integration for Frappe.
 - [MSG91 Integration](https://github.com/dhwani-ris/frappe_msg91_integration) - Integration with the MSG91 SMS gateway for Frappe Framework
 - [Telegram Integration](https://github.com/yrestom/erpnext_telegram) - Telegram Integration app for more productivity.
+- [Telegram Bot Manager](https://github.com/leam-tech/frappe_telegram) - Telegram Bot support for Frappe.
 - [Twilio Integration](https://github.com/frappe/twilio-integration) - Twilio Integration for Frappe.
 - [WABA Integration](https://github.com/frappe/waba_integration) - WhatsApp Business Cloud API integration for Frappe.
 - [WhatsApp Integration](https://github.com/shridarpatil/frappe_whatsapp) - WhatsApp Cloud Integration for Frappe.
@@ -218,7 +221,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Dash Integration](https://github.com/pipech/frappe-plotly-dash) - Build analytical web apps through the Desk with @plotly's [Dash](https://github.com/plotly/dash).
 - [DATEV Integration](https://github.com/alyf-de/erpnext_datev) - Integration between ERPNext and DATEV.
 - [Discourse SSO Integration](https://github.com/shridarpatil/frappe_discourse) - Simple frappe app to setup Single sign-on for Discourse.
-- [DocuSign Integration](https://frappecloud.com/marketplace/apps/dsc_erpnext) - DocuSign integration for Frappe Apps.
+- [DocuSign Integration](https://cloud.frappe.io/marketplace/apps/dsc) - DocuSign integration for Frappe Apps.
 - [EWB API Integration](https://github.com/aerele/ewb_api_integration) - Implementing E-WayBill API integration for India.
 - [FC Site Manager](https://github.com/wahni-green/fc_site_manager) - App for partners managing multiple Frappe Cloud sites — single-click login to client sites without passwords, and periodic rotation/disabling of user accounts across them.
 - [Frepple Integration](https://github.com/msf4-0/ERPNext-Frepple-Integration) - Frepple Production Scheduling Tool.
@@ -256,7 +259,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [GSTR 2B Reconciler](https://github.com/aerele/reconciler) - Reconciliation tool for GSTR 2B and Purchase Register.
 - [India Compliance](https://github.com/resilient-tech/india-compliance) - Simple, yet powerful compliance solutions for Indian businesses.
 - [Italian Electronic Invoicing for ERPNext](https://github.com/Solede-SA/italian_invoice) - Complete Italian electronic invoicing management for ERPNext. FatturaPA v1.2.1 XML generation, automatic supplier invoice import, compliant VAT records, payment rounding, and pluggable provider architecture for SDI. Zero external dependencies.
-- [KSA](https://github.com/8848digital/KSA) - Regional Compliance for the Kingdom of Saudi Arabia
+- [KSA](https://github.com/lavaloon-eg/ksa_compliance) - Regional Compliance for the Kingdom of Saudi Arabia
 - [Pakistan Workspace](https://github.com/ParaLogicTech/erpnext_pk) - Regional App for Pakistan with NIC, NTN, and STRN numbers, and reports for FBR tax compliance.
 - [Payware](https://github.com/aakvatech/Payware) - ERPNext Payroll enhancements specific for functionality required in Tanzania.
 - [Singapore Compliance](https://github.com/kingstechspl/Singapore-Compliance) - Open-source app to manage Singapore-specific regulatory compliance. The app creates ledgers and tax templates and comes with GST reports.
@@ -283,7 +286,6 @@ _Apps that showcase the power of the Frappe Framework_
 - [Robinhood](https://github.com/shridarpatil/robinhood) - System that powers [robinhoodarmy.com](https://checkin.robinhoodarmy.com/)
 - [Special Item Accountancy Code](https://github.com/scopen-coop/special_item_accountancy_code) - ERPNext Special Item accountancy code according customer settings.
 - [Stock Reconciliation Per Item Group](https://github.com/scopen-coop/stock_reconcialiation_per_item_group) - ERPNext Stock reconciliation per item group
-- [Telegram Bot Manager](https://github.com/leam-tech/frappe_telegram) - Telegram Bot support for Frappe.
 - [Vendor Payments](https://github.com/zerodha/vendor-payments) - A frappe app that has workflows and reports to make payments to vendors by a company and track them.
 - [Workspace Permissions](https://github.com/pstuhlmueller/workspaceperms) - Manage the availability of workspaces within Frappe/ ERPNext (sidebar) based on user-roles.
 
@@ -291,7 +293,6 @@ _Apps that showcase the power of the Frappe Framework_
 
 It is built for teams that already use ERPNext and want a practical assistant inside their existing system, not a separate chat product with a separate permission model.
 
-- [Ask ALYF](https://github.com/alyf-de/ask_alyf) - Ask ALYF adds an assistant to ERPNext so users can ask questions, find information, and get help working with documents without leaving the Desk.
 - [Barista](https://github.com/ElasticRun/barista) - Automate functional testing of your Frappe Apps.
 - [Console](https://github.com/yrestom/Console) - Powerful Console for Frappe Backend.
 - [DocType Model Generator](https://github.com/assemmarwan/model_generator) - Generate models to different languages based on Doctype.
@@ -301,7 +302,6 @@ It is built for teams that already use ERPNext and want a practical assistant in
 - [Frappe Deployer](https://github.com/Henry-Do-Su/frappe_deployer) - Streamlined and efficient way to set up development and production environments for Frappe.
 - [Frappe Diff Custom](https://github.com/scopen-coop/scopen-frappe-diff) - Easy way to compare Custom Fields and Property Setters between the git version of an App.
 - [Frappe ER Generator](https://github.com/The-Commit-Company/frappe_er_generator) - Frappe ER Generator is application to generate ERD.
-- [Frappe Flow](https://github.com/frappe/flow) - Flow puts an AI assistant inside your Frappe site. It knows your DocTypes, respects your permissions, and can operate your site in plain English — creating records, sending emails, building DocTypes, creating agents and tools, and setting up RAG chatbots.
 - [Frappe GraphQL](https://github.com/leam-tech/frappe_graphql) - GraphQL API Layer for Frappe Framework.
 - [Frappe Schema JSON Diff](https://github.com/Robproject/fsjd) - CI tool for showing any schema changes between commits.
 - [Frappe Test Runner](https://marketplace.visualstudio.com/items?itemName=AnkushMenat.frappe-test-runner) - VS Code extension to run Frappe tests with single keybind.
