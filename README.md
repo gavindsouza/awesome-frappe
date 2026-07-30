@@ -411,6 +411,6 @@ _Hosted services that run Frappe for you, or self-hostable platforms you can run
 
 #### Self-hosted Platforms
 
-- [BenchPress](https://github.com/Venkateshvenki404224/benchpress) - Self-hosted Frappe Cloud alternative with Docker-based bench environments, WireGuard VPN, live build logs, and a Vue 3 dashboard.
+- [BenchPress](https://github.com/Venkateshvenki404224/benchpress_devops) - Self-hosted Frappe Cloud alternative with Docker-based bench environments, WireGuard VPN, live build logs, and a Vue 3 dashboard.
 - [Nethserver](https://github.com/geniusdynamics/ns8-erp-next) - @geniusdynamics's configuration for NS8 with backup/restore, server to server node migration, Ldap & Active directory integration and more. [[read more here](https://community.nethserver.org/t/erpnext-the-most-agile-erp-on-the-planet-in-ns8/24240)]
 - [Press](https://github.com/frappe/press) - Full service cloud hosting for the Frappe stack - powers Frappe Cloud
