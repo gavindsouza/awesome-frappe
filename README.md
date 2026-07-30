@@ -365,6 +365,7 @@ _Resources allowing you to deploy Frappe apps with your favourite toolset_
 - [Docker Hub](https://hub.docker.com/u/frappe) - Container images for Frappe & ERPNext releases.
 - [ERPNextFailOver](https://github.com/martinhbramwell/ERPNextFailOver) - Tool to automate setting up Database Replication for ERPNext.
 - [Frappe Docker](https://github.com/frappe/frappe_docker) - Official docker images for Frappe.
+- [Frappe Inspector](https://marketplace.visualstudio.com/items?itemName=mohamedtazihnyine.frappe-inspector) - A local static-analysis tool for Frappe and ERPNext projects. It connects DocType JSON, Python controllers, client scripts, hooks, patches, fixtures and relationships inside the editor.
 - [Frappe Operator](https://github.com/vyogotech/frappe-operator) - Kubernetes operator for automated deployment and management of Frappe/ERPNext.
 - [Frappista](https://github.com/vyogotech/frappista) - Pre-baked Frappe/ERPNext images designed for quick trials and simplified development workloads. High-performance, bootable containers that include a pre-configured site for immediate use.
 - [Helm Chart](https://helm.erpnext.com/) - Kubernetes Helm Chart for ERPNext.
