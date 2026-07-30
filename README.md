@@ -71,7 +71,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [ERPNext](https://erpnext.com) - Open source full-featured business management system.
 - [Expenses](https://github.com/kid1194/erpnext_expenses) - An expenses management module for ERPNext.
 - [FiMax](https://github.com/YefriTavarez/fimax) - Loan Management and Repayment Scheduling for ERPNext.
-- [Frappe Desk](https://frappedesk.com/) -  Well designed, open-source ticketing system.
+- [Frappe Helpdesk](https://frappe.io/helpdesk) -  Well designed, open-source ticketing system.
 - [Frappe HR](http://frappehr.com/) - An Open Source HRMS for Frappe Ecosystem.
 - [Frappe Insights](https://github.com/frappe/insights) -  Free and Open Source Data Analytics Tool for your Frappe Apps
 - [Gameplan](https://github.com/frappe/gameplan/) - Delightful, open-source, work communication tool for remote teams.
