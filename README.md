@@ -313,6 +313,7 @@ It is built for teams that already use ERPNext and want a practical assistant in
 - [Fsocket](https://github.com/pifabs/fsocket) - Extend frappe's websocket server using socket.io and redis.
 - [InfraScan](https://github.com/SolDevelo/InfraScan) - Infrastructure scanning, vulnerability detection, and security auditing for Frappe deployments.
 - [Intellisense](https://github.com/frappe/intellisense) - VSCode Extension and Language Server for Frappe Framework.
+- [LazyChat ERPNext](https://github.com/soumyasethy/lazychat-erpnext) - An open-source AI assistant docked into the ERPNext desk. It's a 101-tool MCP server with bring-your-own LLM — any OpenAI-compatible or Anthropic key, the key stays in your browser. Mutations are Apply-gated; a vision-judge loop drives self-iteration. The Frappe community's first AI-native sidekick.
 - [Lost Doctype](https://github.com/rareMaxim/lost_doctype) - A Frappe app that maps your site structure and finds DocTypes that are not accessible through the UI.
 - [Nano Press](https://github.com/BuildWithHussain/nano_press) - Nano Press automates your Frappe/ERPNext deployment from zero to production.
 - [Semgrep Rules](https://github.com/frappe/semgrep-rules) - Semgrep Rules for following the best practices while building your Frappe Apps.
