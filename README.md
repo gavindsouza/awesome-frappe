@@ -143,13 +143,13 @@ _Apps that showcase the power of the Frappe Framework_
 
 #### AI & Assistants
 
+- [Ask ALYF](https://github.com/alyf-de/ask_alyf) - Ask ALYF adds an assistant to ERPNext so users can ask questions, find information, and get help working with documents without leaving the Desk.
 - [changAI](https://github.com/ERPGulf/changAI) - AI-powered assistant for ERPNext that lets users ask business questions in plain English and get instant answers.
 - [ERPNext Copilot](https://github.com/byt3crafter/erpnext-copilot) - AI-powered assistant for ERPNext that lets users query data, perform actions, generate charts, and schedule reports in plain English.
+- [Frappe Flow](https://github.com/frappe/flow) - Flow puts an AI assistant inside your Frappe site. It knows your DocTypes, respects your permissions, and can operate your site in plain English — creating records, sending emails, building DocTypes, creating agents and tools, and setting up RAG chatbots.
 - [Kai](https://github.com/KorucuTech/kai) - Custom Frappe App to integrate AI Agents as DocTypes using CrewAI & Frappe Framework.
 - [NextAssist](https://github.com/navdeepghai/nextassist) - AI-powered chat assistant for Frappe/ERPNext with multi-provider support (OpenAI, Claude, Gemini), streaming responses, and a secure RestrictedPython sandbox.
 - [Photos](https://github.com/gavindsouza/photos) - AI powered Image classification & labelling similar to Google Photos in Desk.
-- [Ask ALYF](https://github.com/alyf-de/ask_alyf) - Ask ALYF adds an assistant to ERPNext so users can ask questions, find information, and get help working with documents without leaving the Desk.
-- [Frappe Flow](https://github.com/frappe/flow) - Flow puts an AI assistant inside your Frappe site. It knows your DocTypes, respects your permissions, and can operate your site in plain English — creating records, sending emails, building DocTypes, creating agents and tools, and setting up RAG chatbots.
 
 #### Plugins
 
@@ -178,8 +178,8 @@ _Apps that showcase the power of the Frappe Framework_
 - [FCM Notification for ERPNext](https://github.com/tridz-dev/erpnext_fcm) - Send notifications created in Frappe or ERPNext as push notication via Firebase Cloud Message.
 - [Mandrill Integration](https://github.com/frappe/mandrill_integration) - Mandrill Integration for Frappe.
 - [MSG91 Integration](https://github.com/dhwani-ris/frappe_msg91_integration) - Integration with the MSG91 SMS gateway for Frappe Framework
-- [Telegram Integration](https://github.com/yrestom/erpnext_telegram) - Telegram Integration app for more productivity.
 - [Telegram Bot Manager](https://github.com/leam-tech/frappe_telegram) - Telegram Bot support for Frappe.
+- [Telegram Integration](https://github.com/yrestom/erpnext_telegram) - Telegram Integration app for more productivity.
 - [Twilio Integration](https://github.com/frappe/twilio-integration) - Twilio Integration for Frappe.
 - [WABA Integration](https://github.com/frappe/waba_integration) - WhatsApp Business Cloud API integration for Frappe.
 - [WhatsApp Integration](https://github.com/shridarpatil/frappe_whatsapp) - WhatsApp Cloud Integration for Frappe.
@@ -257,6 +257,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [GSTR 2B Reconciler](https://github.com/aerele/reconciler) - Reconciliation tool for GSTR 2B and Purchase Register.
 - [India Compliance](https://github.com/resilient-tech/india-compliance) - Simple, yet powerful compliance solutions for Indian businesses.
 - [Italian Electronic Invoicing for ERPNext](https://github.com/Solede-SA/italian_invoice) - Complete Italian electronic invoicing management for ERPNext. FatturaPA v1.2.1 XML generation, automatic supplier invoice import, compliant VAT records, payment rounding, and pluggable provider architecture for SDI. Zero external dependencies.
+- [Kenya Compliance (via Slade)](https://github.com/navariltd/kenya-compliance-via-slade) - This application integrates ERPNext with Kenya Revenue Authority's (KRA) eTIMS through the Virtual Sales Control Unit (VSCU), facilitating seamless tax compliance and data synchronization.
 - [KSA](https://github.com/lavaloon-eg/ksa_compliance) - Regional Compliance for the Kingdom of Saudi Arabia
 - [Nepal Compliance](https://github.com/yarsa/nepal-compliance) - Open source ERP for Nepal with HR, Payroll & Accounting compliance.
 - [Pakistan Workspace](https://github.com/ParaLogicTech/erpnext_pk) - Regional App for Pakistan with NIC, NTN, and STRN numbers, and reports for FBR tax compliance.
