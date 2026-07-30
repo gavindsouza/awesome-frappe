@@ -338,8 +338,6 @@ It is built for teams that already use ERPNext and want a practical assistant in
 
 #### AI & MCP Tooling
 
-HUF is a complete, self-hosted AI layer built on open standards. It gives teams everything needed to create intelligent multi-agent solutions, ground them in real data, implement complex learning systems and orchestrate complex workflows, without sending data to third-party platforms or rebuilding infrastructure from scratch.
-
 - [forge-frappe-skill](https://github.com/sbknext/forge-frappe-skill) - MIT library of 480+ curated Frappe agent-skills (DocTypes, hooks, Query Builder, permissions, REST/RPC APIs, reports, testing, ops) for AI coding agents — works via any MCP host or standalone markdown. Aggregates and credits public OSS skill sources.
 - [Frappe Assistant Core](https://github.com/buildswithpaul/Frappe_Assistant_Core) - Infrastructure that connects LLMs to ERPNext with Model Context Protocol (MCP).
 - [Frappe MCP Server](https://github.com/appliedrelevance/frappe-mcp-server) - A server that implements the Anthropic Model Control Protocol (MCP) to enable controlled access to Frappe sites.
