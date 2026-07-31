@@ -417,3 +417,9 @@ _Hosted services that run Frappe for you, or self-hostable platforms you can run
 - [BenchPress](https://github.com/Venkateshvenki404224/benchpress_devops) - Self-hosted Frappe Cloud alternative with Docker-based bench environments, WireGuard VPN, live build logs, and a Vue 3 dashboard.
 - [Nethserver](https://github.com/geniusdynamics/ns8-erp-next) - @geniusdynamics's configuration for NS8 with backup/restore, server to server node migration, Ldap & Active directory integration and more. [[read more here](https://community.nethserver.org/t/erpnext-the-most-agile-erp-on-the-planet-in-ns8/24240)]
 - [Press](https://github.com/frappe/press) - Full service cloud hosting for the Frappe stack - powers Frappe Cloud
+
+  #### Comparative Python-based FOSS Frameworks
+
+- [Odoo](https://github.com/odoo/odoo) - Odoo is a suite of web based open source business apps. Odoo Apps can be used as stand-alone applications, but they also integrate seamlessly so you get a full-featured Open Source ERP when you install several Apps.
+- [Tryton](https://github.com/tryton/tryton) - TRYTON® is an ERP business software suite, ideal for companies of any size, easy to use, complete and 100% Open Source.
+- [Framework M](https://gitlab.com/castlecraft/framework-m) - Framework M is a modular, metadata-driven full-stack framework designed for building scalable enterprise applications. It bridges the gap between rapid development velocity and enterprise-grade architecture.
