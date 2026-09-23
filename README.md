@@ -189,6 +189,7 @@ _Apps that showcase the power of the Frappe Framework_
 
 - [Banking API Integration](https://github.com/aerele/bank_api_integration) - Bank API Integration for ERPNext.
 - [ERPNextFinTS](https://github.com/jHetzer/erpnextfints) - FinTS Connector for ERPNext.
+- [FeeGuard](https://feeguard.dev) - Checks Stripe Connect refunds and disputes for unreversed transfers, unadjusted application fees, and uncovered platform losses.
 - [HDFC Bank Integration](https://github.com/resilient-tech/bank_integration) - Unofficial API to handle bank transactions using ERPNext.
 - [Paymob Integration](https://github.com/NotAbdelrahmanelsayed/paymob_integration) - Lets customers pay ERPNext invoices via Paymob (card/wallet). Webhook-verified payments auto-create Payment Entries and reconcile Payment Requests — no manual marking-as-paid.
 - [Paystack Integration](https://github.com/mymi14s/frappe_paystack) - Paystack Payment Gateway Integration for Frappe.
