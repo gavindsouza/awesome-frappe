@@ -224,6 +224,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [DocuSign Integration](https://cloud.frappe.io/marketplace/apps/dsc) - DocuSign integration for Frappe Apps.
 - [EWB API Integration](https://github.com/aerele/ewb_api_integration) - Implementing E-WayBill API integration for India.
 - [FC Site Manager](https://github.com/wahni-green/fc_site_manager) - App for partners managing multiple Frappe Cloud sites — single-click login to client sites without passwords, and periodic rotation/disabling of user accounts across them.
+- [Frappe Microsoft 365](https://github.com/Bizmap-Technologies-Pvt-Ltd/frappe_microsoft365) - Two-way Outlook calendar sync, Teams meetings created from a Frappe Event, meeting transcripts and recordings, Outlook mail over OAuth, and sign in with Microsoft. Each user authorises their own calendar. Works on Frappe v15 and v16.
 - [Frepple Integration](https://github.com/msf4-0/ERPNext-Frepple-Integration) - Frepple Production Scheduling Tool.
 - [Mautic Integration](https://github.com/dokos-io/mautic) - Mautic Integration for ERPNext.
 - [Meta Integration](https://github.com/efeone/frappe_meta_integration) - Meta Cloud API Integration for Frappe.
