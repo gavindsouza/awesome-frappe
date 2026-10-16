@@ -349,6 +349,7 @@ It is built for teams that already use ERPNext and want a practical assistant in
 
 #### AI & MCP Tooling
 
+- [ERPSmith](https://github.com/abhinavprakash1992/erpsmith) - Developer copilot for ERPNext over MCP: lets Claude build, debug and fix DocTypes, scripts and workflows behind an approval plan gate, with semantic memory of Frappe sandbox fixes. Free, MIT, Frappe v15 and v16.
 - [forge-frappe-skill](https://github.com/sbknext/forge-frappe-skill) - MIT library of 480+ curated Frappe agent-skills (DocTypes, hooks, Query Builder, permissions, REST/RPC APIs, reports, testing, ops) for AI coding agents — works via any MCP host or standalone markdown. Aggregates and credits public OSS skill sources.
 - [Frappe Assistant Core](https://github.com/buildswithpaul/Frappe_Assistant_Core) - Infrastructure that connects LLMs to ERPNext with Model Context Protocol (MCP).
 - [Frappe MCP Server](https://github.com/appliedrelevance/frappe-mcp-server) - A server that implements the Anthropic Model Control Protocol (MCP) to enable controlled access to Frappe sites.
