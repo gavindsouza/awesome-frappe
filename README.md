@@ -150,6 +150,7 @@ _Apps that showcase the power of the Frappe Framework_
 - [Frappe Flow](https://github.com/frappe/flow) - Flow puts an AI assistant inside your Frappe site. It knows your DocTypes, respects your permissions, and can operate your site in plain English — creating records, sending emails, building DocTypes, creating agents and tools, and setting up RAG chatbots.
 - [Jarvis](https://github.com/aerele/jarvis) - An AI teammate inside ERPNext. Ask about your business data in plain English, automate document processing with a human in the loop and save your team's best practices as reusable skills. It runs under each user's own permissions and can connect to your existing AI chat subscription.
 - [Kai](https://github.com/KorucuTech/kai) - Custom Frappe App to integrate AI Agents as DocTypes using CrewAI & Frappe Framework.
+- [Langorder-ai](https://github.com/swnotmetal/langorder-ai). -A LLM workflow for B2B email-to-order automation, fully implemented with LangChain and Frappe for advanced monitoring, tracing, and debugging.
 - [NextAssist](https://github.com/navdeepghai/nextassist) - AI-powered chat assistant for Frappe/ERPNext with multi-provider support (OpenAI, Claude, Gemini), streaming responses, and a secure RestrictedPython sandbox.
 - [Photos](https://github.com/gavindsouza/photos) - AI powered Image classification & labelling similar to Google Photos in Desk.
 
