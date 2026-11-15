@@ -177,6 +177,7 @@ _Apps that showcase the power of the Frappe Framework_
 
 #### Communications
 
+- [DialogBrain](https://github.com/saloprj/dialogbrain-erpnext) - Omnichannel inbox for ERPNext: WhatsApp, Telegram, email and website chat linked to customers and orders, with an AI agent per channel.
 - [FCM Notification for ERPNext](https://github.com/tridz-dev/erpnext_fcm) - Send notifications created in Frappe or ERPNext as push notication via Firebase Cloud Message.
 - [Mandrill Integration](https://github.com/frappe/mandrill_integration) - Mandrill Integration for Frappe.
 - [MSG91 Integration](https://github.com/dhwani-ris/frappe_msg91_integration) - Integration with the MSG91 SMS gateway for Frappe Framework
