@@ -301,6 +301,7 @@ It is built for teams that already use ERPNext and want a practical assistant in
 - [Console](https://github.com/yrestom/Console) - Powerful Console for Frappe Backend.
 - [DocType Model Generator](https://github.com/assemmarwan/model_generator) - Generate models to different languages based on Doctype.
 - [Doppio](https://github.com/NagariaHussain/doppio) - Magically setup single page applications on your Frappe Apps.
+- [frapAST](https://github.com/pratheep-bit/frapast) - Runtime-Proven Static Security and Performance Engine for Frappe and ERPNext.
 - [Frappe Bench Tools](https://marketplace.visualstudio.com/items?itemName=abdeali.frappe-bench-tools) - Run Frappe Bench commands directly from VS Code — open console, import modules, and execute functions with ease.
 - [Frappe Chrome Dev Utils](https://github.com/ascorbic-acid/frappe_chrome_dev_utils) - A simple Browser Extension that help you work & develop in Frappe/ERPNext Framework.
 - [Frappe Crema](https://github.com/amsys/crema) - LLM toolkit for Frappe: OCR and document extraction into records, natural-language list views and edits, and scheduled AI automation tasks.
